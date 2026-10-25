@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unmet — the internet's unmet demand</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#E9EDF5}
+.c{--out:#E9EDF5;--box:#FBFCFE;--card:#FFFFFF;--ink:#17213B;--tone:#71809D;--dim:#55617A;--line:#E3E7EF;--grid:rgba(23,33,59,.05);--chip:#F1F4F9;--btn:#17213B;--btnfg:#FFFFFF;--shadow:0 30px 60px -30px rgba(40,52,100,.28),0 2px 6px rgba(40,52,100,.05);background:var(--out);color:var(--ink);font-family:'Figtree',system-ui,sans-serif;min-height:100vh;padding:40px 24px 64px;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+.c.dark{--out:#080B14;--box:#0F1424;--card:#151B2E;--ink:#E9EDF7;--tone:#8B98B4;--dim:#A6B0C6;--line:#232B42;--grid:rgba(233,237,247,.04);--chip:#1B2238;--btn:#E9EDF7;--btnfg:#0F1424;--shadow:0 30px 60px -30px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.3)}
+@media (prefers-color-scheme: dark){.c.auto{--out:#080B14;--box:#0F1424;--card:#151B2E;--ink:#E9EDF7;--tone:#8B98B4;--dim:#A6B0C6;--line:#232B42;--grid:rgba(233,237,247,.04);--chip:#1B2238;--btn:#E9EDF7;--btnfg:#0F1424;--shadow:0 30px 60px -30px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.3)}}
+.c a{color:inherit;text-underline-offset:3px}
+.box{max-width:1240px;margin:0 auto;background:var(--box);border-radius:32px;box-shadow:var(--shadow);overflow:hidden}
+.in{padding:0 56px}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:28px 0}
+.nav .links{display:flex;gap:36px;font-size:15px;color:var(--dim)}
+.nav .links a{text-decoration:none}
+.nav .links a:hover{color:var(--ink)}
+.pill{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 18px;border-radius:999px;font-size:14px;font-weight:500;text-decoration:none;box-sizing:border-box}
+.ghost{border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.c a.ghost:hover{border-color:var(--tone)}
+.solid{background:var(--btn);color:var(--btnfg);box-shadow:0 14px 28px -12px rgba(23,33,59,.55),inset 0 1px 0 rgba(255,255,255,.18)}
+.c a.solid{color:var(--btnfg)}
+.c a.solid:hover{transform:translateY(-1px)}
+.big{min-height:56px;padding:0 30px;font-size:16px;font-weight:600}
+.stage{position:relative;background-image:linear-gradient(to right,var(--grid) 1px,transparent 1px);background-size:calc(100% / 12) 100%}
+.sw{display:inline-flex;align-items:center;vertical-align:middle;width:1.7em;height:.92em;margin:0 .12em;padding:0 .07em;border-radius:999px;border:0;cursor:pointer;background:linear-gradient(90deg,#7FA8F5,#B78CF1 55%,#F2A07E);box-shadow:inset 0 2px 6px rgba(23,33,59,.25);transition:background .3s ease;box-sizing:border-box}
+.sw .knob{display:block;width:.78em;height:.78em;border-radius:50%;background:#FFFFFF;box-shadow:0 4px 10px rgba(23,33,59,.35),inset 0 -2px 4px rgba(23,33,59,.08);transition:transform .3s ease}
+.sw.on .knob{transform:translateX(.78em)}
+.sw:focus-visible{outline:3px solid #7FA8F5;outline-offset:3px}
+.wall{display:grid;grid-template-columns:repeat(20,minmax(0,1fr));gap:6px;align-items:end;padding:0 0 6px}
+.col{position:relative;display:flex;flex-direction:column;gap:6px;text-decoration:none;transition:transform .25s ease}
+.c a.col:hover,.c a.col:focus-visible{transform:translateY(-4px);outline:none}
+.tile{display:block;aspect-ratio:1/1;border-radius:12px;border:1px solid rgba(255,255,255,.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),inset 0 -10px 18px rgba(255,255,255,.18),0 10px 20px -14px rgba(60,70,140,.45);box-sizing:border-box}
+.c.dark .tile{border-color:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 10px 20px -14px rgba(0,0,0,.6)}
+@media (prefers-color-scheme: dark){.c.auto .tile{border-color:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 10px 20px -14px rgba(0,0,0,.6)}}
+.tip{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);width:200px;padding:10px 12px;border-radius:12px;background:var(--card);color:var(--ink);font-size:13px;line-height:1.35;box-shadow:0 16px 30px -12px rgba(23,33,59,.35);border:1px solid var(--line);opacity:0;pointer-events:none;transition:opacity .2s ease;z-index:2}
+.tip b{display:block;font-weight:600}
+.tip span{color:var(--dim)}
+.c a.col:hover .tip,.c a.col:focus-visible .tip{opacity:1}
+.card{background:var(--card);border-radius:28px;border:1px solid var(--line);box-shadow:0 24px 48px -32px rgba(40,52,100,.30)}
+.lead{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:0}
+.lead .l{padding:44px}
+.lead .r{padding:44px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:0 14px;border-radius:999px;background:var(--chip);font-size:13px;font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums}
+.chip i{font-style:normal;color:var(--dim);font-weight:400}
+.row{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:20px;align-items:center;padding:16px 20px;border-radius:20px;text-decoration:none;color:inherit;transition:background .2s ease,box-shadow .2s ease,transform .2s ease}
+.c a.row:hover{background:var(--card);box-shadow:0 18px 36px -22px rgba(40,52,100,.35);transform:translateY(-1px)}
+.rk{display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;font-size:17px;font-weight:700;color:#141B30;font-variant-numeric:tabular-nums;border:1px solid rgba(255,255,255,.6);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 8px 16px -10px rgba(60,70,140,.5);box-sizing:border-box}
+.clamp{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.field{display:flex;gap:8px;flex-wrap:wrap}
+.field input{flex:1 1 220px;min-height:52px;padding:0 22px;border-radius:999px;border:1px solid var(--line);background:var(--box);color:var(--ink);font:inherit;font-size:15px;box-sizing:border-box}
+.field input:focus{outline:3px solid #7FA8F5;outline-offset:1px}
+.field button{min-height:52px;padding:0 28px;border-radius:999px;border:0;font:inherit;font-size:15px;font-weight:600;cursor:pointer;background:var(--btn);color:var(--btnfg);box-shadow:0 14px 28px -12px rgba(23,33,59,.55)}
+.foot{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
+.fade{animation:fu .8s ease both}.d2{animation-delay:.12s}.d3{animation-delay:.24s}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.fade{animation:none}.col,.row,.sw,.sw .knob,.c a.solid{transition:none}}
+@media (max-width: 960px){
+.lead{grid-template-columns:minmax(0,1fr)}
+.lead .r{border-left:0;border-top:1px solid var(--line)}
+.foot{grid-template-columns:minmax(0,1fr)}
+.nav .links{display:none}
+}
+@media (max-width: 720px){
+.c{padding:16px 10px 40px}
+.box{border-radius:24px}
+.in{padding:0 18px}
+.wall{grid-template-columns:repeat(10,minmax(0,1fr));gap:5px}
+.wall .col:nth-child(n+11){display:none}
+.tile{border-radius:9px}
+.tip{display:none}
+.lead .l,.lead .r{padding:24px}
+.row{grid-template-columns:44px minmax(0,1fr);gap:14px;padding:14px 8px}
+.rk{width:44px;height:44px;border-radius:12px;font-size:15px}
+.meta{grid-column:2;justify-content:flex-start}
+.hide-s{display:none}
+}
+</style>
+</helmet>
+<div class="c {{themeClass}}">
+<div class="box">
+
+<div class="stage">
+<div class="in">
+<nav class="nav" aria-label="Main">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">
+<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="17" width="12" height="12" rx="3.5" fill="#8FB4F6"></rect><rect x="15" y="10" width="12" height="12" rx="3.5" fill="#B99AF2"></rect><rect x="15" y="1" width="7" height="7" rx="2.5" fill="#EFA3C4" opacity=".8"></rect></svg>
+Unmet
+</a>
+<div class="links">
+<a href="#index">Today's index</a>
+<a href="C-Method.dc.html">Method</a>
+<a href="#follow">Follow</a>
+</div>
+<div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap">
+<span class="pill ghost hide-s" style="font-size: 13px; color: var(--dim)"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg,#7FA8F5,#E889D9)"></span>Updated 25 Oct, 15:00 UTC</span>
+<a class="pill solid" href="#follow">Follow</a>
+</div>
+</nav>
+
+<header class="fade" style="padding: 72px 0 56px; max-width: 900px">
+<span class="pill ghost" style="min-height: 32px; font-size: 13px; color: var(--dim)">Sunday edition · 25 October 2026</span>
+<h1 style="margin: 28px 0 0; font-size: clamp(44px, 7.2vw, 92px); line-height: 1.02; font-weight: 600; letter-spacing: -0.035em">The internet's <button class="sw {{swClass}}" type="button" role="switch" aria-checked="{{isDarkStr}}" aria-label="Dark theme" onClick="{{toggle}}"><span class="knob"></span></button><br><span style="color: var(--tone)">unmet demand,</span> ranked daily.</h1>
+<p style="margin: 26px 0 0; max-width: 600px; font-size: 19px; line-height: 1.55; color: var(--dim)">Problems people publicly ask someone to build, read from Hacker News and Stack Exchange, grouped, and ranked by how many people raised them, how recently and how painfully.</p>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 36px">
+<a class="pill solid big" href="#lead">See today's top problem</a>
+<a class="pill ghost big" href="C-Method.dc.html" style="font-weight: 500">How it works</a>
+</div>
+</header>
+
+<div class="wall fade d2" role="list" aria-label="Today's top 20 problems; column height shows each problem's score">
+<sc-for list="{{cols}}" as="col" hint-placeholder-count="20">
+<a class="col" role="listitem" href="C-Problem.dc.html" aria-label="{{col.aria}}">
+<span class="tip" aria-hidden="true"><b>#{{col.rank}} {{col.name}}</b><span>Score {{col.score}}</span></span>
+<sc-for list="{{col.tiles}}" as="t" hint-placeholder-count="6">
+<span class="tile" style="{{t.style}}"></span>
+</sc-for>
+</a>
+</sc-for>
+</div>
+</div>
+</div>
+
+<div class="in" style="padding-top: 18px; padding-bottom: 8px">
+<p style="margin: 0; display: flex; justify-content: space-between; gap: 8px 24px; flex-wrap: wrap; font-size: 13px; color: var(--dim)"><span>Each column is one of today's top 20 problems, #1 on the left. Its height is the problem's score.</span><span style="font-variant-numeric: tabular-nums">101 posts read · 50 needs · 48 problems · 30 days</span></p>
+</div>
+
+<div class="in" style="padding-top: 56px">
+<section id="lead" class="card lead fade d3" aria-labelledby="lead-h">
+<div class="l">
+<div class="chips"><span class="chip" style="background: linear-gradient(90deg,#DCE8FD,#EADFFC); color: #17213B; font-weight: 600">No. 1 today</span><span class="chip">Would pay</span></div>
+<h2 id="lead-h" style="margin: 24px 0 0; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.04; font-weight: 600; letter-spacing: -0.03em"><a href="C-Problem.dc.html" style="text-decoration: none">Pay‑per‑page <span style="color: var(--tone)">AI crawler</span> pricing</a></h2>
+<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: var(--dim); max-width: 560px">Users need granular, per‑page billing for AI crawlers, but current services charge flat fees or opaque rates, causing budget overruns.</p>
+<div class="chips" style="margin-top: 26px">
+<span class="chip"><i>Raised by</i> 1 person</span>
+<span class="chip" aria-label="Pain 2 of 3"><i>Pain</i> ●●○</span>
+<span class="chip">Hacker News</span>
+<span class="chip"><i>First seen</i> 5 days ago</span>
+</div>
+<a class="pill solid" href="C-Problem.dc.html" style="margin-top: 32px">Open the listing →</a>
+</div>
+<figure class="r" style="margin: 0">
+<span style="font-size: 13px; font-weight: 500; color: var(--dim)">In their words</span>
+<blockquote style="margin: 0; font-size: 22px; line-height: 1.45; font-weight: 500; letter-spacing: -0.005em">“…that hasn't yet been released. They could also propose content that they would pay for. Once that threshold has been reached, the content get delivered either after creation or instantly. It also goes public at that point. There will be…”</blockquote>
+<figcaption style="margin-top: auto; display: flex; align-items: center; gap: 12px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.45">
+<span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 11px; background: linear-gradient(150deg,#A9C6FA,#C7A8F5)"></span>
+<span><a href="https://news.ycombinator.com/user?id=adrianwaj" style="font-weight: 600">adrianwaj</a> <span style="color: var(--dim)">· Hacker News · 20 Oct 2026</span><br><a href="https://news.ycombinator.com/item?id=50159933" style="color: var(--dim)">Read the original post ↗</a></span>
+</figcaption>
+</figure>
+</section>
+</div>
+
+<section id="index" class="in" aria-labelledby="idx-h" style="padding-top: 88px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; padding: 0 20px 20px">
+<h2 id="idx-h" style="margin: 0; font-size: clamp(32px, 4vw, 48px); line-height: 1.05; font-weight: 600; letter-spacing: -0.03em">Today's index <span style="color: var(--tone)">top 20</span></h2>
+<span style="font-size: 14px; color: var(--dim)">Of 48 problems in the last 30 days</span>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px">
+<sc-for list="{{cols}}" as="p" hint-placeholder-count="20">
+<li>
+<a class="row" href="C-Problem.dc.html">
+<span class="rk" style="{{p.rkStyle}}">{{p.rank}}</span>
+<span style="min-width: 0">
+<span style="display: block; font-size: 18px; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em">{{p.name}}</span>
+<span class="clamp" style="margin-top: 3px; font-size: 14px; line-height: 1.5; color: var(--dim)">{{p.summary}}</span>
+</span>
+<span class="meta">
+<sc-if value="{{p.pay}}" hint-placeholder-val="{{false}}"><span class="chip" style="background: linear-gradient(90deg,#DCE8FD,#F3DDF4); color: #17213B">Would pay</span></sc-if>
+<span class="chip">{{p.people}}</span>
+<span class="chip" aria-label="{{p.painAria}}">{{p.dots}}</span>
+<span class="chip">HN</span>
+<span class="chip">{{p.age}}</span>
+</span>
+</a>
+</li>
+</sc-for>
+</ol>
+</section>
+
+<div class="in" style="padding-top: 72px; padding-bottom: 56px">
+<div class="foot">
+<section id="follow" class="card" aria-labelledby="follow-h" style="padding: 40px">
+<h2 id="follow-h" style="margin: 0; font-size: 32px; line-height: 1.1; font-weight: 600; letter-spacing: -0.025em">Follow the index. <span style="color: var(--tone)">One email a day.</span></h2>
+<p style="margin: 14px 0 24px; font-size: 16px; line-height: 1.55; color: var(--dim)">The day's top problems, each with its quotes and links. Or subscribe by RSS.</p>
+<form class="field" onSubmit="{{noop}}">
+<label for="emc" style="flex-basis: 100%; font-size: 13px; font-weight: 500; color: var(--dim)">Email address</label>
+<input id="emc" type="email" placeholder="you@domain.com" autocomplete="email">
+<button type="submit">Follow</button>
+</form>
+<p style="margin: 18px 0 0; font-size: 14px"><a href="/feed.xml">RSS feed →</a></p>
+</section>
+<section class="card" aria-labelledby="how-h" style="padding: 40px; background: var(--chip); box-shadow: none">
+<h2 id="how-h" style="margin: 0; font-size: 15px; font-weight: 600">How it works</h2>
+<p style="margin: 10px 0 0; font-size: 16px; line-height: 1.6; color: var(--dim)">Every day Unmet reads new public posts that ask for something to exist, keeps the real needs, groups them into problems and ranks each by distinct people × recency × pain.</p>
+<p style="margin: 16px 0 0; font-size: 14px; line-height: 1.6; color: var(--dim)">Quotes are short excerpts, always credited and linked. Stack Exchange content is CC BY-SA. Classifier precision: not measured yet.</p>
+<p style="margin: 18px 0 0; font-size: 14px"><a href="C-Method.dc.html">Method, attribution &amp; removal →</a></p>
+</section>
+</div>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["auto","light","dark"],"default":"auto"},"$preview":{"width":1280,"height":3300}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { theme: null }; }
+  renderVals() {
+    var UPD = Date.parse("2026-10-25T15:00:00Z");
+    var P = [
+      ["Pay‑per‑page AI crawler pricing",1,2,true,"2026-10-20T00:45:10Z",2.274,"Users need granular, per‑page billing for AI crawlers, but current services charge flat fees or opaque rates, causing budget overruns."],
+      ["Realistic virtual guitar VST",1,2,true,"2026-10-14T11:16:35Z",1.727,"Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."],
+      ["GitHub alternative with Anthropic AI",1,2,true,"2026-10-13T19:14:08Z",1.671,"Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."],
+      ["Desktop app for easy website creation",1,2,false,"2026-10-20T17:36:17Z",1.57,"Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."],
+      ["Cheap Android TV box with free OS",1,2,false,"2026-10-20T04:44:56Z",1.529,"Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."],
+      ["Missing diff viewer and Vim mode in Helix editor",1,2,false,"2026-10-18T18:33:44Z",1.425,"Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix lacks built‑in diff support and full Vim emulation, forcing them to use external tools or workarounds."],
+      ["Run extension code in current tab",1,2,true,"2026-10-09T15:44:37Z",1.361,"Users want to execute extension scripts directly in an open browser tab, but existing solutions require separate extensions or cannot inject code into the active page."],
+      ["OLED or LCD version of Boox Go 7",1,2,false,"2026-10-16T13:04:56Z",1.276,"Users want a Boox Go 7 with OLED or LCD display, but current models only offer e‑ink, limiting color and brightness options."],
+      ["Mac container orchestration like quadlets",1,2,false,"2026-10-15T21:55:29Z",1.237,"Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are heavy, lack native support, or don’t provide the simple, declarative configuration that quadlets offer."],
+      ["DIY poster-size eInk panels for hobbyists",1,2,false,"2026-10-15T20:15:05Z",1.232,"Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too pricey, limited in size, or require complex electronics that deter DIY projects."],
+      ["Steam client steals focus",1,2,false,"2026-10-15T17:28:37Z",1.225,"Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack this option and third‑party workarounds are unreliable."],
+      ["Silence AirTag warning for specific tag",1,2,false,"2026-10-15T05:52:23Z",1.196,"Users want to mute the AirTag sound for a single tag, but Apple only allows global silence or no silence, leaving them unable to target individual tags."],
+      ["Alcohol‑like pill with no health risks",1,3,true,"2026-09-28T18:09:14Z",1.19,"Users want a substance that delivers the social and mood effects of alcohol without the associated health damage, but existing alternatives either fail to replicate the experience or still pose health risks."],
+      ["Lack of standardized evaluation for coding agents",1,2,false,"2026-10-14T18:37:16Z",1.169,"Developers need a consistent framework to measure coding agent performance, but existing metrics are fragmented and fail to capture real-world usefulness and reliability."],
+      ["Dumbphone with decent camera and telephoto",1,2,false,"2026-10-12T18:25:30Z",1.058,"Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but existing dumbphones lack camera quality and current smartphones are too feature‑heavy."],
+      ["Standardized prompt sharing for AI design tools",1,2,false,"2026-10-12T18:21:08Z",1.058,"Users need a unified prompt format to share across AI design tools, but existing solutions are tool‑specific and fragmented, limiting collaboration and reuse."],
+      ["Missing built‑in HTML templating in Zig",1,2,false,"2026-10-12T06:14:57Z",1.032,"Developers want to embed and render HTML templates directly in Zig code, but existing solutions rely on external libraries or manual string manipulation, which are error‑prone and lack Zig’s type safety and compile‑time guarantees."],
+      ["Cloudflare OHTTP gateway support",1,2,true,"2026-10-03T16:32:43Z",1.013,"Users need a Cloudflare-based gateway that handles Oblivious HTTP requests, but Cloudflare currently lacks OHTTP support, leaving them without a secure, privacy‑preserving gateway option."],
+      ["Digital walking guide missing POI details",1,2,false,"2026-10-11T17:29:46Z",1.005,"Users want real‑time, context‑rich POI info while walking, but existing apps provide static maps or generic descriptions that don’t adapt to their pace or surroundings."],
+      ["Simplified binary distribution for end-user software",1,2,false,"2026-10-11T16:14:35Z",1.003,"Users need a single, cross‑platform binary that installs without complex installers or dependency hassles, but current solutions are fragmented, platform‑specific, and hard to maintain."]
+    ];
+    var t = this.state.theme || this.props.theme || "auto";
+    var isDark = t === "dark" || (t === "auto" && typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    var ROWS = 6, MAX = P[0][5];
+    var cols = P.map(function (r, i) {
+      var h = ((215 + (i / 19) * 170) % 360).toFixed(0);
+      var h2 = ((230 + (i / 19) * 170) % 360).toFixed(0);
+      var n = Math.max(2, Math.round((r[5] / MAX) * 5));
+      var tiles = [];
+      for (var k = 0; k < ROWS - n; k++) {
+        var ga = isDark ? 0.05 + k * 0.02 : 0.18 + k * 0.08;
+        tiles.push({ style: isDark ? "background: hsla(" + h + ",45%,60%," + ga.toFixed(2) + ")" : "background: hsla(" + h + ",70%,94%," + ga.toFixed(2) + ")" });
+      }
+      for (var j = 0; j < n; j++) {
+        var a = (0.55 + (j / Math.max(1, n - 1)) * 0.4).toFixed(2);
+        var L1 = isDark ? 64 : 85, L2 = isDark ? 50 : 72;
+        tiles.push({ style: "background: linear-gradient(155deg, hsla(" + h + ",90%," + L1 + "%," + a + ") 0%, hsla(" + h2 + ",85%," + L2 + "%," + a + ") 100%)" });
+      }
+      var days = Math.floor((UPD - Date.parse(r[4])) / 864e5);
+      return {
+        rank: String(i + 1),
+        name: r[0],
+        score: r[5].toFixed(3),
+        aria: "#" + (i + 1) + " " + r[0] + ", score " + r[5].toFixed(3),
+        tiles: tiles,
+        rkStyle: "background: linear-gradient(150deg, hsl(" + h + ",88%,88%) 0%, hsl(" + h2 + ",80%,78%) 100%)",
+        summary: r[6],
+        pay: r[3],
+        people: r[1] === 1 ? "1 person" : r[1] + " people",
+        dots: r[2] === 3 ? "●●●" : r[2] === 2 ? "●●○" : "●○○",
+        painAria: "Pain " + r[2] + " of 3",
+        age: days + "d ago"
+      };
+    });
+    var self = this;
+    return {
+      cols: cols,
+      themeClass: t,
+      swClass: isDark ? "on" : "",
+      isDarkStr: isDark ? "true" : "false",
+      toggle: function () { self.setState({ theme: isDark ? "light" : "dark" }); },
+      noop: function (e) { if (e && e.preventDefault) e.preventDefault(); }
+    };
+  }
+}
+</script>
+</body>
+</html>

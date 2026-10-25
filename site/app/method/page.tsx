@@ -1,84 +1,150 @@
-import { REPO, getData } from "@/lib/data";
+import { Nav } from "@/components/ui";
+import { PRECISION, REPO, formatUpdated, getData } from "@/lib/data";
 
 export const metadata = {
   title: "Method and attribution",
   description: "Where Unmet's posts come from, how problems are found and ranked, and how to ask for a post to be removed.",
 };
 
-const H2 = "mt-12 text-lg font-semibold tracking-tight text-zinc-100 scroll-mt-20";
-const P = "mt-3 max-w-2xl leading-relaxed text-zinc-400";
-const A = "text-zinc-200 underline decoration-zinc-700 underline-offset-2 hover:text-amber-300";
+// Same list as NEED_PHRASES in unmet/config.py.
+const PHRASES = [
+  "I wish there was", "is there a tool", "looking for a way to", "would pay for",
+  "we gave up on", "why is there no", "does anyone know a tool", "I'd love an app",
+];
+
+const STEPS = [
+  ["Pull", "New posts matching the need phrases are fetched and cached."],
+  ["Classify", "A free model reads them in batches of 20: is it a real need, what is the problem, how painful (1–3), would they pay?"],
+  ["Group", "Local embeddings cluster similar needs into one problem, and the model names it."],
+  ["Rank", "Each problem gets a score; the top 20 make the index."],
+  ["Publish", "Results are committed as JSON and the site rebuilds."],
+];
+
+const N = (a: string, b: string) => ({ background: `linear-gradient(150deg,${a},${b})` });
 
 export default function Method() {
-  const { stats, window_days } = getData();
+  const { stats, window_days, updated_at } = getData();
   return (
-    <article>
-      <h1 className="rise text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl">Method and attribution</h1>
-      <p className="rise rise-1 mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
-        Everything on this site is produced by a script that anyone can read and rerun. No problem is added, removed or
-        reordered by hand.
-      </p>
+    <>
+      <div className="stage">
+        <div className="in">
+          <Nav />
+          <header id="main" className="fade" style={{ padding: "64px 0 72px", maxWidth: 920 }}>
+            <span className="pill ghost sm muted">Method &amp; attribution</span>
+            <h1 style={{ margin: "28px 0 0", fontSize: "clamp(40px, 6.4vw, 84px)", lineHeight: 1.03, fontWeight: 600, letterSpacing: "-0.035em" }}>
+              How the index is made, <span className="tone">and whose words it quotes.</span>
+            </h1>
+            <p style={{ margin: "24px 0 0", maxWidth: 620, fontSize: 19, lineHeight: 1.55, color: "var(--dim)" }}>
+              Nothing is hand-picked. A daily job reads public posts, a model sorts real needs from noise, and the ranking is
+              arithmetic you can check.
+            </p>
+          </header>
+        </div>
+      </div>
 
-      <h2 className={H2}>Sources</h2>
-      <ul className={`${P} list-disc space-y-1 pl-5`}>
-        <li>
-          <a className={A} href="https://hn.algolia.com/api">Hacker News search API</a> (Algolia): stories and comments.
-        </li>
-        <li>
-          <a className={A} href="https://api.stackexchange.com/">Stack Exchange API</a>: questions on Stack Overflow,
-          Software Engineering and Super User.
-        </li>
-      </ul>
-      <p className={P}>
-        Only official public APIs are used, and only posts containing one of these phrases: &ldquo;I wish there
-        was&rdquo;, &ldquo;is there a tool&rdquo;, &ldquo;looking for a way to&rdquo;, &ldquo;would pay for&rdquo;,
-        &ldquo;we gave up on&rdquo;, &ldquo;why is there no&rdquo;, &ldquo;does anyone know a tool&rdquo; and &ldquo;I&rsquo;d
-        love an app&rdquo;. Reddit and X are not used: their API terms rule this out.
-      </p>
+      <div className="in fade d2" style={{ paddingTop: 40, display: "flex", flexDirection: "column", gap: 16 }}>
+        <section className="card sec" aria-labelledby="s1">
+          <span className="n" style={N("#C6DAFC", "#B4C2F7")}>01</span>
+          <h2 id="s1">Every day</h2>
+          <ol className="steps">
+            {STEPS.map(([b, s]) => <li key={b}><b>{b}</b><span>{s}</span></li>)}
+          </ol>
+        </section>
 
-      <h2 className={H2}>How problems are found</h2>
-      <ol className={`${P} list-decimal space-y-2 pl-5`}>
-        <li>A free open model (gpt-oss-20b on Groq) reads posts 20 at a time and decides whether each describes a real unmet need, writes the problem in one line, rates the pain from 1 to 3 and notes any sign the person would pay.</li>
-        <li>The one-line problems are embedded locally with all-MiniLM-L6-v2 and similar ones are grouped into a single problem.</li>
-        <li>The model names each of the top problems from the lines in its group.</li>
-      </ol>
+        <div className="g2">
+          <section className="card sec" aria-labelledby="s2">
+            <span className="n" style={N("#CFCBFA", "#C3B0F6")}>02</span>
+            <h2 id="s2">Sources</h2>
+            <p>
+              <strong>Hacker News</strong> through the official <a href="https://hn.algolia.com/api">Algolia search API</a>,
+              and <strong>Stack Exchange</strong> (Stack Overflow, Software Engineering, Super User) through the official{" "}
+              <a href="https://api.stackexchange.com/">Stack Exchange API</a>. No scraping, and no Reddit or X, whose API
+              terms rule them out. We read the last {window_days} days of posts that contain:
+            </p>
+            <div className="chips" role="list" aria-label="Need phrases">
+              {PHRASES.map((p) => <span key={p} className="chip" role="listitem">{p}</span>)}
+            </div>
+          </section>
 
-      <h2 className={H2}>How ranking works</h2>
-      <p className={P}>
-        <span className="font-mono text-zinc-200">score = distinct people × recency × pain × pay boost</span>
-      </p>
-      <ul className={`${P} list-disc space-y-1 pl-5`}>
-        <li>Distinct people: one author raising a problem twice counts once.</li>
-        <li>Recency: each post&rsquo;s weight halves every 14 days; only the last {window_days} days count.</li>
-        <li>Pain: the average 1–3 rating across the group.</li>
-        <li>Pay boost: ×1.5 when anyone in the group says they would pay.</li>
-      </ul>
-      <p className={P}>
-        So far: {stats.posts_classified} posts read, {stats.needs_found} judged to be needs, grouped into{" "}
-        {stats.problems_in_window} problems in the last {window_days} days.
-      </p>
+          <section className="card sec" aria-labelledby="s3">
+            <span className="n" style={N("#E3C6F8", "#DDAEEF")}>03</span>
+            <h2 id="s3">How ranking works</h2>
+            <div className="eq" role="img" aria-label="Score equals different people times recency times pain, boosted if someone would pay">
+              <span className="t" style={N("#D3E2FD", "#BCD0FA")}>People</span><span className="op">×</span>
+              <span className="t" style={N("#DCD7FC", "#C9BEF8")}>Recency</span><span className="op">×</span>
+              <span className="t" style={N("#EFD3FA", "#E3BDF3")}>Pain</span><span className="op">+</span>
+              <span className="t" style={N("#FBD8D0", "#F7C2A9")}>Pay boost</span>
+            </div>
+            <p style={{ marginTop: 22 }}>
+              <strong>People</strong> counts different authors, not posts. <strong>Recency</strong> halves a post&rsquo;s
+              weight every 14 days. <strong>Pain</strong> is the average 1–3 level the classifier assigns. If anyone says
+              they would pay, the score is multiplied by 1.5.
+            </p>
+          </section>
+        </div>
 
-      <h2 className={H2}>Accuracy</h2>
-      <p className={P}>
-        Classifier precision: <span className="font-mono text-zinc-200">not measured yet</span>. A hand-labelled sample
-        will be published here once it is done. Until then, treat the list as a lead, not a measurement, and read the
-        quotes.
-      </p>
+        <section className="card sec" aria-labelledby="s4">
+          <span className="n" style={N("#F6CFE6", "#F1B9D3")}>04</span>
+          <h2 id="s4">This edition</h2>
+          <dl className="figs" style={{ marginBottom: 0 }}>
+            {[
+              ["Posts classified", stats.posts_classified],
+              ["Needs found", stats.needs_found],
+              ["Problems", stats.problems_in_window],
+              ["Window", `${window_days} days`],
+            ].map(([k, v]) => (
+              <div key={k}><dt className="k">{k}</dt><dd className="v" style={{ margin: "4px 0 0" }}>{v}</dd></div>
+            ))}
+          </dl>
+          <p>Last updated {formatUpdated(updated_at)}.</p>
+        </section>
 
-      <h2 className={H2}>Attribution and licences</h2>
-      <p className={P}>
-        Each quote is a short excerpt shown with its author&rsquo;s name and a link to the original post. Posts are
-        never copied in full. Stack Exchange content is licensed under{" "}
-        <a className={A} href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> and attributed to its
-        authors per <a className={A} href="https://stackoverflow.com/help/licensing">Stack Exchange&rsquo;s licensing terms</a>.
-        Hacker News content belongs to its authors. Source icons are from Simple Icons (CC0).
-      </p>
+        <div className="g2">
+          <section className="card sec" aria-labelledby="s5">
+            <span className="n" style={N("#FAD3D6", "#F6BDB8")}>05</span>
+            <h2 id="s5">Accuracy</h2>
+            <p style={{ fontSize: "clamp(22px, 2.4vw, 28px)", lineHeight: 1.3, color: "var(--ink)", fontWeight: 600, letterSpacing: "-0.01em" }}>
+              Classifier precision: <span className="tone">{PRECISION}.</span>
+            </p>
+            <p>
+              The phrases also catch jokes and rhetorical questions. We will hand-label a random sample of classified posts
+              and publish the share the model got right here. Until then, judge each listing by its quotes.
+            </p>
+          </section>
 
-      <h2 id="removal" className={H2}>Request removal</h2>
-      <p className={P}>
-        If you wrote a quoted post and want it removed, <a className={A} href={`${REPO}/issues/new?title=Removal%20request`}>open an issue</a>{" "}
-        with the post&rsquo;s link. It will be removed from the site and from the stored data.
-      </p>
-    </article>
+          <section className="card sec" aria-labelledby="s6">
+            <span className="n" style={N("#FCDCC8", "#F8C79E")}>06</span>
+            <h2 id="s6">Attribution &amp; licence</h2>
+            <p>
+              Every quote shows its author&rsquo;s name, its source and a link to the original post. We keep short excerpts
+              only, never full posts; a cut is marked with &ldquo;…&rdquo;.
+            </p>
+            <p>
+              Content from Stack Exchange sites is licensed under{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" style={{ color: "var(--ink)", fontWeight: 600 }}>Creative Commons BY-SA 4.0</a>{" "}
+              per <a href="https://stackoverflow.com/help/licensing" style={{ color: "var(--ink)", fontWeight: 600 }}>Stack Exchange&rsquo;s licensing terms</a>,
+              and each Stack Exchange quote credits its author with links to their profile and the original post. Hacker News
+              comments remain their authors&rsquo; own.
+            </p>
+          </section>
+        </div>
+
+        <section id="removal" className="card sec" aria-labelledby="s7" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 24, flexWrap: "wrap", scrollMarginTop: 24 }}>
+          <div style={{ maxWidth: 640 }}>
+            <h2 id="s7">Remove a post</h2>
+            <p>
+              Wrote one of the quoted posts and want it off Unmet? Open an issue with the link to the original post, and it
+              will be dropped from the next daily edition and from the stored data.
+            </p>
+          </div>
+          <a className="pill solid big" href={`${REPO}/issues/new?title=Removal%20request`}>Request a removal on GitHub</a>
+        </section>
+      </div>
+
+      <footer className="in" style={{ display: "flex", justifyContent: "space-between", gap: "12px 24px", flexWrap: "wrap", paddingTop: 40, paddingBottom: 40, fontSize: 14, color: "var(--dim)" }}>
+        <span>Unmet is open source and runs on free services.</span>
+        <a href={REPO}>Source on GitHub ↗</a>
+      </footer>
+    </>
   );
 }

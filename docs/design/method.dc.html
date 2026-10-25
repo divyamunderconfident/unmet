@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unmet — Method and attribution</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#E9EDF5}
+.c{--out:#E9EDF5;--box:#FBFCFE;--card:#FFFFFF;--ink:#17213B;--tone:#71809D;--dim:#55617A;--line:#E3E7EF;--grid:rgba(23,33,59,.05);--chip:#F1F4F9;--btn:#17213B;--btnfg:#FFFFFF;--shadow:0 30px 60px -30px rgba(40,52,100,.28),0 2px 6px rgba(40,52,100,.05);background:var(--out);color:var(--ink);font-family:'Figtree',system-ui,sans-serif;min-height:100vh;padding:40px 24px 64px;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+.c.dark{--out:#080B14;--box:#0F1424;--card:#151B2E;--ink:#E9EDF7;--tone:#8B98B4;--dim:#A6B0C6;--line:#232B42;--grid:rgba(233,237,247,.04);--chip:#1B2238;--btn:#E9EDF7;--btnfg:#0F1424;--shadow:0 30px 60px -30px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.3)}
+@media (prefers-color-scheme: dark){.c.auto{--out:#080B14;--box:#0F1424;--card:#151B2E;--ink:#E9EDF7;--tone:#8B98B4;--dim:#A6B0C6;--line:#232B42;--grid:rgba(233,237,247,.04);--chip:#1B2238;--btn:#E9EDF7;--btnfg:#0F1424;--shadow:0 30px 60px -30px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.3)}}
+.c a{color:inherit;text-underline-offset:3px}
+.box{max-width:1240px;margin:0 auto;background:var(--box);border-radius:32px;box-shadow:var(--shadow);overflow:hidden}
+.in{padding:0 56px}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:28px 0}
+.nav .links{display:flex;gap:36px;font-size:15px;color:var(--dim)}
+.nav .links a{text-decoration:none}
+.nav .links a:hover{color:var(--ink)}
+.pill{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 18px;border-radius:999px;font-size:14px;font-weight:500;text-decoration:none;box-sizing:border-box}
+.ghost{border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.solid{background:var(--btn);color:var(--btnfg);box-shadow:0 14px 28px -12px rgba(23,33,59,.55),inset 0 1px 0 rgba(255,255,255,.18)}
+.c a.solid{color:var(--btnfg)}
+.stage{background-image:linear-gradient(to right,var(--grid) 1px,transparent 1px);background-size:calc(100% / 12) 100%}
+.sw{display:inline-flex;align-items:center;width:52px;height:30px;padding:0 3px;border-radius:999px;border:0;cursor:pointer;background:linear-gradient(90deg,#7FA8F5,#B78CF1 55%,#F2A07E);box-shadow:inset 0 2px 6px rgba(23,33,59,.25);box-sizing:border-box}
+.sw .knob{display:block;width:24px;height:24px;border-radius:50%;background:#FFFFFF;box-shadow:0 3px 8px rgba(23,33,59,.35);transition:transform .3s ease}
+.sw.on .knob{transform:translateX(22px)}
+.sw:focus-visible{outline:3px solid #7FA8F5;outline-offset:3px}
+.card{background:var(--card);border-radius:28px;border:1px solid var(--line);box-shadow:0 24px 48px -32px rgba(40,52,100,.30)}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.sec{padding:40px}
+.sec h2{margin:0;font-size:26px;line-height:1.15;font-weight:600;letter-spacing:-0.02em}
+.sec p{margin:12px 0 0;font-size:16px;line-height:1.6;color:var(--dim)}
+.n{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:11px;font-size:14px;font-weight:700;color:#141B30;margin-bottom:18px;border:1px solid rgba(255,255,255,.6);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 8px 16px -10px rgba(60,70,140,.5);box-sizing:border-box}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chip{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border-radius:999px;background:var(--chip);font-size:14px;font-weight:500}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.steps li{padding:22px;border-radius:22px;background:var(--chip)}
+.steps b{display:block;font-size:17px;font-weight:600}
+.steps span{display:block;margin-top:8px;font-size:14px;line-height:1.55;color:var(--dim)}
+.eq{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:22px}
+.eq .t{display:inline-flex;align-items:center;min-height:52px;padding:0 20px;border-radius:16px;font-size:17px;font-weight:600;color:#141B30;border:1px solid rgba(255,255,255,.6);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 10px 20px -12px rgba(60,70,140,.5)}
+.eq .op{font-size:22px;color:var(--tone);font-weight:500}
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px}
+.figs div{padding:20px;border-radius:20px;background:var(--chip)}
+.figs .k{font-size:13px;color:var(--dim)}
+.figs .v{margin-top:4px;font-size:38px;line-height:1.1;font-weight:600;letter-spacing:-0.02em;font-variant-numeric:tabular-nums}
+.fade{animation:fu .8s ease both}.d2{animation-delay:.12s}
+@keyframes fu{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.fade{animation:none}.sw .knob{transition:none}}
+@media (max-width: 960px){
+.nav .links{display:none}
+.steps{grid-template-columns:minmax(0,1fr)}
+.g2{grid-template-columns:minmax(0,1fr)}
+.figs{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width: 720px){
+.c{padding:16px 10px 40px}
+.box{border-radius:24px}
+.in{padding:0 18px}
+.sec{padding:24px}
+}
+</style>
+</helmet>
+<div class="c {{themeClass}}">
+<div class="box">
+
+<div class="stage">
+<div class="in">
+<nav class="nav" aria-label="Main">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; font-size: 21px; font-weight: 600; letter-spacing: -0.01em">
+<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="17" width="12" height="12" rx="3.5" fill="#8FB4F6"></rect><rect x="15" y="10" width="12" height="12" rx="3.5" fill="#B99AF2"></rect><rect x="15" y="1" width="7" height="7" rx="2.5" fill="#EFA3C4" opacity=".8"></rect></svg>
+Unmet
+</a>
+<div class="links">
+<a href="Main.dc.html#index">Today's index</a>
+<a href="C-Method.dc.html" aria-current="page" style="color: var(--ink); font-weight: 600">Method</a>
+<a href="Main.dc.html#follow">Follow</a>
+</div>
+<div style="display: flex; gap: 12px; align-items: center">
+<button class="sw {{swClass}}" type="button" role="switch" aria-checked="{{isDarkStr}}" aria-label="Dark theme" onClick="{{toggle}}"><span class="knob"></span></button>
+<a class="pill solid" href="Main.dc.html#follow">Follow</a>
+</div>
+</nav>
+
+<header class="fade" style="padding: 64px 0 72px; max-width: 920px">
+<span class="pill ghost" style="min-height: 32px; font-size: 13px; color: var(--dim)">Method &amp; attribution</span>
+<h1 style="margin: 28px 0 0; font-size: clamp(40px, 6.4vw, 84px); line-height: 1.03; font-weight: 600; letter-spacing: -0.035em">How the index is made, <span style="color: var(--tone)">and whose words it quotes.</span></h1>
+<p style="margin: 24px 0 0; max-width: 620px; font-size: 19px; line-height: 1.55; color: var(--dim)">Nothing is hand-picked. A daily job reads public posts, a model sorts real needs from noise, and the ranking is arithmetic you can check.</p>
+</header>
+</div>
+</div>
+
+<div class="in fade d2" style="padding-top: 40px; display: flex; flex-direction: column; gap: 16px">
+
+<section class="card sec" aria-labelledby="s2">
+<span class="n" style="background: linear-gradient(150deg,#C6DAFC,#B4C2F7)">01</span>
+<h2 id="s2">Every day</h2>
+<ol class="steps" style="margin-top: 22px">
+<li><b>Pull</b><span>New posts matching the need phrases are fetched and cached.</span></li>
+<li><b>Classify</b><span>A free model reads them in batches of 20: is it a real need, what is the problem, how painful (1–3), would they pay?</span></li>
+<li><b>Group</b><span>Local embeddings cluster similar needs into one problem, and the model names it.</span></li>
+<li><b>Rank</b><span>Each problem gets a score; the top 20 make the index.</span></li>
+<li><b>Publish</b><span>Results are committed as JSON and the site rebuilds.</span></li>
+</ol>
+</section>
+
+<div class="g2">
+<section class="card sec" aria-labelledby="s1">
+<span class="n" style="background: linear-gradient(150deg,#CFCBFA,#C3B0F6)">02</span>
+<h2 id="s1">Sources</h2>
+<p><strong style="color: var(--ink); font-weight: 600">Hacker News</strong> through the official Algolia search API, and <strong style="color: var(--ink); font-weight: 600">Stack Exchange</strong> through the official Stack Exchange API. No scraping, and no Reddit or X, whose API terms rule them out. We read the last 30 days of posts that contain:</p>
+<div class="chips" aria-label="Need phrases">
+<span class="chip">I wish there was</span><span class="chip">is there a tool</span><span class="chip">looking for a way to</span><span class="chip">would pay for</span><span class="chip">we gave up on</span><span class="chip">why is there no</span><span class="chip">does anyone know a tool</span><span class="chip">I'd love an app</span>
+</div>
+</section>
+
+<section class="card sec" aria-labelledby="s3">
+<span class="n" style="background: linear-gradient(150deg,#E3C6F8,#DDAEEF)">03</span>
+<h2 id="s3">How ranking works</h2>
+<div class="eq" aria-label="Score equals different people times recency times pain, boosted if someone would pay">
+<span class="t" style="background: linear-gradient(150deg,#D3E2FD,#BCD0FA)">People</span><span class="op" aria-hidden="true">×</span>
+<span class="t" style="background: linear-gradient(150deg,#DCD7FC,#C9BEF8)">Recency</span><span class="op" aria-hidden="true">×</span>
+<span class="t" style="background: linear-gradient(150deg,#EFD3FA,#E3BDF3)">Pain</span><span class="op" aria-hidden="true">+</span>
+<span class="t" style="background: linear-gradient(150deg,#FBD8D0,#F7C2A9)">Pay boost</span>
+</div>
+<p style="margin-top: 22px"><strong style="color: var(--ink); font-weight: 600">People</strong> counts different authors, not posts. <strong style="color: var(--ink); font-weight: 600">Recency</strong> gives newer posts more weight. <strong style="color: var(--ink); font-weight: 600">Pain</strong> is the 1–3 level the classifier assigns. A post saying they would pay lifts the score further.</p>
+</section>
+</div>
+
+<section class="card sec" aria-labelledby="s4">
+<span class="n" style="background: linear-gradient(150deg,#F6CFE6,#F1B9D3)">04</span>
+<h2 id="s4">This edition</h2>
+<div class="figs">
+<div><div class="k">Posts classified</div><div class="v">101</div></div>
+<div><div class="k">Needs found</div><div class="v">50</div></div>
+<div><div class="k">Problems</div><div class="v">48</div></div>
+<div><div class="k">Window</div><div class="v">30 days</div></div>
+</div>
+<p>Last updated 25 Oct 2026, 15:00 UTC.</p>
+</section>
+
+<div class="g2">
+<section class="card sec" aria-labelledby="s5">
+<span class="n" style="background: linear-gradient(150deg,#FAD3D6,#F6BDB8)">05</span>
+<h2 id="s5">Accuracy</h2>
+<p style="font-size: clamp(22px, 2.4vw, 28px); line-height: 1.3; color: var(--ink); font-weight: 600; letter-spacing: -0.01em">Classifier precision: <span style="color: var(--tone)">not measured yet.</span></p>
+<p>The phrases also catch jokes and rhetorical questions. We will hand-label a random sample of classified posts and publish the share the model got right here. Until then, judge each listing by its quotes.</p>
+</section>
+
+<section class="card sec" aria-labelledby="s6">
+<span class="n" style="background: linear-gradient(150deg,#FCDCC8,#F8C79E)">06</span>
+<h2 id="s6">Attribution &amp; licence</h2>
+<p>Every quote shows its author's name, its source and a link to the original post. We keep short excerpts only, never full posts; a cut is marked with “…”.</p>
+<p>Content from Stack Exchange sites is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color: var(--ink); font-weight: 600">Creative Commons BY-SA</a>, and each Stack Exchange quote credits its author with links to their profile and the original post. Hacker News comments remain their authors' own.</p>
+</section>
+</div>
+
+<section id="removal" class="card sec" aria-labelledby="s7" style="display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<div style="max-width: 640px">
+<h2 id="s7">Remove a post</h2>
+<p>Wrote one of the quoted posts and want it off Unmet? Open an issue with the link to the original post, and it will be dropped from the next daily edition and from the stored data.</p>
+</div>
+<a class="pill solid" href="https://github.com/divyamunderconfident/unmet/issues" style="min-height: 52px; padding: 0 26px; font-weight: 600">Request a removal on GitHub</a>
+</section>
+
+</div>
+
+<footer class="in" style="display: flex; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; padding-top: 40px; padding-bottom: 40px; font-size: 14px; color: var(--dim)">
+<span>Unmet is open source and runs on free services.</span>
+<a href="https://github.com/divyamunderconfident/unmet">Source on GitHub ↗</a>
+</footer>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["auto","light","dark"],"default":"auto"},"$preview":{"width":1280,"height":2500}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { theme: null }; }
+  renderVals() {
+    var t = this.state.theme || this.props.theme || "auto";
+    var isDark = t === "dark" || (t === "auto" && typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    var self = this;
+    return {
+      themeClass: t,
+      swClass: isDark ? "on" : "",
+      isDarkStr: isDark ? "true" : "false",
+      toggle: function () { self.setState({ theme: isDark ? "light" : "dark" }); }
+    };
+  }
+}
+</script>
+</body>
+</html>
