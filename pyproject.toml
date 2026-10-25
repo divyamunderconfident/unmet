@@ -1,0 +1,19 @@
+[project]
+name = "unmet"
+version = "0.1.0"
+description = "What are people asking someone to build?"
+requires-python = ">=3.11"
+dependencies = ["requests", "numpy", "fastembed"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["unmet"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

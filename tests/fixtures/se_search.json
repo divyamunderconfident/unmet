@@ -1,0 +1,67 @@
+{
+ "items": [
+  {
+   "tags": [
+    "windows-11",
+    "conversion",
+    "event-log",
+    "merge"
+   ],
+   "owner": {
+    "account_id": 5370447,
+    "reputation": 3547,
+    "user_id": 547147,
+    "user_type": "registered",
+    "accept_rate": 60,
+    "profile_image": "https://i.sstatic.net/Gve3F.png?s=256",
+    "display_name": "Dominique",
+    "link": "https://superuser.com/users/547147/dominique"
+   },
+   "is_answered": true,
+   "view_count": 286,
+   "accepted_answer_id": 1940687,
+   "answer_count": 1,
+   "score": 3,
+   "last_activity_date": 1790857060,
+   "creation_date": 1790838538,
+   "last_edit_date": 1790857060,
+   "question_id": 1940686,
+   "content_license": "CC BY-SA 4.0",
+   "link": "https://superuser.com/questions/1940686/how-to-merge-three-event-log-directories-entries-into-one-single-textfile",
+   "title": "How to merge three event log &quot;directories&quot;&#39; entries into one single textfile?",
+   "body": "<p>In the past, my colleagues have created a program, which writes information to the event log: &quot;Application and Services Logs&quot;, &quot;Company&quot;, &quot;Program&quot;, and in there there are three event logs: &quot;Analytic&quot;, &quot;Debug&quot; and &quot;Operational&quot;.</p>\n<p>I can very well understand that this separation can be useful for an experienced developer/user but for a starting developer, this is a problem.</p>\n<p>Therefore, I'm looking for a way to merge those three event logs into one and translate it into some flat textfile (like a regular logfile), something like:</p>\n<pre><code>2026-09-30 15:50:00.479 | Analytic | [1792:382] | Read [0] bytes from file. dwDummy=[0]\n2026-09-30 15:50:00.480 | Debug    | [1792:382] | Both nBytes and dwDummy are zero.\n</code></pre>\n<p>Does anybody know how to do this?</p>\n"
+  },
+  {
+   "tags": [
+    "windows",
+    "filesystems",
+    "python",
+    "webdav",
+    "fuse"
+   ],
+   "owner": {
+    "account_id": 22265291,
+    "reputation": 1,
+    "user_id": 3401979,
+    "user_type": "registered",
+    "profile_image": "https://i.sstatic.net/vpPY6.jpg?s=256",
+    "display_name": "Fungus",
+    "link": "https://superuser.com/users/3401979/fungus"
+   },
+   "is_answered": false,
+   "view_count": 21,
+   "answer_count": 0,
+   "score": 0,
+   "last_activity_date": 1792918800,
+   "creation_date": 1792918800,
+   "question_id": 1941163,
+   "content_license": "CC BY-SA 4.0",
+   "link": "https://superuser.com/questions/1941163/is-there-a-zero-admin-windows-alternative-to-fuse-for-on-the-fly-file-reads-web",
+   "title": "Is there a zero-admin Windows alternative to FUSE for on-the-fly file reads? WebDAV fails on large files (0x800700DF)",
+   "body": "<p>I am building a portable encrypted vault application. On Linux, I use FUSE to create a virtual drive that intercepts OS file reads, allowing my app to stream decrypted 64 KB chunks into RAM strictly on-the-fly.</p>\n<p>I want this FUSE-like behavior on Windows. The constraints are:</p>\n<ol>\n<li><p>Zero Administrator Rights: It must run entirely in user-space on locked-down host machines (e.g., lab PCs).</p>\n</li>\n<li><p>Large File Support: Must support native Windows File Explorer transfers of large files.</p>\n</li>\n<li><p>Zero Plaintext on Disk: Decrypted file chunks must stream into memory and never be written to the host computer's SSD.</p>\n</li>\n</ol>\n<p>I haven't verified whether the Windows WebClient service itself caches downloaded file data on disk, which would also break this constraint.</p>\n<h3>The Problem with Localhost WebDAV</h3>\n<p>Currently, I run a local Python WebDAV server mapped via <code>net use Z: http://127.0.0.1:8080</code>.</p>\n<p>However, the built-in Windows <code>WebClient</code> refuses to read large files (Error <code>0x800700DF</code>).</p>\n<p>Minimal Reproduction (Windows 11 build 26200, WsgiDAV 4.3.5):</p>\n<p>Terminal 1:</p>\n<pre><code>mkdir C:\\temp\\share\nfsutil file createnew C:\\temp\\share\\big.bin 60000000\nfsutil file createnew C:\\temp\\share\\small.bin 10000000\npip install wsgidav cheroot\nwsgidav --host=127.0.0.1 --port=8080 --root=C:\\temp\\share --auth=anonymous\n</code></pre>\n<p>Terminal 2:</p>\n<pre><code>net use Z: http://127.0.0.1:8080\ncopy Z:\\small.bin C:\\temp\\small_out.bin\ncopy Z:\\big.bin C:\\temp\\big_out.bin\n</code></pre>\n<p>Output:</p>\n<pre><code>&gt; net use Z: http://127.0.0.1:8080\nThe command completed successfully.\n\n&gt; copy Z:\\small.bin C:\\temp\\small_out.bin\n&gt; copy Z:\\big.bin C:\\temp\\big_out.bin\ncopy : The file size exceeds the limit allowed and cannot be saved.\n    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException\n    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand\n</code></pre>\n<p>Oddly uploading large files works (I copied a 60 MB file into WsgiDAV and a 450 MB video into my own server). I haven\u00e2\u20ac\u2122t worked out the exact size cutoff: the 10 MB file reads fine and the 60 MB file fails.</p>\n<p>During the failed copy, the WsgiDAV log shows only <code>PROPFIND</code> requests for the large file and no <code>GET</code>, so the client seems to give up before requesting any data (I haven\u00e2\u20ac\u2122t confirmed this).</p>\n<p>On my machine, <code>FileSizeLimitInBytes</code> under <code>HKLM\\SYSTEM\\CurrentControlSet\\Services\\WebClient\\Parameters</code> is the default <code>0x2faf080</code> (50,000,000).</p>\n<h3>Approaches I've researched (that appear to be dead ends):</h3>\n<p>I haven\u00e2\u20ac\u2122t built full implementations of the alternatives below. These conclusions come from reading documentation and from AI-assisted research, so some of them may be wrong. Everything above this section (the reproduction, the logs, the registry value, the upload tests) I ran myself. Please correct me where I\u00e2\u20ac\u2122m mistaken.</p>\n<ol>\n<li><p>`subst` or symlinks: these look like plain path aliases, so I don't see a way to intercept reads on demand without decrypting files to disk first.</p>\n</li>\n<li><p>WebClient registry fix: the documented fix is raising `FileSizeLimitInBytes` under `HKLM\\SYSTEM\\CurrentControlSet\\Services\\WebClient\\Parameters`. It needs admin, and I haven't tested it.</p>\n</li>\n<li><p>WinFsp / ProjFS: WinFsp needs a kernel driver install, and ProjFS is an optional Windows feature that needs admin to enable.</p>\n</li>\n<li><p>Cloud Filter API (`cldapi.dll`): it seems a standard user may be able to register a sync root, but it needs NTFS and hydrated files are written to disk. I'm not sure it works for a standard user from an unpackaged Python app.</p>\n</li>\n<li><p>Local SMB server: Windows seems to connect to a non-445 port only from Windows 11 24H2 onwards (`net use Z: \\\\127.0.0.1\\share /TCPPORT:10445`), and port 445 is already taken by the Windows Server service, so it won't cover older machines.</p>\n</li>\n</ol>\n<h3>The Question:</h3>\n<p>Is there any native Windows API, local protocol, or per-user workaround that allows a standard unprivileged user to expose a virtual drive or folder whose large-file reads are served by my own code?</p>\n<ul>\n<li><p>Am I misunderstanding one of the APIs listed above?</p>\n</li>\n<li><p>Is there a way to trick <code>WebClient</code> into bypassing the 50 MB read limit without registry edits (e.g., chunked transfer encoding, spoofing <code>PROPFIND</code> sizes)?</p>\n</li>\n</ul>\n"
+  }
+ ],
+ "has_more": false,
+ "quota_max": 300,
+ "quota_remaining": 291
+}

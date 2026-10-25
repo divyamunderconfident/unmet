@@ -1,0 +1,73 @@
+{
+ "hits": [
+  {
+   "_tags": [
+    "comment",
+    "author_weitendorf",
+    "story_50225695"
+   ],
+   "author": "weitendorf",
+   "children": [
+    50230035,
+    50229736
+   ],
+   "comment_text": "I&#x27;m sorry and will be the first to admit I went for this too, but &quot;using agents to write more tools for agents.&quot; is literally the problem.<p>The purpose of software is to help people with their problems. I think it&#x27;s easy to tell ourselves that other people want to use our tools which we really made to help ourselves (especially if them using it also helps ourselves even more!). And also, this is all so new and there are real opportunities that it <i>is</i> good to learn and try new things and be open to actually making something valuable.<p>But! Other people extensively using agents are literally the last people who would pay for a project like this! And unless it&#x27;s a fulltime job like it is for a 5 or so well resourced tech companies, it&#x27;s hard to make something as good and useful as them. I say this as someone who spent a long time on this problem <i>as</i> my fulltime job.<p>We should still have fun with our work. But literally, &quot;software for other software people, that solves the problem of us needing to write more software for writing software, faster&quot;, who is that helping? There are no constraints or end users besides ourselves, and half of that is not so much it benefiting us through productivity, but learning new things and play - again, important. But there&#x27;s a reason so many people are doing this and I think it&#x27;s because they don&#x27;t have to go outside and solve someone else&#x27;s problem, or do something unusual, or involving unfun non-software aspects - agents are fun! But how many random people&#x27;s agent have you installed?<p>IMO: if the technology does not help a non-technology person live a better life, and especially if it involves &quot;using an agent to build a framework for agents&quot; we should do some more, deeper introspection about what problem we are actually solving and whether or not we&#x27;re being ambitious. And I say that not to pick on you but myself.",
+   "created_at": "2026-10-25T09:21:54Z",
+   "created_at_i": 1792920114,
+   "objectID": "50229681",
+   "parent_id": 50229337,
+   "story_id": 50225695,
+   "story_title": "We should be more ambitious with the software we build",
+   "story_url": "https://danluu.com/ambitious/",
+   "updated_at": "2026-10-25T14:41:02Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_PippaSedai",
+    "story_50219186"
+   ],
+   "author": "PippaSedai",
+   "children": [
+    50219777,
+    50219996,
+    50219952,
+    50219860,
+    50219776,
+    50219994
+   ],
+   "comment_text": "I feel somewhat bad for JetBrains. Their entire world was flipped upside down. My first intro to a coding harness was through their IDE. Not even a month later and I stopped using their platform altogether. After the year is up I won\u2019t be renewing any of my company\u2019s subscriptions.<p>They have to try to push this stuff out to survive but none of it is innovative. Not sure why anyone would pay for this when it can be one-shot with a single good prompt. Sure, it looks fancy but I never cared about that.",
+   "created_at": "2026-10-24T10:05:18Z",
+   "created_at_i": 1792836318,
+   "objectID": "50219736",
+   "parent_id": 50219186,
+   "story_id": 50219186,
+   "story_title": "ThinkRail from JetBrains",
+   "story_url": "https://thinkrail.ai/",
+   "updated_at": "2026-10-25T06:08:15Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_radiator",
+    "story_50193416"
+   ],
+   "author": "radiator",
+   "children": [
+    50202763
+   ],
+   "comment_text": "Correct, otherwise we need another phrase for when he would pay for damages, like &quot;the fullest responsibility&quot; or &quot;the absolutely utmost responsibility&quot;.",
+   "created_at": "2026-10-22T22:33:04Z",
+   "created_at_i": 1792708384,
+   "objectID": "50202007",
+   "parent_id": 50201347,
+   "story_id": 50193416,
+   "story_title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
+   "updated_at": "2026-10-24T11:16:43Z"
+  }
+ ],
+ "nbHits": 29,
+ "nbPages": 1,
+ "page": 0,
+ "hitsPerPage": 3
+}
