@@ -1,0 +1,41 @@
+name: daily
+
+# Fetch the last 24 hours, classify, merge into the stored needs, re-rank and commit. Vercel redeploys on the push.
+# Any error (including a model quota stop, exit code 3) fails the job, so GitHub emails the repo owner.
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: python -m pytest -q
+      - name: Run pipeline
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          STACKEXCHANGE_KEY: ${{ secrets.STACKEXCHANGE_KEY }}
+        run: python -m unmet --days 1
+      - name: Commit data
+        run: |
+          git config user.name "unmet-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/public/data
+          git diff --cached --quiet && { echo "nothing changed"; exit 0; }
+          git commit -m "Daily update $(date -u +%F)"
+          git push
