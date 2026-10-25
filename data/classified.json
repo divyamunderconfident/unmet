@@ -1,0 +1,608 @@
+{
+ "hn:49847687": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49848022": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49850143": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Alternative to Carbonite with transparent pricing and encryption"
+ },
+ "hn:49851265": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49853844": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": true,
+  "problem": "Donation mechanism for Typst"
+ },
+ "hn:49858408": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Improved content fetching logic for NewPipe"
+ },
+ "hn:49865579": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": true,
+  "problem": "Star Trek computer interface for LLM chat"
+ },
+ "hn:49874875": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Follow user option on Hacker News"
+ },
+ "hn:49878407": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49882007": {
+  "is_need": true,
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Pill mimicking alcohol effects without health impact"
+ },
+ "hn:49884824": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Atomic Debian-like distro with broad support"
+ },
+ "hn:49898688": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "New platform to replace Reddit"
+ },
+ "hn:49903100": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49904291": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49904611": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Alternative to LinkedIn"
+ },
+ "hn:49905935": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Landscaping tool that creates 3D model from photos"
+ },
+ "hn:49906358": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Free S/MIME Certificate Authority like Let's Encrypt"
+ },
+ "hn:49908208": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Alternative to LinkedIn"
+ },
+ "hn:49920837": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49921906": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49925153": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49929915": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Marketplace to share documents with intelligence agencies"
+ },
+ "hn:49930621": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Marketplace to share documents with intelligence agencies"
+ },
+ "hn:49936907": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Crowdsourced slop filter for YouTube"
+ },
+ "hn:49937618": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49945662": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Cloudflare OHTTP gateway"
+ },
+ "hn:49950337": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Ranked list of reasons not to become a manager"
+ },
+ "hn:49950360": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "More journalist critique of technocrats' product claims"
+ },
+ "hn:49953653": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Comparison of installation and generation costs for renewables vs generators"
+ },
+ "hn:49953837": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Allow bots in RuneScape for certain account types"
+ },
+ "hn:49955910": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49962967": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Browser-native classic VB6 IDE"
+ },
+ "hn:49970150": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49980764": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:49991388": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Plus version of AstroHelm for Android"
+ },
+ "hn:49999662": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50008086": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50014423": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50016735": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Opt-out of undefined behavior in C"
+ },
+ "hn:50017223": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Voice-activated social messaging and scheduling"
+ },
+ "hn:50017797": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Keyboard shortcut display standardization across OS"
+ },
+ "hn:50022196": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Firefox extension to run in open browser tab"
+ },
+ "hn:50032485": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50032667": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50035334": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50036481": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Automated STL to STEP conversion"
+ },
+ "hn:50043869": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50044826": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Simplified binary distribution for end-user software"
+ },
+ "hn:50045617": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Digital walking tour guide with POI info"
+ },
+ "hn:50052010": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Direct HTML templating support in Zig"
+ },
+ "hn:50056739": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50059611": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50060564": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Standardized prompt sharing for AI design tools"
+ },
+ "hn:50060647": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Dumbphone with decent camera and telephoto"
+ },
+ "hn:50072259": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50077048": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "GitHub competitor with Anthropic features"
+ },
+ "hn:50085840": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "VST plugin for virtual guitar"
+ },
+ "hn:50092727": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Evaluation framework for coding agent tools"
+ },
+ "hn:50099466": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50099718": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Silence AirTag warning for specific tag"
+ },
+ "hn:50102061": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50106596": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50107094": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Prevent Steam client from stealing focus"
+ },
+ "hn:50109615": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "DIY poster-size eInk panels for hobbyists"
+ },
+ "hn:50109848": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50110933": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Mac equivalent of quadlets for self-hosting"
+ },
+ "hn:50112258": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50115099": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50117904": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "OLED or LCD version of Boox Go 7"
+ },
+ "hn:50118773": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50122877": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50122904": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50128795": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50135921": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50141524": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "More detailed algorithm steps in interactive LP tool"
+ },
+ "hn:50143942": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Diff viewer and vim mode in Helix-based editor"
+ },
+ "hn:50150745": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50151178": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Add boost or speed multiplier to game"
+ },
+ "hn:50154329": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Tool balancing one-shot and full coding"
+ },
+ "hn:50155414": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50159933": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Pay‑per‑page AI crawler system"
+ },
+ "hn:50161465": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Affordable Android TV box with free distro"
+ },
+ "hn:50164771": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50169860": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Desktop app for easy website creation"
+ },
+ "hn:50170724": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Adult educational‑only YouTube filter"
+ },
+ "hn:50173580": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50174697": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50178251": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50202007": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50202323": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50206786": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50210890": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50213996": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50219736": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50223890": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50229681": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50231277": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "se:stackoverflow:80006700": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Maintain 100% BLE scan duty cycle in background"
+ },
+ "se:stackoverflow:80010756": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "se:stackoverflow:80011101": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "se:superuser:1940686": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Tool to merge Windows event logs into flat file"
+ }
+}

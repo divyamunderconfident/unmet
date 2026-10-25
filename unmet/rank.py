@@ -7,7 +7,8 @@ from datetime import datetime, timezone
 from unmet.classify import ask_json
 from unmet.config import PAY_BOOST, RECENCY_HALF_LIFE_DAYS, TOP_N
 
-NAME_SYSTEM = """You name problems that several people described in forum posts.
+NAME_SYSTEM = """Reasoning: low
+You name problems that several people described in forum posts.
 Reply with JSON only: {"name": "...", "summary": "..."}
 - name: the problem in at most 8 words, plain and specific, no marketing words
 - summary: one sentence on what people want and why the current options fail them"""

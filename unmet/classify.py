@@ -7,7 +7,8 @@ import time
 from unmet import llm
 from unmet.config import BATCH_SIZE
 
-SYSTEM = """You read forum posts and find unmet needs: a person says they want a tool, product or feature that does not exist or that they cannot find.
+SYSTEM = """Reasoning: low
+You read forum posts and find unmet needs: a person says they want a tool, product or feature that does not exist or that they cannot find.
 Not a need: jokes, sarcasm, rhetorical complaints, ads, people answering someone else, or a plain how-to question about code they are writing.
 For every post return:
 - id: the post id, unchanged
@@ -19,6 +20,7 @@ Reply with JSON only: {"results": [{"id": "...", "is_need": true, "problem": "..
 
 MAX_RETRIES = 2
 MINUTE_LIMIT_WAITS = 3
+MAX_TOKENS = 6000
 
 
 def parse_json(text):
@@ -48,7 +50,7 @@ def call(messages):
     """llm.complete, waiting out per-minute limits. A daily limit raises QuotaExceeded to the caller."""
     for wait in range(MINUTE_LIMIT_WAITS + 1):
         try:
-            return llm.complete(messages)
+            return llm.complete(messages, max_tokens=MAX_TOKENS)
         except llm.QuotaExceeded as err:
             if "per minute" not in str(err).lower() or wait == MINUTE_LIMIT_WAITS:
                 raise
@@ -68,10 +70,8 @@ def validate_batch(ids):
         for i, r in results.items():
             if not isinstance(r["is_need"], bool) or not isinstance(r["pay_signal"], bool):
                 raise ValueError(f"{i}: is_need and pay_signal must be true or false")
-            if r["pain"] not in (1, 2, 3):
-                raise ValueError(f"{i}: pain must be 1, 2 or 3")
-            if r["is_need"] and not str(r["problem"]).strip():
-                raise ValueError(f"{i}: a need must have a problem line")
+            if r["is_need"] and (r["pain"] not in (1, 2, 3) or not str(r["problem"]).strip()):
+                raise ValueError(f"{i}: a need must have a problem line and pain 1, 2 or 3")
             out[i] = {k: r[k] for k in ("is_need", "problem", "pain", "pay_signal")}
         return out
     return check

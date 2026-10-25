@@ -24,7 +24,7 @@ def load(path, default):
 def save(path, obj):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(".tmp")
-    tmp.write_text(json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    tmp.write_bytes(json.dumps(obj, indent=1, ensure_ascii=False, sort_keys=True).encode())  # bytes: LF on every OS
     tmp.replace(path)
 
 

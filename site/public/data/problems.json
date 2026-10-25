@@ -1,0 +1,512 @@
+{
+ "problems": [
+  {
+   "id": "e6835b95",
+   "last_seen": "2026-10-20T00:45:10Z",
+   "mentions": 1,
+   "name": "Pay‑per‑page AI crawler pricing",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "adrianwaj",
+     "author_url": "https://news.ycombinator.com/user?id=adrianwaj",
+     "date": "2026-10-20T00:45:10Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…that hasn't yet been released. They could also propose content that they would pay for. Once that threshold has been reached, the content get delivered either after creation or instantly. It also goes public at that point. There will be…",
+     "url": "https://news.ycombinator.com/item?id=50159933"
+    }
+   ],
+   "score": 2.274,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need granular, per‑page billing for AI crawlers, but current services charge flat fees or opaque rates, causing budget overruns."
+  },
+  {
+   "id": "8f9baefe",
+   "last_seen": "2026-10-14T11:16:35Z",
+   "mentions": 1,
+   "name": "Realistic virtual guitar VST",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "tuzemec",
+     "author_url": "https://news.ycombinator.com/user?id=tuzemec",
+     "date": "2026-10-14T11:16:35Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I would pay for this in a VST form",
+     "url": "https://news.ycombinator.com/item?id=50085840"
+    }
+   ],
+   "score": 1.727,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
+  },
+  {
+   "id": "8d9a039f",
+   "last_seen": "2026-10-13T19:14:08Z",
+   "mentions": 1,
+   "name": "GitHub alternative with Anthropic AI",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "herpdyderp",
+     "author_url": "https://news.ycombinator.com/user?id=herpdyderp",
+     "date": "2026-10-13T19:14:08Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…using it on day one. If they launched a GitHub competitor built around it I would pay for it on day one.",
+     "url": "https://news.ycombinator.com/item?id=50077048"
+    }
+   ],
+   "score": 1.671,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
+  },
+  {
+   "id": "975fd37b",
+   "last_seen": "2026-10-20T17:36:17Z",
+   "mentions": 1,
+   "name": "Desktop app for easy website creation",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "privacyishuman",
+     "author_url": "https://news.ycombinator.com/user?id=privacyishuman",
+     "date": "2026-10-20T17:36:17Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Why is there no GUI desktop app that lets you easily make a website?",
+     "url": "https://news.ycombinator.com/item?id=50169860"
+    }
+   ],
+   "score": 1.57,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."
+  },
+  {
+   "id": "822f619f",
+   "last_seen": "2026-10-20T04:44:56Z",
+   "mentions": 1,
+   "name": "Cheap Android TV box with free OS",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "drnick1",
+     "author_url": "https://news.ycombinator.com/user?id=drnick1",
+     "date": "2026-10-20T04:44:56Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a reasonably cheap, sufficiently powerful TV box compatible with a free distribution Android TV. Something like Graphene/Lineage for TVs. Lineage does in fact have some TV builds, but there is basically no suitable new…",
+     "url": "https://news.ycombinator.com/item?id=50161465"
+    }
+   ],
+   "score": 1.529,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
+  },
+  {
+   "id": "3344ff54",
+   "last_seen": "2026-10-18T18:33:44Z",
+   "mentions": 1,
+   "name": "Missing diff viewer and Vim mode in Helix editor",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "jswelker",
+     "author_url": "https://news.ycombinator.com/user?id=jswelker",
+     "date": "2026-10-18T18:33:44Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…And even though abstractly I like helix's keyboard model better than vim, I wish there was a way to just switch to vim mode because it is too ingrained. Maybe this fork can address some of this either directly or by allowing plugins.",
+     "url": "https://news.ycombinator.com/item?id=50143942"
+    }
+   ],
+   "score": 1.425,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix lacks built‑in diff support and full Vim emulation, forcing them to use external tools or workarounds."
+  },
+  {
+   "id": "10beabb0",
+   "last_seen": "2026-10-09T15:44:37Z",
+   "mentions": 1,
+   "name": "Run extension code in current tab",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "cobbzilla",
+     "author_url": "https://news.ycombinator.com/user?id=cobbzilla",
+     "date": "2026-10-09T15:44:37Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…want to write a Firefox extension that runs in your open browser tab? I would pay for this.",
+     "url": "https://news.ycombinator.com/item?id=50022196"
+    }
+   ],
+   "score": 1.361,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to execute extension scripts directly in an open browser tab, but existing solutions require separate extensions or cannot inject code into the active page."
+  },
+  {
+   "id": "a747978a",
+   "last_seen": "2026-10-16T13:04:56Z",
+   "mentions": 1,
+   "name": "OLED or LCD version of Boox Go 7",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "stasomatic",
+     "author_url": "https://news.ycombinator.com/user?id=stasomatic",
+     "date": "2026-10-16T13:04:56Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…got the Boox for Android under the hood so that I could scan my email and RSS. I wish there was an OLED or an LCD version of the same device.",
+     "url": "https://news.ycombinator.com/item?id=50117904"
+    }
+   ],
+   "score": 1.276,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a Boox Go 7 with OLED or LCD display, but current models only offer e‑ink, limiting color and brightness options."
+  },
+  {
+   "id": "e3d2c3b3",
+   "last_seen": "2026-10-15T21:55:29Z",
+   "mentions": 1,
+   "name": "Mac container orchestration like quadlets",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "nozzlegear",
+     "author_url": "https://news.ycombinator.com/user?id=nozzlegear",
+     "date": "2026-10-15T21:55:29Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…for my professional and hobby/self-hosting services. Super convenient, I wish there was something equivalent for my Mac (launchd files just don't cut it).",
+     "url": "https://news.ycombinator.com/item?id=50110933"
+    }
+   ],
+   "score": 1.237,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are heavy, lack native support, or don’t provide the simple, declarative configuration that quadlets offer."
+  },
+  {
+   "id": "624d1808",
+   "last_seen": "2026-10-15T20:15:05Z",
+   "mentions": 1,
+   "name": "DIY poster-size eInk panels for hobbyists",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "xd1936",
+     "author_url": "https://news.ycombinator.com/user?id=xd1936",
+     "date": "2026-10-15T20:15:05Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a DIY company targeting hobbiests that sold large poster-size eInk panels with tinkering in mind, like TRMNL or InkPlate.",
+     "url": "https://news.ycombinator.com/item?id=50109615"
+    }
+   ],
+   "score": 1.232,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too pricey, limited in size, or require complex electronics that deter DIY projects."
+  },
+  {
+   "id": "9ca12019",
+   "last_seen": "2026-10-15T17:28:37Z",
+   "mentions": 1,
+   "name": "Steam client steals focus",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "knollimar",
+     "author_url": "https://news.ycombinator.com/user?id=knollimar",
+     "date": "2026-10-15T17:28:37Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Why is there no option to prevent it stealing focus?!?",
+     "url": "https://news.ycombinator.com/item?id=50107094"
+    }
+   ],
+   "score": 1.225,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack this option and third‑party workarounds are unreliable."
+  },
+  {
+   "id": "e2f6248f",
+   "last_seen": "2026-10-15T05:52:23Z",
+   "mentions": 1,
+   "name": "Silence AirTag warning for specific tag",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "nazgul17",
+     "author_url": "https://news.ycombinator.com/user?id=nazgul17",
+     "date": "2026-10-15T05:52:23Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…every morning I get a notification that an unknown tracker is following me. I wish there was a way to silence the warning for that specific tag.",
+     "url": "https://news.ycombinator.com/item?id=50099718"
+    }
+   ],
+   "score": 1.196,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to mute the AirTag sound for a single tag, but Apple only allows global silence or no silence, leaving them unable to target individual tags."
+  },
+  {
+   "id": "74851b48",
+   "last_seen": "2026-09-28T18:09:14Z",
+   "mentions": 1,
+   "name": "Alcohol‑like pill with no health risks",
+   "pain": 3.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "jcmontx",
+     "author_url": "https://news.ycombinator.com/user?id=jcmontx",
+     "date": "2026-09-28T18:09:14Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…social gatherings kill me, everything is better/funnier with a glass of wine. I wish there was an alternative pill that made me feel the same way as two beers with no health impact.",
+     "url": "https://news.ycombinator.com/item?id=49882007"
+    }
+   ],
+   "score": 1.19,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a substance that delivers the social and mood effects of alcohol without the associated health damage, but existing alternatives either fail to replicate the experience or still pose health risks."
+  },
+  {
+   "id": "2461f1d6",
+   "last_seen": "2026-10-14T18:37:16Z",
+   "mentions": 1,
+   "name": "Lack of standardized evaluation for coding agents",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "pjm331",
+     "author_url": "https://news.ycombinator.com/user?id=pjm331",
+     "date": "2026-10-14T18:37:16Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I'm not looking to be convinced about this tool as much as I am genuinely looking for a way to eval these kinds of tools in general I have only just begun playing around with evals for a harness I'm working on and so far I have just been…",
+     "url": "https://news.ycombinator.com/item?id=50092727"
+    }
+   ],
+   "score": 1.169,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers need a consistent framework to measure coding agent performance, but existing metrics are fragmented and fail to capture real-world usefulness and reliability."
+  },
+  {
+   "id": "d12e232d",
+   "last_seen": "2026-10-12T18:25:30Z",
+   "mentions": 1,
+   "name": "Dumbphone with decent camera and telephoto",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "weezing",
+     "author_url": "https://news.ycombinator.com/user?id=weezing",
+     "date": "2026-10-12T18:25:30Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I have pretty heavily dumbified iPhone just for the camera and music. I wish there was a dumbphone with a decent camera with telephoto. I have standalone camera but with a decent lens it's just too big to have on me at all times and…",
+     "url": "https://news.ycombinator.com/item?id=50060647"
+    }
+   ],
+   "score": 1.058,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but existing dumbphones lack camera quality and current smartphones are too feature‑heavy."
+  },
+  {
+   "id": "abd42370",
+   "last_seen": "2026-10-12T18:21:08Z",
+   "mentions": 1,
+   "name": "Standardized prompt sharing for AI design tools",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "ConceitedCode",
+     "author_url": "https://news.ycombinator.com/user?id=ConceitedCode",
+     "date": "2026-10-12T18:21:08Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…so than \"fully featured clones\". Admittedly, these demos keep getting better. I wish there was a more standardized way of sharing these prompts, results and token usage.",
+     "url": "https://news.ycombinator.com/item?id=50060564"
+    }
+   ],
+   "score": 1.058,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a unified prompt format to share across AI design tools, but existing solutions are tool‑specific and fragmented, limiting collaboration and reuse."
+  },
+  {
+   "id": "1a3c4a03",
+   "last_seen": "2026-10-12T06:14:57Z",
+   "mentions": 1,
+   "name": "Missing built‑in HTML templating in Zig",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "fergie",
+     "author_url": "https://news.ycombinator.com/user?id=fergie",
+     "date": "2026-10-12T06:14:57Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Yes, but then you need php Why is there no direct support for templating in HTML itself?",
+     "url": "https://news.ycombinator.com/item?id=50052010"
+    }
+   ],
+   "score": 1.032,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers want to embed and render HTML templates directly in Zig code, but existing solutions rely on external libraries or manual string manipulation, which are error‑prone and lack Zig’s type safety and compile‑time guarantees."
+  },
+  {
+   "id": "bb5bc76b",
+   "last_seen": "2026-10-03T16:32:43Z",
+   "mentions": 1,
+   "name": "Cloudflare OHTTP gateway support",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "tclancy",
+     "author_url": "https://news.ycombinator.com/user?id=tclancy",
+     "date": "2026-10-03T16:32:43Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Agreed, but hopefully this gives people who would pay for it a way to do it and then, either by scale or by popularity, it becomes de facto.",
+     "url": "https://news.ycombinator.com/item?id=49945662"
+    }
+   ],
+   "score": 1.013,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a Cloudflare-based gateway that handles Oblivious HTTP requests, but Cloudflare currently lacks OHTTP support, leaving them without a secure, privacy‑preserving gateway option."
+  },
+  {
+   "id": "e98a125c",
+   "last_seen": "2026-10-11T17:29:46Z",
+   "mentions": 1,
+   "name": "Digital walking guide missing POI details",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "julianramirez",
+     "author_url": "https://news.ycombinator.com/user?id=julianramirez",
+     "date": "2026-10-11T17:29:46Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "This is great, I just started doing the Stairs of San Francisco and have been looking for a way to digitize the walks and have a way to tell me about all of the different points of interest along the way…",
+     "url": "https://news.ycombinator.com/item?id=50045617"
+    }
+   ],
+   "score": 1.005,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want real‑time, context‑rich POI info while walking, but existing apps provide static maps or generic descriptions that don’t adapt to their pace or surroundings."
+  },
+  {
+   "id": "7599b755",
+   "last_seen": "2026-10-11T16:14:35Z",
+   "mentions": 1,
+   "name": "Simplified binary distribution for end-user software",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "Telaneo",
+     "author_url": "https://news.ycombinator.com/user?id=Telaneo",
+     "date": "2026-10-11T16:14:35Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Many devs love to shit on the guy from the 'I just want the exe. Why is there no exe'? meme. On some level I get it. And in some cases it's not even reasonable to provide a single binary or whatever. But on the other hand, github is being…",
+     "url": "https://news.ycombinator.com/item?id=50044826"
+    }
+   ],
+   "score": 1.003,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a single, cross‑platform binary that installs without complex installers or dependency hassles, but current solutions are fragmented, platform‑specific, and hard to maintain."
+  }
+ ],
+ "stats": {
+  "needs_found": 50,
+  "needs_in_window": 50,
+  "posts_classified": 101,
+  "problems_in_window": 48
+ },
+ "updated_at": "2026-10-25T15:00:00Z",
+ "window_days": 30
+}

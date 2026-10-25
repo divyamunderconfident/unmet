@@ -52,14 +52,17 @@ def _post(url, headers, body):
     return resp.json()
 
 
-def cache_key(messages, tools, model):
-    payload = json.dumps({"model": model, "messages": messages, "tools": tools}, sort_keys=True)
+def cache_key(messages, tools, model, max_tokens=None):
+    key = {"model": model, "messages": messages, "tools": tools}
+    if max_tokens:  # only when set, so keys made before this option existed still hit
+        key["max_tokens"] = max_tokens
+    payload = json.dumps(key, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()
 
 
-def complete(messages, tools=None, model=DEFAULT_MODEL):
+def complete(messages, tools=None, model=DEFAULT_MODEL, max_tokens=None):
     """Return {"message", "usage", "latency_ms", "cached"} for one chat-completion call."""
-    path = CACHE_DIR / f"{cache_key(messages, tools, model)}.json"
+    path = CACHE_DIR / f"{cache_key(messages, tools, model, max_tokens)}.json"
     if path.exists():
         return {**json.loads(path.read_text(encoding="utf-8")), "cached": True}
 
@@ -77,6 +80,8 @@ def complete(messages, tools=None, model=DEFAULT_MODEL):
     body = {"model": name, "messages": messages, "temperature": 0}
     if tools:
         body["tools"] = tools
+    if max_tokens:  # reasoning models spend Groq's default 2048 tokens thinking before they answer
+        body["max_completion_tokens"] = max_tokens
     start = time.perf_counter()
     data = _post(f"{base_url}/chat/completions", headers, body)
     result = {
