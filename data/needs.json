@@ -648,5 +648,31 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50170724"
+ },
+ {
+  "author": "nektro",
+  "author_url": "https://news.ycombinator.com/user?id=nektro",
+  "created_at": 1793064542,
+  "id": "hn:50253619",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Provide alternate HTML for printing",
+  "quote": "i wish there was a way to provide alternate html too",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50253619"
+ },
+ {
+  "author": "avaer",
+  "author_url": "https://news.ycombinator.com/user?id=avaer",
+  "created_at": 1793074636,
+  "id": "hn:50254656",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "API without global state for teaching graphics",
+  "quote": "GLES isn't a bad way to teach graphics but I wish there was a middle ground between it and VK. The worst part of GL is the mysterious global state you will never understand without studying the spec. The world could use an API that's…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50254656"
  }
 ]

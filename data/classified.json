@@ -581,6 +581,24 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50253619": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Provide alternate HTML for printing"
+ },
+ "hn:50254656": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "API without global state for teaching graphics"
+ },
+ "hn:50255660": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

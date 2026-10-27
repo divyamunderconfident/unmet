@@ -4,7 +4,7 @@
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay‑per‑page AI crawler pricing",
+   "name": "Pay-per-page AI crawler pricing problem",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -19,17 +19,42 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 2.274,
+   "score": 2.064,
    "sources": [
     "hn"
    ],
-   "summary": "Users need granular, per‑page billing for AI crawlers, but current services charge flat fees or opaque rates, causing budget overruns."
+   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
+  },
+  {
+   "id": "a0b99824",
+   "last_seen": "2026-10-27T04:17:16Z",
+   "mentions": 1,
+   "name": "No global state API for graphics teaching",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "avaer",
+     "author_url": "https://news.ycombinator.com/user?id=avaer",
+     "date": "2026-10-27T04:17:16Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "GLES isn't a bad way to teach graphics but I wish there was a middle ground between it and VK. The worst part of GL is the mysterious global state you will never understand without studying the spec. The world could use an API that's…",
+     "url": "https://news.ycombinator.com/item?id=50254656"
+    }
+   ],
+   "score": 1.96,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Educators need a stateless graphics API to simplify learning, but existing APIs rely on global state, causing confusion and limiting flexibility."
   },
   {
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Realistic virtual guitar VST",
+   "name": "Virtual guitar VST plugin",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -44,11 +69,11 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.727,
+   "score": 1.567,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
+   "summary": "Users want a realistic, expressive virtual guitar plugin that captures nuance and articulation, but current options either sound artificial, lack dynamic control, or are prohibitively expensive."
   },
   {
    "id": "8d9a039f",
@@ -69,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.671,
+   "score": 1.516,
    "sources": [
     "hn"
    ],
@@ -94,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.57,
+   "score": 1.425,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."
+   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web‑based, overly complex, or lack intuitive drag‑and‑drop features."
   },
   {
    "id": "822f619f",
@@ -119,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.529,
+   "score": 1.387,
    "sources": [
     "hn"
    ],
@@ -144,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.425,
+   "score": 1.293,
    "sources": [
     "hn"
    ],
@@ -169,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 1.361,
+   "score": 1.235,
    "sources": [
     "hn"
    ],
@@ -194,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 1.276,
+   "score": 1.158,
    "sources": [
     "hn"
    ],
@@ -219,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50110933"
     }
    ],
-   "score": 1.237,
+   "score": 1.122,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are heavy, lack native support, or don’t provide the simple, declarative configuration that quadlets offer."
+   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are resource‑intensive or lack the simplicity and integration that quadlets provide on Linux."
   },
   {
    "id": "624d1808",
@@ -244,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50109615"
     }
    ],
-   "score": 1.232,
+   "score": 1.118,
    "sources": [
     "hn"
    ],
-   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too pricey, limited in size, or require complex electronics that deter DIY projects."
+   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too expensive, limited in size, or require complex electronics that deter DIY projects."
   },
   {
    "id": "9ca12019",
@@ -269,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50107094"
     }
    ],
-   "score": 1.225,
+   "score": 1.112,
    "sources": [
     "hn"
    ],
-   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack this option and third‑party workarounds are unreliable."
+   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s settings lack a focus‑stealing toggle and existing workarounds are unreliable."
   },
   {
    "id": "e2f6248f",
@@ -294,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50099718"
     }
    ],
-   "score": 1.196,
+   "score": 1.086,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to mute the AirTag sound for a single tag, but Apple only allows global silence or no silence, leaving them unable to target individual tags."
+   "summary": "Users want to mute the AirTag sound for a single tag, but Apple’s settings only allow global silence or no silence, leaving them unable to target individual tags."
   },
   {
    "id": "74851b48",
@@ -319,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=49882007"
     }
    ],
-   "score": 1.19,
+   "score": 1.08,
    "sources": [
     "hn"
    ],
@@ -329,7 +354,7 @@
    "id": "2461f1d6",
    "last_seen": "2026-10-14T18:37:16Z",
    "mentions": 1,
-   "name": "Lack of standardized evaluation for coding agents",
+   "name": "Lack of standardized evaluation framework for coding agents",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -344,11 +369,36 @@
      "url": "https://news.ycombinator.com/item?id=50092727"
     }
    ],
-   "score": 1.169,
+   "score": 1.061,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a consistent framework to measure coding agent performance, but existing metrics are fragmented and fail to capture real-world usefulness and reliability."
+   "summary": "Developers need a comprehensive, consistent set of metrics and tests to compare coding agent tools, but existing methods are fragmented, informal, and fail to capture real-world performance."
+  },
+  {
+   "id": "6268a7ca",
+   "last_seen": "2026-10-27T01:29:02Z",
+   "mentions": 1,
+   "name": "Alternate printable HTML version",
+   "pain": 1.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "nektro",
+     "author_url": "https://news.ycombinator.com/user?id=nektro",
+     "date": "2026-10-27T01:29:02Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "i wish there was a way to provide alternate html too",
+     "url": "https://news.ycombinator.com/item?id=50253619"
+    }
+   ],
+   "score": 0.975,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a dedicated printable HTML layout, but existing tools either require manual CSS tweaks or lack dynamic content support, leaving them unable to produce clean printouts."
   },
   {
    "id": "d12e232d",
@@ -369,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50060647"
     }
    ],
-   "score": 1.058,
+   "score": 0.96,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but existing dumbphones lack camera quality and current smartphones are too feature‑heavy."
+   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but current feature phones lack image quality while smartphones are too complex and pricey."
   },
   {
    "id": "abd42370",
@@ -394,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50060564"
     }
    ],
-   "score": 1.058,
+   "score": 0.96,
    "sources": [
     "hn"
    ],
@@ -419,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50052010"
     }
    ],
-   "score": 1.032,
+   "score": 0.937,
    "sources": [
     "hn"
    ],
@@ -444,69 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=49945662"
     }
    ],
-   "score": 1.013,
+   "score": 0.919,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a Cloudflare-based gateway that handles Oblivious HTTP requests, but Cloudflare currently lacks OHTTP support, leaving them without a secure, privacy‑preserving gateway option."
-  },
-  {
-   "id": "e98a125c",
-   "last_seen": "2026-10-11T17:29:46Z",
-   "mentions": 1,
-   "name": "Digital walking guide missing POI details",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "julianramirez",
-     "author_url": "https://news.ycombinator.com/user?id=julianramirez",
-     "date": "2026-10-11T17:29:46Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "This is great, I just started doing the Stairs of San Francisco and have been looking for a way to digitize the walks and have a way to tell me about all of the different points of interest along the way…",
-     "url": "https://news.ycombinator.com/item?id=50045617"
-    }
-   ],
-   "score": 1.005,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want real‑time, context‑rich POI info while walking, but existing apps provide static maps or generic descriptions that don’t adapt to their pace or surroundings."
-  },
-  {
-   "id": "7599b755",
-   "last_seen": "2026-10-11T16:14:35Z",
-   "mentions": 1,
-   "name": "Simplified binary distribution for end-user software",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "Telaneo",
-     "author_url": "https://news.ycombinator.com/user?id=Telaneo",
-     "date": "2026-10-11T16:14:35Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Many devs love to shit on the guy from the 'I just want the exe. Why is there no exe'? meme. On some level I get it. And in some cases it's not even reasonable to provide a single binary or whatever. But on the other hand, github is being…",
-     "url": "https://news.ycombinator.com/item?id=50044826"
-    }
-   ],
-   "score": 1.003,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a single, cross‑platform binary that installs without complex installers or dependency hassles, but current solutions are fragmented, platform‑specific, and hard to maintain."
+   "summary": "Users need a Cloudflare-based gateway to handle Oblivious HTTP traffic, but Cloudflare currently lacks native OHTTP support, forcing them to rely on less efficient or insecure workarounds."
   }
  ],
  "stats": {
-  "needs_found": 50,
-  "needs_in_window": 50,
-  "posts_classified": 101,
-  "problems_in_window": 48
+  "needs_found": 52,
+  "needs_in_window": 48,
+  "posts_classified": 104,
+  "problems_in_window": 46
  },
- "updated_at": "2026-10-25T15:00:00Z",
+ "updated_at": "2026-10-27T14:00:00Z",
  "window_days": 30
 }
