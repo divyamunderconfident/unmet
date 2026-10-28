@@ -599,6 +599,24 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50265410": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50267357": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Need a LEAN-like framework for drug discovery"
+ },
+ "hn:50269349": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
@@ -612,6 +630,12 @@
   "problem": ""
  },
  "se:stackoverflow:80011101": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "se:stackoverflow:80013017": {
   "is_need": false,
   "pain": 0,
   "pay_signal": false,

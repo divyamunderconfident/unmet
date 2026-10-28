@@ -19,11 +19,36 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 2.064,
+   "score": 1.993,
    "sources": [
     "hn"
    ],
    "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
+  },
+  {
+   "id": "e184e966",
+   "last_seen": "2026-10-27T23:30:31Z",
+   "mentions": 1,
+   "name": "Lean framework for drug discovery",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "daemonk",
+     "author_url": "https://news.ycombinator.com/user?id=daemonk",
+     "date": "2026-10-27T23:30:31Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was something like LEAN for biology. But there just isn't nearly enough data to build anything close to a good drug discovery simulator. To have a LEAN for drug discovery, we would need to simulate human physiology down to the…",
+     "url": "https://news.ycombinator.com/item?id=50267357"
+    }
+   ],
+   "score": 1.969,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Researchers want a rapid, cost‑effective, iterative process to accelerate drug discovery, but existing pipelines are slow, expensive, and lack continuous feedback loops."
   },
   {
    "id": "a0b99824",
@@ -44,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.96,
+   "score": 1.893,
    "sources": [
     "hn"
    ],
@@ -54,7 +79,7 @@
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Virtual guitar VST plugin",
+   "name": "Realistic virtual guitar VST",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -69,11 +94,11 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.567,
+   "score": 1.513,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a realistic, expressive virtual guitar plugin that captures nuance and articulation, but current options either sound artificial, lack dynamic control, or are prohibitively expensive."
+   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
   },
   {
    "id": "8d9a039f",
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.516,
+   "score": 1.464,
    "sources": [
     "hn"
    ],
@@ -119,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.425,
+   "score": 1.376,
    "sources": [
     "hn"
    ],
@@ -129,7 +154,7 @@
    "id": "822f619f",
    "last_seen": "2026-10-20T04:44:56Z",
    "mentions": 1,
-   "name": "Cheap Android TV box with free OS",
+   "name": "Low‑cost Android TV box with free OS",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -144,17 +169,17 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.387,
+   "score": 1.34,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
+   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source options."
   },
   {
    "id": "3344ff54",
    "last_seen": "2026-10-18T18:33:44Z",
    "mentions": 1,
-   "name": "Missing diff viewer and Vim mode in Helix editor",
+   "name": "Diff viewer and vim mode in Helix-based editor",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -169,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.293,
+   "score": 1.248,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix lacks built‑in diff support and full Vim emulation, forcing them to use external tools or workarounds."
+   "summary": "Users want a built‑in diff viewer and Vim keybindings in Helix, but Helix lacks a native diff interface and does not support Vim mode, forcing them to use external tools or workarounds."
   },
   {
    "id": "10beabb0",
@@ -194,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 1.235,
+   "score": 1.192,
    "sources": [
     "hn"
    ],
@@ -219,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 1.158,
+   "score": 1.118,
    "sources": [
     "hn"
    ],
@@ -244,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50110933"
     }
    ],
-   "score": 1.122,
+   "score": 1.084,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are resource‑intensive or lack the simplicity and integration that quadlets provide on Linux."
+   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are resource‑intensive or lack the simple, declarative approach that quadlets provide on Linux."
   },
   {
    "id": "624d1808",
@@ -269,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50109615"
     }
    ],
-   "score": 1.118,
+   "score": 1.08,
    "sources": [
     "hn"
    ],
-   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too expensive, limited in size, or require complex electronics that deter DIY projects."
+   "summary": "Hobbyists need large, affordable eInk panels for projects, but existing commercial options are either too expensive or too small, leaving a gap for DIY solutions."
   },
   {
    "id": "9ca12019",
@@ -294,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50107094"
     }
    ],
-   "score": 1.112,
+   "score": 1.074,
    "sources": [
     "hn"
    ],
-   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s settings lack a focus‑stealing toggle and existing workarounds are unreliable."
+   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack a focus‑stealing toggle and existing workarounds are unreliable or require complex tweaks."
   },
   {
    "id": "e2f6248f",
@@ -319,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50099718"
     }
    ],
-   "score": 1.086,
+   "score": 1.048,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to mute the AirTag sound for a single tag, but Apple’s settings only allow global silence or no silence, leaving them unable to target individual tags."
+   "summary": "Users want to mute the AirTag sound for a single tag, but Apple only allows global silence or no silence, leaving them unable to target individual tags."
   },
   {
    "id": "74851b48",
@@ -344,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=49882007"
     }
    ],
-   "score": 1.08,
+   "score": 1.043,
    "sources": [
     "hn"
    ],
@@ -369,17 +394,17 @@
      "url": "https://news.ycombinator.com/item?id=50092727"
     }
    ],
-   "score": 1.061,
+   "score": 1.024,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a comprehensive, consistent set of metrics and tests to compare coding agent tools, but existing methods are fragmented, informal, and fail to capture real-world performance."
+   "summary": "Developers need a unified, comprehensive method to benchmark coding agent tools, but existing metrics are fragmented, inconsistent, and fail to capture real-world performance."
   },
   {
    "id": "6268a7ca",
    "last_seen": "2026-10-27T01:29:02Z",
    "mentions": 1,
-   "name": "Alternate printable HTML version",
+   "name": "Alternate printable HTML",
    "pain": 1.0,
    "pay_signal": false,
    "people": 1,
@@ -394,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50253619"
     }
    ],
-   "score": 0.975,
+   "score": 0.941,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a dedicated printable HTML layout, but existing tools either require manual CSS tweaks or lack dynamic content support, leaving them unable to produce clean printouts."
+   "summary": "Users need a dedicated printable HTML version of a page, but existing solutions either rely on generic print styles or require manual editing, leaving them unable to customize layout or content for print."
   },
   {
    "id": "d12e232d",
@@ -419,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50060647"
     }
    ],
-   "score": 0.96,
+   "score": 0.927,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but current feature phones lack image quality while smartphones are too complex and pricey."
+   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but current feature phones lack image quality and smartphones are too complex and pricey."
   },
   {
    "id": "abd42370",
@@ -444,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50060564"
     }
    ],
-   "score": 0.96,
+   "score": 0.927,
    "sources": [
     "hn"
    ],
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50052010"
     }
    ],
-   "score": 0.937,
+   "score": 0.904,
    "sources": [
     "hn"
    ],
    "summary": "Developers want to embed and render HTML templates directly in Zig code, but existing solutions rely on external libraries or manual string manipulation, which are error‑prone and lack Zig’s type safety and compile‑time guarantees."
-  },
-  {
-   "id": "bb5bc76b",
-   "last_seen": "2026-10-03T16:32:43Z",
-   "mentions": 1,
-   "name": "Cloudflare OHTTP gateway support",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "tclancy",
-     "author_url": "https://news.ycombinator.com/user?id=tclancy",
-     "date": "2026-10-03T16:32:43Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Agreed, but hopefully this gives people who would pay for it a way to do it and then, either by scale or by popularity, it becomes de facto.",
-     "url": "https://news.ycombinator.com/item?id=49945662"
-    }
-   ],
-   "score": 0.919,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a Cloudflare-based gateway to handle Oblivious HTTP traffic, but Cloudflare currently lacks native OHTTP support, forcing them to rely on less efficient or insecure workarounds."
   }
  ],
  "stats": {
-  "needs_found": 52,
-  "needs_in_window": 48,
-  "posts_classified": 104,
-  "problems_in_window": 46
+  "needs_found": 53,
+  "needs_in_window": 49,
+  "posts_classified": 108,
+  "problems_in_window": 47
  },
- "updated_at": "2026-10-27T14:00:00Z",
+ "updated_at": "2026-10-28T07:00:00Z",
  "window_days": 30
 }

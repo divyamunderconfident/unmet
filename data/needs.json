@@ -674,5 +674,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50254656"
+ },
+ {
+  "author": "daemonk",
+  "author_url": "https://news.ycombinator.com/user?id=daemonk",
+  "created_at": 1793143831,
+  "id": "hn:50267357",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Need a LEAN-like framework for drug discovery",
+  "quote": "I wish there was something like LEAN for biology. But there just isn't nearly enough data to build anything close to a good drug discovery simulator. To have a LEAN for drug discovery, we would need to simulate human physiology down to the…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50267357"
  }
 ]
