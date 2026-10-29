@@ -19,11 +19,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.993,
+   "score": 1.897,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
+   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and fail to scale to large volumes."
   },
   {
    "id": "e184e966",
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.969,
+   "score": 1.874,
    "sources": [
     "hn"
    ],
@@ -69,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.893,
+   "score": 1.801,
    "sources": [
     "hn"
    ],
@@ -94,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.513,
+   "score": 1.44,
    "sources": [
     "hn"
    ],
@@ -119,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.464,
+   "score": 1.393,
    "sources": [
     "hn"
    ],
@@ -144,17 +144,17 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.376,
+   "score": 1.309,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web‑based, overly complex, or lack intuitive drag‑and‑drop features."
+   "summary": "Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."
   },
   {
    "id": "822f619f",
    "last_seen": "2026-10-20T04:44:56Z",
    "mentions": 1,
-   "name": "Low‑cost Android TV box with free OS",
+   "name": "Cheap Android TV box with free OS",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -169,17 +169,17 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.34,
+   "score": 1.275,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source options."
+   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
   },
   {
    "id": "3344ff54",
    "last_seen": "2026-10-18T18:33:44Z",
    "mentions": 1,
-   "name": "Diff viewer and vim mode in Helix-based editor",
+   "name": "Missing diff viewer and Vim mode in Helix editor",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -194,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.248,
+   "score": 1.188,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a built‑in diff viewer and Vim keybindings in Helix, but Helix lacks a native diff interface and does not support Vim mode, forcing them to use external tools or workarounds."
+   "summary": "Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix currently lacks a full-featured diff interface and native Vim compatibility, forcing them to use external tools or workarounds."
   },
   {
    "id": "10beabb0",
@@ -219,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 1.192,
+   "score": 1.135,
    "sources": [
     "hn"
    ],
@@ -244,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 1.118,
+   "score": 1.064,
    "sources": [
     "hn"
    ],
@@ -269,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50110933"
     }
    ],
-   "score": 1.084,
+   "score": 1.031,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are resource‑intensive or lack the simple, declarative approach that quadlets provide on Linux."
+   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are too resource‑heavy or lack the simple, declarative configuration that quadlets provide."
   },
   {
    "id": "624d1808",
@@ -294,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50109615"
     }
    ],
-   "score": 1.08,
+   "score": 1.028,
    "sources": [
     "hn"
    ],
-   "summary": "Hobbyists need large, affordable eInk panels for projects, but existing commercial options are either too expensive or too small, leaving a gap for DIY solutions."
+   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too expensive, limited in size, or require complex electronics that deter DIY projects."
   },
   {
    "id": "9ca12019",
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50107094"
     }
    ],
-   "score": 1.074,
+   "score": 1.022,
    "sources": [
     "hn"
    ],
-   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack a focus‑stealing toggle and existing workarounds are unreliable or require complex tweaks."
+   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack this option and third‑party workarounds are unreliable."
   },
   {
    "id": "e2f6248f",
@@ -344,42 +344,42 @@
      "url": "https://news.ycombinator.com/item?id=50099718"
     }
    ],
-   "score": 1.048,
+   "score": 0.998,
    "sources": [
     "hn"
    ],
    "summary": "Users want to mute the AirTag sound for a single tag, but Apple only allows global silence or no silence, leaving them unable to target individual tags."
   },
   {
-   "id": "74851b48",
-   "last_seen": "2026-09-28T18:09:14Z",
+   "id": "18aa93d1",
+   "last_seen": "2026-10-29T04:47:18Z",
    "mentions": 1,
-   "name": "Alcohol‑like pill with no health risks",
-   "pain": 3.0,
-   "pay_signal": true,
+   "name": "Editor lacking Vim-like modal editing",
+   "pain": 1.0,
+   "pay_signal": false,
    "people": 1,
    "quotes": [
     {
-     "author": "jcmontx",
-     "author_url": "https://news.ycombinator.com/user?id=jcmontx",
-     "date": "2026-09-28T18:09:14Z",
+     "author": "iLemming",
+     "author_url": "https://news.ycombinator.com/user?id=iLemming",
+     "date": "2026-10-29T04:47:18Z",
      "site": "Hacker News",
      "source": "hn",
-     "text": "…social gatherings kill me, everything is better/funnier with a glass of wine. I wish there was an alternative pill that made me feel the same way as two beers with no health impact.",
-     "url": "https://news.ycombinator.com/item?id=49882007"
+     "text": "…here well: > editor choice shouldn't be treated like soccer or religion Oh, I wish there was a choice here. I've been vimming since 2010, the idea of vim modality is an excellent, practical, beautiful model. It's a fantastic idea and the…",
+     "url": "https://news.ycombinator.com/item?id=50284677"
     }
    ],
-   "score": 1.043,
+   "score": 0.995,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a substance that delivers the social and mood effects of alcohol without the associated health damage, but existing alternatives either fail to replicate the experience or still pose health risks."
+   "summary": "Users want Vim-style modal editing in non-Emacs editors, but existing solutions either miss key Vim features or are too complex to adopt."
   },
   {
    "id": "2461f1d6",
    "last_seen": "2026-10-14T18:37:16Z",
    "mentions": 1,
-   "name": "Lack of standardized evaluation framework for coding agents",
+   "name": "Lack of standardized evaluation for coding agents",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -394,11 +394,36 @@
      "url": "https://news.ycombinator.com/item?id=50092727"
     }
    ],
-   "score": 1.024,
+   "score": 0.975,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a unified, comprehensive method to benchmark coding agent tools, but existing metrics are fragmented, inconsistent, and fail to capture real-world performance."
+   "summary": "Developers need a consistent framework to measure coding agent performance, but existing metrics are fragmented and fail to capture real-world usefulness and reliability."
+  },
+  {
+   "id": "b9eedd75",
+   "last_seen": "2026-10-28T17:30:19Z",
+   "mentions": 1,
+   "name": "Color variants missing for MacBook Pro display",
+   "pain": 1.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "brailsafe",
+     "author_url": "https://news.ycombinator.com/user?id=brailsafe",
+     "date": "2026-10-28T17:30:19Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a red or green one. Sick of only having two options.",
+     "url": "https://news.ycombinator.com/item?id=50277403"
+    }
+   ],
+   "score": 0.973,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want more color options for MacBook Pro displays, but current models only offer limited colors, limiting personalization."
   },
   {
    "id": "6268a7ca",
@@ -419,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50253619"
     }
    ],
-   "score": 0.941,
+   "score": 0.895,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a dedicated printable HTML version of a page, but existing solutions either rely on generic print styles or require manual editing, leaving them unable to customize layout or content for print."
+   "summary": "Users need a dedicated printable version of a webpage, but existing solutions rely on CSS print media queries or manual tweaks, leaving them without a clean, separate HTML layout for printing."
   },
   {
    "id": "d12e232d",
@@ -444,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50060647"
     }
    ],
-   "score": 0.927,
+   "score": 0.883,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but current feature phones lack image quality and smartphones are too complex and pricey."
+   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but current feature phones lack image quality while smartphones are too complex and pricey."
   },
   {
    "id": "abd42370",
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50060564"
     }
    ],
-   "score": 0.927,
+   "score": 0.882,
    "sources": [
     "hn"
    ],
    "summary": "Users need a unified prompt format to share across AI design tools, but existing solutions are tool‑specific and fragmented, limiting collaboration and reuse."
-  },
-  {
-   "id": "1a3c4a03",
-   "last_seen": "2026-10-12T06:14:57Z",
-   "mentions": 1,
-   "name": "Missing built‑in HTML templating in Zig",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "fergie",
-     "author_url": "https://news.ycombinator.com/user?id=fergie",
-     "date": "2026-10-12T06:14:57Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Yes, but then you need php Why is there no direct support for templating in HTML itself?",
-     "url": "https://news.ycombinator.com/item?id=50052010"
-    }
-   ],
-   "score": 0.904,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Developers want to embed and render HTML templates directly in Zig code, but existing solutions rely on external libraries or manual string manipulation, which are error‑prone and lack Zig’s type safety and compile‑time guarantees."
   }
  ],
  "stats": {
-  "needs_found": 53,
-  "needs_in_window": 49,
-  "posts_classified": 108,
-  "problems_in_window": 47
+  "needs_found": 55,
+  "needs_in_window": 48,
+  "posts_classified": 112,
+  "problems_in_window": 46
  },
- "updated_at": "2026-10-28T07:00:00Z",
+ "updated_at": "2026-10-29T07:00:00Z",
  "window_days": 30
 }

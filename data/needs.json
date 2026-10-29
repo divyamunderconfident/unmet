@@ -687,5 +687,31 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50267357"
+ },
+ {
+  "author": "brailsafe",
+  "author_url": "https://news.ycombinator.com/user?id=brailsafe",
+  "created_at": 1793208619,
+  "id": "hn:50277403",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Need for color variants of MacBook Pro display",
+  "quote": "I wish there was a red or green one. Sick of only having two options.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50277403"
+ },
+ {
+  "author": "iLemming",
+  "author_url": "https://news.ycombinator.com/user?id=iLemming",
+  "created_at": 1793249238,
+  "id": "hn:50284677",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Need for editor with vim modality outside Emacs",
+  "quote": "…here well: > editor choice shouldn't be treated like soccer or religion Oh, I wish there was a choice here. I've been vimming since 2010, the idea of vim modality is an excellent, practical, beautiful model. It's a fantastic idea and the…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50284677"
  }
 ]

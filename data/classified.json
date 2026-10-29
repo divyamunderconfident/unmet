@@ -617,6 +617,30 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50277403": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Need for color variants of MacBook Pro display"
+ },
+ "hn:50281141": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50283677": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50284677": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Need for editor with vim modality outside Emacs"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
