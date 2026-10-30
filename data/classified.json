@@ -641,6 +641,24 @@
   "pay_signal": false,
   "problem": "Need for editor with vim modality outside Emacs"
  },
+ "hn:50293838": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50294499": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50294986": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

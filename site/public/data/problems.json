@@ -19,11 +19,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.897,
+   "score": 1.805,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and fail to scale to large volumes."
+   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
   },
   {
    "id": "e184e966",
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.874,
+   "score": 1.784,
    "sources": [
     "hn"
    ],
@@ -69,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.801,
+   "score": 1.714,
    "sources": [
     "hn"
    ],
@@ -94,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.44,
+   "score": 1.371,
    "sources": [
     "hn"
    ],
@@ -119,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.393,
+   "score": 1.326,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
+   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic AI features, but current services either lack AI integration or provide only limited, non‑native AI tools."
   },
   {
    "id": "975fd37b",
@@ -144,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.309,
+   "score": 1.246,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."
+   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web‑based, overly complex, or lack intuitive drag‑and‑drop features."
   },
   {
    "id": "822f619f",
@@ -169,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.275,
+   "score": 1.213,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
+   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are either costly or require paid operating systems."
   },
   {
    "id": "3344ff54",
@@ -194,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.188,
+   "score": 1.131,
    "sources": [
     "hn"
    ],
@@ -219,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 1.135,
+   "score": 1.08,
    "sources": [
     "hn"
    ],
@@ -244,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 1.064,
+   "score": 1.013,
    "sources": [
     "hn"
    ],
@@ -269,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50110933"
     }
    ],
-   "score": 1.031,
+   "score": 0.981,
    "sources": [
     "hn"
    ],
@@ -294,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50109615"
     }
    ],
-   "score": 1.028,
+   "score": 0.978,
    "sources": [
     "hn"
    ],
-   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too expensive, limited in size, or require complex electronics that deter DIY projects."
+   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too pricey, limited in size, or require complex electronics that deter DIY projects."
   },
   {
    "id": "9ca12019",
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50107094"
     }
    ],
-   "score": 1.022,
+   "score": 0.972,
    "sources": [
     "hn"
    ],
-   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack this option and third‑party workarounds are unreliable."
+   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack a focus‑stealing toggle and existing workarounds are unreliable or require complex tweaks."
   },
   {
    "id": "e2f6248f",
@@ -344,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50099718"
     }
    ],
-   "score": 0.998,
+   "score": 0.949,
    "sources": [
     "hn"
    ],
@@ -369,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50284677"
     }
    ],
-   "score": 0.995,
+   "score": 0.947,
    "sources": [
     "hn"
    ],
@@ -379,7 +379,7 @@
    "id": "2461f1d6",
    "last_seen": "2026-10-14T18:37:16Z",
    "mentions": 1,
-   "name": "Lack of standardized evaluation for coding agents",
+   "name": "Lack of standardized evaluation framework for coding agents",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -394,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50092727"
     }
    ],
-   "score": 0.975,
+   "score": 0.928,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a consistent framework to measure coding agent performance, but existing metrics are fragmented and fail to capture real-world usefulness and reliability."
+   "summary": "Developers need a unified, comprehensive set of metrics and benchmarks to assess coding agent tools, but existing methods are fragmented, inconsistent, and fail to capture real-world performance."
   },
   {
    "id": "b9eedd75",
@@ -419,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50277403"
     }
    ],
-   "score": 0.973,
+   "score": 0.926,
    "sources": [
     "hn"
    ],
@@ -429,7 +429,7 @@
    "id": "6268a7ca",
    "last_seen": "2026-10-27T01:29:02Z",
    "mentions": 1,
-   "name": "Alternate printable HTML",
+   "name": "Alternate HTML for printing",
    "pain": 1.0,
    "pay_signal": false,
    "people": 1,
@@ -444,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50253619"
     }
    ],
-   "score": 0.895,
+   "score": 0.852,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a dedicated printable version of a webpage, but existing solutions rely on CSS print media queries or manual tweaks, leaving them without a clean, separate HTML layout for printing."
+   "summary": "Users need a way to supply a distinct HTML layout for printed output, but current solutions like CSS print media queries or separate print stylesheets lack the flexibility to fully replace the page structure."
   },
   {
    "id": "d12e232d",
@@ -469,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50060647"
     }
    ],
-   "score": 0.883,
+   "score": 0.84,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but current feature phones lack image quality while smartphones are too complex and pricey."
+   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but existing dumbphones lack camera quality and current smartphones are too feature‑heavy."
   },
   {
    "id": "abd42370",
@@ -494,7 +494,7 @@
      "url": "https://news.ycombinator.com/item?id=50060564"
     }
    ],
-   "score": 0.882,
+   "score": 0.84,
    "sources": [
     "hn"
    ],
@@ -503,10 +503,10 @@
  ],
  "stats": {
   "needs_found": 55,
-  "needs_in_window": 48,
-  "posts_classified": 112,
-  "problems_in_window": 46
+  "needs_in_window": 45,
+  "posts_classified": 115,
+  "problems_in_window": 44
  },
- "updated_at": "2026-10-29T07:00:00Z",
+ "updated_at": "2026-10-30T07:00:00Z",
  "window_days": 30
 }
