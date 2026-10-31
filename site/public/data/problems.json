@@ -1,6 +1,131 @@
 {
  "problems": [
   {
+   "id": "3ec82b84",
+   "last_seen": "2026-10-30T19:42:54Z",
+   "mentions": 1,
+   "name": "FaceID missing on iPhone Duo",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "kristianp",
+     "author_url": "https://news.ycombinator.com/user?id=kristianp",
+     "date": "2026-10-30T19:42:54Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Why is there no FaceId? Is the camera too low-res?",
+     "url": "https://news.ycombinator.com/item?id=50309177"
+    }
+   ],
+   "score": 1.954,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want FaceID on the iPhone Duo for quick, secure unlocking, but the device lacks the necessary hardware and software support, leaving them with only password or Touch ID alternatives."
+  },
+  {
+   "id": "70c2ab66",
+   "last_seen": "2026-10-30T19:12:57Z",
+   "mentions": 1,
+   "name": "Free decent email service",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "encrypted_bird",
+     "author_url": "https://news.ycombinator.com/user?id=encrypted_bird",
+     "date": "2026-10-30T19:12:57Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…thanks I'll check it out! --- EDIT: Ohhhhhh apparently it's paid-only. Yeah, I would pay for a decent email service, but I'm poor, so I can't afford that... Thanks, anyway!",
+     "url": "https://news.ycombinator.com/item?id=50308806"
+    }
+   ],
+   "score": 1.952,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a free email provider that offers privacy, ample storage, and a clean interface, but existing free services are either ad‑driven, limited in features, or compromise security."
+  },
+  {
+   "id": "d074cfaf",
+   "last_seen": "2026-10-30T17:49:39Z",
+   "mentions": 1,
+   "name": "Process context dump tool",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "ajasmin",
+     "author_url": "https://news.ycombinator.com/user?id=ajasmin",
+     "date": "2026-10-30T17:49:39Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Is there a tool in Windows that will dump all of a process context to debug these kind of things: CWD, env vars, current user, elevation, etc.",
+     "url": "https://news.ycombinator.com/item?id=50307576"
+    }
+   ],
+   "score": 1.946,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers need a reliable way to capture a process’s full context for debugging, but current utilities either lack depth, are platform‑specific, or require complex setup."
+  },
+  {
+   "id": "39d808f4",
+   "last_seen": "2026-10-30T17:19:39Z",
+   "mentions": 1,
+   "name": "LinkedIn support case creation error",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "rbmm",
+     "author_url": "https://news.ycombinator.com/user?id=rbmm",
+     "date": "2026-10-30T17:19:39Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…many times ( as example https://youtu.be/RRIm1ReQ_6A?t=221 (t=180) ) ? And why is there no reaction to it? It's as if it's been tacitly accepted.",
+     "url": "https://news.ycombinator.com/item?id=50307092"
+    }
+   ],
+   "score": 1.944,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users cannot create support cases on LinkedIn due to error messages, and existing help resources do not provide a clear workaround."
+  },
+  {
+   "id": "16c40056",
+   "last_seen": "2026-10-30T14:19:28Z",
+   "mentions": 1,
+   "name": "Need improved text encoding beyond Unicode",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "harpersealtako",
+     "author_url": "https://news.ycombinator.com/user?id=harpersealtako",
+     "date": "2026-10-30T14:19:28Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…perfect text encoding scheme. Why don't we have something better than unicode? Why is there no interest in making a unicode-but-better format which solves all the problems with unicode? The reason is, unicode is sufficiently good that the…",
+     "url": "https://news.ycombinator.com/item?id=50304295"
+    }
+   ],
+   "score": 1.932,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a more compact, efficient, or expressive encoding that can represent all characters without Unicode’s complexity, but existing alternatives lack universal coverage or widespread adoption."
+  },
+  {
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
@@ -19,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.805,
+   "score": 1.718,
    "sources": [
     "hn"
    ],
@@ -44,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.784,
+   "score": 1.698,
    "sources": [
     "hn"
    ],
@@ -69,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.714,
+   "score": 1.632,
    "sources": [
     "hn"
    ],
@@ -79,7 +204,7 @@
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Realistic virtual guitar VST",
+   "name": "Virtual guitar VST plugin",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -94,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.371,
+   "score": 1.304,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
+   "summary": "Users want a realistic, expressive virtual guitar plugin that captures nuance and articulation, but current options either sound artificial, lack dynamic control, or are prohibitively expensive."
   },
   {
    "id": "8d9a039f",
@@ -119,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.326,
+   "score": 1.262,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic AI features, but current services either lack AI integration or provide only limited, non‑native AI tools."
+   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
   },
   {
    "id": "975fd37b",
@@ -144,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.246,
+   "score": 1.186,
    "sources": [
     "hn"
    ],
@@ -169,17 +294,17 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.213,
+   "score": 1.155,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are either costly or require paid operating systems."
+   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
   },
   {
    "id": "3344ff54",
    "last_seen": "2026-10-18T18:33:44Z",
    "mentions": 1,
-   "name": "Missing diff viewer and Vim mode in Helix editor",
+   "name": "Missing diff viewer and Vim mode in Helix",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -194,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.131,
+   "score": 1.076,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix currently lacks a full-featured diff interface and native Vim compatibility, forcing them to use external tools or workarounds."
+   "summary": "Users want a built‑in diff viewer and Vim keybindings in a Helix‑based editor, but Helix currently lacks these features or they are insufficient, forcing them to use external tools or workarounds."
   },
   {
    "id": "10beabb0",
@@ -219,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 1.08,
+   "score": 1.028,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to execute extension scripts directly in an open browser tab, but existing solutions require separate extensions or cannot inject code into the active page."
+   "summary": "Users want a simple way to execute extension scripts directly in an open browser tab, but existing methods require separate extensions or devtools, making it cumbersome and unreliable."
   },
   {
    "id": "a747978a",
@@ -244,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 1.013,
+   "score": 0.964,
    "sources": [
     "hn"
    ],
@@ -269,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50110933"
     }
    ],
-   "score": 0.981,
+   "score": 0.934,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are too resource‑heavy or lack the simple, declarative configuration that quadlets provide."
+   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are resource‑intensive or lack the simplicity and integration that quadlets provide on Linux."
   },
   {
    "id": "624d1808",
@@ -294,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50109615"
     }
    ],
-   "score": 0.978,
+   "score": 0.931,
    "sources": [
     "hn"
    ],
@@ -319,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50107094"
     }
    ],
-   "score": 0.972,
+   "score": 0.926,
    "sources": [
     "hn"
    ],
@@ -344,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50099718"
     }
    ],
-   "score": 0.949,
+   "score": 0.904,
    "sources": [
     "hn"
    ],
@@ -369,144 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50284677"
     }
    ],
-   "score": 0.947,
+   "score": 0.902,
    "sources": [
     "hn"
    ],
    "summary": "Users want Vim-style modal editing in non-Emacs editors, but existing solutions either miss key Vim features or are too complex to adopt."
-  },
-  {
-   "id": "2461f1d6",
-   "last_seen": "2026-10-14T18:37:16Z",
-   "mentions": 1,
-   "name": "Lack of standardized evaluation framework for coding agents",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "pjm331",
-     "author_url": "https://news.ycombinator.com/user?id=pjm331",
-     "date": "2026-10-14T18:37:16Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I'm not looking to be convinced about this tool as much as I am genuinely looking for a way to eval these kinds of tools in general I have only just begun playing around with evals for a harness I'm working on and so far I have just been…",
-     "url": "https://news.ycombinator.com/item?id=50092727"
-    }
-   ],
-   "score": 0.928,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Developers need a unified, comprehensive set of metrics and benchmarks to assess coding agent tools, but existing methods are fragmented, inconsistent, and fail to capture real-world performance."
-  },
-  {
-   "id": "b9eedd75",
-   "last_seen": "2026-10-28T17:30:19Z",
-   "mentions": 1,
-   "name": "Color variants missing for MacBook Pro display",
-   "pain": 1.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "brailsafe",
-     "author_url": "https://news.ycombinator.com/user?id=brailsafe",
-     "date": "2026-10-28T17:30:19Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a red or green one. Sick of only having two options.",
-     "url": "https://news.ycombinator.com/item?id=50277403"
-    }
-   ],
-   "score": 0.926,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want more color options for MacBook Pro displays, but current models only offer limited colors, limiting personalization."
-  },
-  {
-   "id": "6268a7ca",
-   "last_seen": "2026-10-27T01:29:02Z",
-   "mentions": 1,
-   "name": "Alternate HTML for printing",
-   "pain": 1.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "nektro",
-     "author_url": "https://news.ycombinator.com/user?id=nektro",
-     "date": "2026-10-27T01:29:02Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "i wish there was a way to provide alternate html too",
-     "url": "https://news.ycombinator.com/item?id=50253619"
-    }
-   ],
-   "score": 0.852,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a way to supply a distinct HTML layout for printed output, but current solutions like CSS print media queries or separate print stylesheets lack the flexibility to fully replace the page structure."
-  },
-  {
-   "id": "d12e232d",
-   "last_seen": "2026-10-12T18:25:30Z",
-   "mentions": 1,
-   "name": "Dumbphone with decent camera and telephoto",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "weezing",
-     "author_url": "https://news.ycombinator.com/user?id=weezing",
-     "date": "2026-10-12T18:25:30Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I have pretty heavily dumbified iPhone just for the camera and music. I wish there was a dumbphone with a decent camera with telephoto. I have standalone camera but with a decent lens it's just too big to have on me at all times and…",
-     "url": "https://news.ycombinator.com/item?id=50060647"
-    }
-   ],
-   "score": 0.84,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a simple, low‑cost phone that still offers a good camera and telephoto zoom, but existing dumbphones lack camera quality and current smartphones are too feature‑heavy."
-  },
-  {
-   "id": "abd42370",
-   "last_seen": "2026-10-12T18:21:08Z",
-   "mentions": 1,
-   "name": "Standardized prompt sharing for AI design tools",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "ConceitedCode",
-     "author_url": "https://news.ycombinator.com/user?id=ConceitedCode",
-     "date": "2026-10-12T18:21:08Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…so than \"fully featured clones\". Admittedly, these demos keep getting better. I wish there was a more standardized way of sharing these prompts, results and token usage.",
-     "url": "https://news.ycombinator.com/item?id=50060564"
-    }
-   ],
-   "score": 0.84,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a unified prompt format to share across AI design tools, but existing solutions are tool‑specific and fragmented, limiting collaboration and reuse."
   }
  ],
  "stats": {
-  "needs_found": 55,
-  "needs_in_window": 45,
-  "posts_classified": 115,
-  "problems_in_window": 44
+  "needs_found": 60,
+  "needs_in_window": 47,
+  "posts_classified": 122,
+  "problems_in_window": 46
  },
- "updated_at": "2026-10-30T07:00:00Z",
+ "updated_at": "2026-10-31T07:00:00Z",
  "window_days": 30
 }

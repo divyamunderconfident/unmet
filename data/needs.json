@@ -713,5 +713,70 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50284677"
+ },
+ {
+  "author": "harpersealtako",
+  "author_url": "https://news.ycombinator.com/user?id=harpersealtako",
+  "created_at": 1793369968,
+  "id": "hn:50304295",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Better text encoding scheme than Unicode",
+  "quote": "…perfect text encoding scheme. Why don't we have something better than unicode? Why is there no interest in making a unicode-but-better format which solves all the problems with unicode? The reason is, unicode is sufficiently good that the…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50304295"
+ },
+ {
+  "author": "rbmm",
+  "author_url": "https://news.ycombinator.com/user?id=rbmm",
+  "created_at": 1793380779,
+  "id": "hn:50307092",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "LinkedIn support case creation error",
+  "quote": "…many times ( as example https://youtu.be/RRIm1ReQ_6A?t=221 (t=180) ) ? And why is there no reaction to it? It's as if it's been tacitly accepted.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50307092"
+ },
+ {
+  "author": "ajasmin",
+  "author_url": "https://news.ycombinator.com/user?id=ajasmin",
+  "created_at": 1793382579,
+  "id": "hn:50307576",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Tool to dump process context for debugging",
+  "quote": "Is there a tool in Windows that will dump all of a process context to debug these kind of things: CWD, env vars, current user, elevation, etc.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50307576"
+ },
+ {
+  "author": "encrypted_bird",
+  "author_url": "https://news.ycombinator.com/user?id=encrypted_bird",
+  "created_at": 1793387577,
+  "id": "hn:50308806",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Free decent email service",
+  "quote": "…thanks I'll check it out! --- EDIT: Ohhhhhh apparently it's paid-only. Yeah, I would pay for a decent email service, but I'm poor, so I can't afford that... Thanks, anyway!",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50308806"
+ },
+ {
+  "author": "kristianp",
+  "author_url": "https://news.ycombinator.com/user?id=kristianp",
+  "created_at": 1793389374,
+  "id": "hn:50309177",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "FaceID on iPhone Duo",
+  "quote": "Why is there no FaceId? Is the camera too low-res?",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50309177"
  }
 ]

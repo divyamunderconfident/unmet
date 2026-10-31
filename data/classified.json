@@ -659,6 +659,48 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50302892": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50304295": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Better text encoding scheme than Unicode"
+ },
+ "hn:50305694": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50307092": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "LinkedIn support case creation error"
+ },
+ "hn:50307576": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Tool to dump process context for debugging"
+ },
+ "hn:50308806": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Free decent email service"
+ },
+ "hn:50309177": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "FaceID on iPhone Duo"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
