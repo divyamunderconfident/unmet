@@ -1,6 +1,106 @@
 {
  "problems": [
   {
+   "id": "9aaf0ef9",
+   "last_seen": "2026-11-01T00:38:01Z",
+   "mentions": 1,
+   "name": "Casio watch lacking heart rate only feature",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "busymom0",
+     "author_url": "https://news.ycombinator.com/user?id=busymom0",
+     "date": "2026-11-01T00:38:01Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a minimal Casio watch which only had heart rate tracking (with high frequency polling too).",
+     "url": "https://news.ycombinator.com/item?id=50321671"
+    }
+   ],
+   "score": 1.97,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current Casio models either lack heart rate sensors or include too many extra features."
+  },
+  {
+   "id": "eb7e8f0c",
+   "last_seen": "2026-10-31T22:24:26Z",
+   "mentions": 1,
+   "name": "Apple TV app for HackerTube",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "krmmalik",
+     "author_url": "https://news.ycombinator.com/user?id=krmmalik",
+     "date": "2026-10-31T22:24:26Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Oh how I wish there was an Apple TV app for this. I do all my YouTube browsing on an Apple TV.",
+     "url": "https://news.ycombinator.com/item?id=50320852"
+    }
+   ],
+   "score": 1.961,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but existing solutions rely on web browsers or unofficial apps that lack proper navigation, search, and offline support."
+  },
+  {
+   "id": "d2237cc3",
+   "last_seen": "2026-10-31T20:36:59Z",
+   "mentions": 1,
+   "name": "Sort HackerTube videos by recency",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "mixtureoftakes",
+     "author_url": "https://news.ycombinator.com/user?id=mixtureoftakes",
+     "date": "2026-10-31T20:36:59Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a way to sort by recency, if i'm mainly interested in finding obscure gems from like last 6 to 12 months of ai and tech updates",
+     "url": "https://news.ycombinator.com/item?id=50319936"
+    }
+   ],
+   "score": 1.954,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to view the newest HackerTube videos first, but the platform only offers default or alphabetical sorting, leaving them unable to see recent uploads."
+  },
+  {
+   "id": "08388f0c",
+   "last_seen": "2026-10-31T17:34:14Z",
+   "mentions": 1,
+   "name": "iOS lack of work profile for Signal",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "rendx",
+     "author_url": "https://news.ycombinator.com/user?id=rendx",
+     "date": "2026-10-31T17:34:14Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…in parallel - with separate address book and all. Works very well for Signal. I wish there was something similar for iOS. There are some tools available to make management even more straightforward, like Insular, a fork of Island:…",
+     "url": "https://news.ycombinator.com/item?id=50318165"
+    }
+   ],
+   "score": 1.941,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal offers no built‑in work mode, forcing them to use separate devices or workarounds."
+  },
+  {
    "id": "3ec82b84",
    "last_seen": "2026-10-30T19:42:54Z",
    "mentions": 1,
@@ -19,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.954,
+   "score": 1.856,
    "sources": [
     "hn"
    ],
-   "summary": "Users want FaceID on the iPhone Duo for quick, secure unlocking, but the device lacks the necessary hardware and software support, leaving them with only password or Touch ID alternatives."
+   "summary": "Users want FaceID functionality on the iPhone Duo, but the device lacks the necessary hardware and software support, leaving them without a convenient biometric unlock option."
   },
   {
    "id": "70c2ab66",
@@ -44,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.952,
+   "score": 1.854,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a free email provider that offers privacy, ample storage, and a clean interface, but existing free services are either ad‑driven, limited in features, or compromise security."
+   "summary": "People want a free email service that offers privacy, ample storage, and a clean interface, but existing free providers rely on ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -69,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.946,
+   "score": 1.849,
    "sources": [
     "hn"
    ],
@@ -94,17 +194,17 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.944,
+   "score": 1.847,
    "sources": [
     "hn"
    ],
-   "summary": "Users cannot create support cases on LinkedIn due to error messages, and existing help resources do not provide a clear workaround."
+   "summary": "Users cannot submit support tickets due to a recurring error in LinkedIn’s case creation form, and existing workarounds are unclear or ineffective, leaving them unable to get help."
   },
   {
    "id": "16c40056",
    "last_seen": "2026-10-30T14:19:28Z",
    "mentions": 1,
-   "name": "Need improved text encoding beyond Unicode",
+   "name": "Better text encoding scheme than Unicode",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -119,17 +219,17 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.932,
+   "score": 1.835,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a more compact, efficient, or expressive encoding that can represent all characters without Unicode’s complexity, but existing alternatives lack universal coverage or widespread adoption."
+   "summary": "Users want a more efficient, compact encoding that handles all characters, but Unicode is too large and complex."
   },
   {
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay-per-page AI crawler pricing problem",
+   "name": "Pay‑per‑page AI crawler cost issue",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -144,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.718,
+   "score": 1.632,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
+   "summary": "Users need to crawl large volumes of web pages with AI but pay‑per‑page pricing models make it prohibitively expensive and inflexible, forcing them to seek cheaper, subscription‑based or bulk options that current services don’t provide."
   },
   {
    "id": "e184e966",
@@ -169,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.698,
+   "score": 1.612,
    "sources": [
     "hn"
    ],
@@ -194,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.632,
+   "score": 1.55,
    "sources": [
     "hn"
    ],
@@ -204,7 +304,7 @@
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Virtual guitar VST plugin",
+   "name": "Realistic virtual guitar VST",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -219,17 +319,17 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.304,
+   "score": 1.239,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a realistic, expressive virtual guitar plugin that captures nuance and articulation, but current options either sound artificial, lack dynamic control, or are prohibitively expensive."
+   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
   },
   {
    "id": "8d9a039f",
    "last_seen": "2026-10-13T19:14:08Z",
    "mentions": 1,
-   "name": "GitHub alternative with Anthropic AI",
+   "name": "Code hosting platform with Anthropic AI",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -244,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.262,
+   "score": 1.199,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
+   "summary": "Developers want a GitHub‑style repository and collaboration tool that natively integrates Anthropic’s AI for code review, generation, and assistance, but current services either lack AI features or rely on other providers, leaving a gap for a unified solution."
   },
   {
    "id": "975fd37b",
@@ -269,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.186,
+   "score": 1.126,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web‑based, overly complex, or lack intuitive drag‑and‑drop features."
+   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web-based, overly complex, or lack robust offline functionality."
   },
   {
    "id": "822f619f",
@@ -294,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.155,
+   "score": 1.097,
    "sources": [
     "hn"
    ],
@@ -304,7 +404,7 @@
    "id": "3344ff54",
    "last_seen": "2026-10-18T18:33:44Z",
    "mentions": 1,
-   "name": "Missing diff viewer and Vim mode in Helix",
+   "name": "Diff viewer and vim mode in Helix-based editor",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -319,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.076,
+   "score": 1.022,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a built‑in diff viewer and Vim keybindings in a Helix‑based editor, but Helix currently lacks these features or they are insufficient, forcing them to use external tools or workarounds."
+   "summary": "Users want a built‑in diff viewer and Vim keybindings in Helix, but Helix lacks a native diff interface and does not support Vim mode, forcing them to use external tools or workarounds."
   },
   {
    "id": "10beabb0",
@@ -344,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 1.028,
+   "score": 0.976,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple way to execute extension scripts directly in an open browser tab, but existing methods require separate extensions or devtools, making it cumbersome and unreliable."
+   "summary": "Users want to execute extension scripts directly in an open browser tab, but existing solutions require separate extensions or cannot inject code into the active page."
   },
   {
    "id": "a747978a",
@@ -369,17 +469,17 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 0.964,
+   "score": 0.915,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a Boox Go 7 with OLED or LCD display, but current models only offer e‑ink, limiting color and brightness options."
+   "summary": "Users want a Boox Go 7 with an OLED or LCD display for richer color and better contrast, but current models only offer e‑ink, limiting functionality for non‑e‑ink use cases."
   },
   {
    "id": "e3d2c3b3",
    "last_seen": "2026-10-15T21:55:29Z",
    "mentions": 1,
-   "name": "Mac container orchestration like quadlets",
+   "name": "Mac equivalent of quadlets for self-hosting",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -394,119 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50110933"
     }
    ],
-   "score": 0.934,
+   "score": 0.887,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a lightweight, native Mac solution to run and manage self-hosted services, but existing tools such as Docker Desktop are resource‑intensive or lack the simplicity and integration that quadlets provide on Linux."
-  },
-  {
-   "id": "624d1808",
-   "last_seen": "2026-10-15T20:15:05Z",
-   "mentions": 1,
-   "name": "DIY poster-size eInk panels for hobbyists",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "xd1936",
-     "author_url": "https://news.ycombinator.com/user?id=xd1936",
-     "date": "2026-10-15T20:15:05Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a DIY company targeting hobbiests that sold large poster-size eInk panels with tinkering in mind, like TRMNL or InkPlate.",
-     "url": "https://news.ycombinator.com/item?id=50109615"
-    }
-   ],
-   "score": 0.931,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Hobbyists need affordable, large eInk panels that are easy to assemble, but existing commercial options are either too pricey, limited in size, or require complex electronics that deter DIY projects."
-  },
-  {
-   "id": "9ca12019",
-   "last_seen": "2026-10-15T17:28:37Z",
-   "mentions": 1,
-   "name": "Steam client steals focus",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "knollimar",
-     "author_url": "https://news.ycombinator.com/user?id=knollimar",
-     "date": "2026-10-15T17:28:37Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Why is there no option to prevent it stealing focus?!?",
-     "url": "https://news.ycombinator.com/item?id=50107094"
-    }
-   ],
-   "score": 0.926,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want Steam to stop taking window focus during updates or notifications, but Steam’s built‑in settings lack a focus‑stealing toggle and existing workarounds are unreliable or require complex tweaks."
-  },
-  {
-   "id": "e2f6248f",
-   "last_seen": "2026-10-15T05:52:23Z",
-   "mentions": 1,
-   "name": "Silence AirTag warning for specific tag",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "nazgul17",
-     "author_url": "https://news.ycombinator.com/user?id=nazgul17",
-     "date": "2026-10-15T05:52:23Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…every morning I get a notification that an unknown tracker is following me. I wish there was a way to silence the warning for that specific tag.",
-     "url": "https://news.ycombinator.com/item?id=50099718"
-    }
-   ],
-   "score": 0.904,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want to mute the AirTag sound for a single tag, but Apple only allows global silence or no silence, leaving them unable to target individual tags."
-  },
-  {
-   "id": "18aa93d1",
-   "last_seen": "2026-10-29T04:47:18Z",
-   "mentions": 1,
-   "name": "Editor lacking Vim-like modal editing",
-   "pain": 1.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "iLemming",
-     "author_url": "https://news.ycombinator.com/user?id=iLemming",
-     "date": "2026-10-29T04:47:18Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…here well: > editor choice shouldn't be treated like soccer or religion Oh, I wish there was a choice here. I've been vimming since 2010, the idea of vim modality is an excellent, practical, beautiful model. It's a fantastic idea and the…",
-     "url": "https://news.ycombinator.com/item?id=50284677"
-    }
-   ],
-   "score": 0.902,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want Vim-style modal editing in non-Emacs editors, but existing solutions either miss key Vim features or are too complex to adopt."
+   "summary": "Users want a lightweight, native Mac tool to run and manage self-hosted services like quadlets, but existing options (Docker Desktop, Docker Compose, Homebrew services) are either too heavy, lack integration, or don't provide the same simplicity and ease of use."
   }
  ],
  "stats": {
-  "needs_found": 60,
-  "needs_in_window": 47,
-  "posts_classified": 122,
-  "problems_in_window": 46
+  "needs_found": 64,
+  "needs_in_window": 48,
+  "posts_classified": 126,
+  "problems_in_window": 48
  },
- "updated_at": "2026-10-31T07:00:00Z",
+ "updated_at": "2026-11-01T08:00:00Z",
  "window_days": 30
 }

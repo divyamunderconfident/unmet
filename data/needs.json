@@ -778,5 +778,57 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50309177"
+ },
+ {
+  "author": "rendx",
+  "author_url": "https://news.ycombinator.com/user?id=rendx",
+  "created_at": 1793468054,
+  "id": "hn:50318165",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "iOS equivalent of Android work profiles for Signal",
+  "quote": "…in parallel - with separate address book and all. Works very well for Signal. I wish there was something similar for iOS. There are some tools available to make management even more straightforward, like Insular, a fork of Island:…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50318165"
+ },
+ {
+  "author": "mixtureoftakes",
+  "author_url": "https://news.ycombinator.com/user?id=mixtureoftakes",
+  "created_at": 1793479019,
+  "id": "hn:50319936",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Sort HackerTube videos by recency",
+  "quote": "I wish there was a way to sort by recency, if i'm mainly interested in finding obscure gems from like last 6 to 12 months of ai and tech updates",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50319936"
+ },
+ {
+  "author": "krmmalik",
+  "author_url": "https://news.ycombinator.com/user?id=krmmalik",
+  "created_at": 1793485466,
+  "id": "hn:50320852",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Apple TV app for HackerTube",
+  "quote": "Oh how I wish there was an Apple TV app for this. I do all my YouTube browsing on an Apple TV.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50320852"
+ },
+ {
+  "author": "busymom0",
+  "author_url": "https://news.ycombinator.com/user?id=busymom0",
+  "created_at": 1793493481,
+  "id": "hn:50321671",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Minimal Casio watch with only heart rate tracking",
+  "quote": "I wish there was a minimal Casio watch which only had heart rate tracking (with high frequency polling too).",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50321671"
  }
 ]

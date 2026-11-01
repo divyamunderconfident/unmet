@@ -701,6 +701,30 @@
   "pay_signal": false,
   "problem": "FaceID on iPhone Duo"
  },
+ "hn:50318165": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "iOS equivalent of Android work profiles for Signal"
+ },
+ "hn:50319936": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Sort HackerTube videos by recency"
+ },
+ "hn:50320852": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Apple TV app for HackerTube"
+ },
+ "hn:50321671": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Minimal Casio watch with only heart rate tracking"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
