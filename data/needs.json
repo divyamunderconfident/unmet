@@ -830,5 +830,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50321671"
+ },
+ {
+  "author": "bobmcnamara",
+  "author_url": "https://news.ycombinator.com/user?id=bobmcnamara",
+  "created_at": 1793555551,
+  "id": "hn:50327891",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Flag to set minimum branch target size in GCC switch lowering",
+  "quote": "That usually works well enough for risc code. As a massage, I wish there was a flag to set a minimum branch target size. If all the branch targets for a switch are the same size then you can often turn the jump table into a…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50327891"
  }
 ]

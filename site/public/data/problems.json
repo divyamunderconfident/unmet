@@ -1,10 +1,35 @@
 {
  "problems": [
   {
+   "id": "7fc943ec",
+   "last_seen": "2026-11-01T17:52:31Z",
+   "mentions": 1,
+   "name": "GCC flag for minimum branch target size",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "bobmcnamara",
+     "author_url": "https://news.ycombinator.com/user?id=bobmcnamara",
+     "date": "2026-11-01T17:52:31Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "That usually works well enough for risc code. As a massage, I wish there was a flag to set a minimum branch target size. If all the branch targets for a switch are the same size then you can often turn the jump table into a…",
+     "url": "https://news.ycombinator.com/item?id=50327891"
+    }
+   ],
+   "score": 1.943,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers want a GCC option to set the minimum size of branch targets during switch lowering, but GCC currently offers no such flag, limiting fine‑tuned performance optimization."
+  },
+  {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch lacking heart rate only feature",
+   "name": "Casio watch lacking heart rate tracking",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -19,11 +44,11 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.97,
+   "score": 1.875,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple Casio watch that tracks heart rate, but current Casio models either lack heart rate sensors or include too many extra features."
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack this feature or include unnecessary extras."
   },
   {
    "id": "eb7e8f0c",
@@ -44,11 +69,11 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.961,
+   "score": 1.866,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but existing solutions rely on web browsers or unofficial apps that lack proper navigation, search, and offline support."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   },
   {
    "id": "d2237cc3",
@@ -69,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.954,
+   "score": 1.859,
    "sources": [
     "hn"
    ],
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.941,
+   "score": 1.848,
    "sources": [
     "hn"
    ],
@@ -119,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.856,
+   "score": 1.766,
    "sources": [
     "hn"
    ],
-   "summary": "Users want FaceID functionality on the iPhone Duo, but the device lacks the necessary hardware and software support, leaving them without a convenient biometric unlock option."
+   "summary": "Users want FaceID on the iPhone Duo for quick, secure unlocking, but the device lacks the necessary hardware and software support, leaving them with only password or Touch ID alternatives."
   },
   {
    "id": "70c2ab66",
@@ -144,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.854,
+   "score": 1.764,
    "sources": [
     "hn"
    ],
-   "summary": "People want a free email service that offers privacy, ample storage, and a clean interface, but existing free providers rely on ads, limit storage, or compromise privacy."
+   "summary": "Users need a reliable, privacy‑respecting free email provider with ample storage and modern features, but existing options either show ads, limit functionality, or compromise user data."
   },
   {
    "id": "d074cfaf",
@@ -169,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.849,
+   "score": 1.759,
    "sources": [
     "hn"
    ],
@@ -194,17 +219,17 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.847,
+   "score": 1.757,
    "sources": [
     "hn"
    ],
-   "summary": "Users cannot submit support tickets due to a recurring error in LinkedIn’s case creation form, and existing workarounds are unclear or ineffective, leaving them unable to get help."
+   "summary": "Users cannot create support cases on LinkedIn due to error messages, and existing help resources do not provide a clear workaround."
   },
   {
    "id": "16c40056",
    "last_seen": "2026-10-30T14:19:28Z",
    "mentions": 1,
-   "name": "Better text encoding scheme than Unicode",
+   "name": "Better text encoding than Unicode",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -219,17 +244,17 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.835,
+   "score": 1.747,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a more efficient, compact encoding that handles all characters, but Unicode is too large and complex."
+   "summary": "Users want a more efficient, compact encoding that reduces storage and bandwidth, but Unicode’s 16/32‑bit scheme is too large and lacks true compression."
   },
   {
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay‑per‑page AI crawler cost issue",
+   "name": "Pay‑per‑page AI crawler cost model",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -244,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.632,
+   "score": 1.553,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to crawl large volumes of web pages with AI but pay‑per‑page pricing models make it prohibitively expensive and inflexible, forcing them to seek cheaper, subscription‑based or bulk options that current services don’t provide."
+   "summary": "Users want a transparent, scalable pay‑per‑page AI crawling service, but existing solutions charge high fixed fees or lack granular billing, making it hard to control costs."
   },
   {
    "id": "e184e966",
@@ -269,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.612,
+   "score": 1.534,
    "sources": [
     "hn"
    ],
@@ -294,7 +319,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.55,
+   "score": 1.475,
    "sources": [
     "hn"
    ],
@@ -304,7 +329,7 @@
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Realistic virtual guitar VST",
+   "name": "Virtual guitar VST plugin",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -319,17 +344,17 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.239,
+   "score": 1.179,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
+   "summary": "Users want a realistic, expressive virtual guitar plugin that captures nuance and articulation, but current options either sound artificial, lack dynamic control, or are prohibitively expensive."
   },
   {
    "id": "8d9a039f",
    "last_seen": "2026-10-13T19:14:08Z",
    "mentions": 1,
-   "name": "Code hosting platform with Anthropic AI",
+   "name": "GitHub alternative with Anthropic AI",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -344,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.199,
+   "score": 1.141,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GitHub‑style repository and collaboration tool that natively integrates Anthropic’s AI for code review, generation, and assistance, but current services either lack AI features or rely on other providers, leaving a gap for a unified solution."
+   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
   },
   {
    "id": "975fd37b",
@@ -369,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.126,
+   "score": 1.072,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web-based, overly complex, or lack robust offline functionality."
+   "summary": "Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."
   },
   {
    "id": "822f619f",
@@ -394,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.097,
+   "score": 1.044,
    "sources": [
     "hn"
    ],
@@ -404,7 +429,7 @@
    "id": "3344ff54",
    "last_seen": "2026-10-18T18:33:44Z",
    "mentions": 1,
-   "name": "Diff viewer and vim mode in Helix-based editor",
+   "name": "Missing diff viewer and Vim mode in Helix editor",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -419,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50143942"
     }
    ],
-   "score": 1.022,
+   "score": 0.973,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a built‑in diff viewer and Vim keybindings in Helix, but Helix lacks a native diff interface and does not support Vim mode, forcing them to use external tools or workarounds."
+   "summary": "Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix lacks built‑in diff support and full Vim emulation, forcing them to use external tools or workarounds."
   },
   {
    "id": "10beabb0",
@@ -444,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50022196"
     }
    ],
-   "score": 0.976,
+   "score": 0.929,
    "sources": [
     "hn"
    ],
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50117904"
     }
    ],
-   "score": 0.915,
+   "score": 0.871,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a Boox Go 7 with an OLED or LCD display for richer color and better contrast, but current models only offer e‑ink, limiting functionality for non‑e‑ink use cases."
-  },
-  {
-   "id": "e3d2c3b3",
-   "last_seen": "2026-10-15T21:55:29Z",
-   "mentions": 1,
-   "name": "Mac equivalent of quadlets for self-hosting",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "nozzlegear",
-     "author_url": "https://news.ycombinator.com/user?id=nozzlegear",
-     "date": "2026-10-15T21:55:29Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…for my professional and hobby/self-hosting services. Super convenient, I wish there was something equivalent for my Mac (launchd files just don't cut it).",
-     "url": "https://news.ycombinator.com/item?id=50110933"
-    }
-   ],
-   "score": 0.887,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a lightweight, native Mac tool to run and manage self-hosted services like quadlets, but existing options (Docker Desktop, Docker Compose, Homebrew services) are either too heavy, lack integration, or don't provide the same simplicity and ease of use."
+   "summary": "Users want a Boox Go 7 with OLED or LCD display, but current models only offer e‑ink, limiting color and brightness options."
   }
  ],
  "stats": {
-  "needs_found": 64,
+  "needs_found": 65,
   "needs_in_window": 48,
-  "posts_classified": 126,
+  "posts_classified": 128,
   "problems_in_window": 48
  },
- "updated_at": "2026-11-01T08:00:00Z",
+ "updated_at": "2026-11-02T08:00:00Z",
  "window_days": 30
 }

@@ -725,6 +725,18 @@
   "pay_signal": false,
   "problem": "Minimal Casio watch with only heart rate tracking"
  },
+ "hn:50327237": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50327891": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Flag to set minimum branch target size in GCC switch lowering"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
