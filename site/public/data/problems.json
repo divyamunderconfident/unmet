@@ -1,6 +1,56 @@
 {
  "problems": [
   {
+   "id": "59b974be",
+   "last_seen": "2026-11-02T20:39:46Z",
+   "mentions": 1,
+   "name": "Missing mobile device support in bug detection",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "beavisringdin",
+     "author_url": "https://news.ycombinator.com/user?id=beavisringdin",
+     "date": "2026-11-02T20:39:46Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…this on your roadmap and if so what's your plan to support it? In that case I would pay for this if you handled the real device on your end.",
+     "url": "https://news.ycombinator.com/item?id=50343384"
+    }
+   ],
+   "score": 2.931,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
+  },
+  {
+   "id": "725200e6",
+   "last_seen": "2026-11-03T02:50:03Z",
+   "mentions": 1,
+   "name": "Diffing archived web data",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "netshade",
+     "author_url": "https://news.ycombinator.com/user?id=netshade",
+     "date": "2026-11-03T02:50:03Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…down learning more about archival while I was adding it to my own thing [1]. I wish there was more of an existing toolset for diffing archivals as well - what changed is just as interesting as what is there. Equally, something I kind of…",
+     "url": "https://news.ycombinator.com/item?id=50347401"
+    }
+   ],
+   "score": 1.979,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
+  },
+  {
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
@@ -19,17 +69,17 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.943,
+   "score": 1.849,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum size of branch targets during switch lowering, but GCC currently offers no such flag, limiting fine‑tuned performance optimization."
+   "summary": "Developers want a GCC option to set the minimum size of branch targets during switch lowering, but GCC currently offers no such flag, limiting their ability to tune performance and code size."
   },
   {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch lacking heart rate tracking",
+   "name": "Casio watch without heart rate tracking",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -44,11 +94,11 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.875,
+   "score": 1.784,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack this feature or include unnecessary extras."
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack HR monitoring or include too many extra features."
   },
   {
    "id": "eb7e8f0c",
@@ -69,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.866,
+   "score": 1.776,
    "sources": [
     "hn"
    ],
@@ -94,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.859,
+   "score": 1.769,
    "sources": [
     "hn"
    ],
@@ -119,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.848,
+   "score": 1.758,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal offers no built‑in work mode, forcing them to use separate devices or workarounds."
+   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal lacks a dedicated work mode."
   },
   {
    "id": "3ec82b84",
@@ -144,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.766,
+   "score": 1.681,
    "sources": [
     "hn"
    ],
@@ -169,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.764,
+   "score": 1.679,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a reliable, privacy‑respecting free email provider with ample storage and modern features, but existing options either show ads, limit functionality, or compromise user data."
+   "summary": "Users need a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -194,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.759,
+   "score": 1.674,
    "sources": [
     "hn"
    ],
@@ -219,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.757,
+   "score": 1.673,
    "sources": [
     "hn"
    ],
@@ -229,7 +279,7 @@
    "id": "16c40056",
    "last_seen": "2026-10-30T14:19:28Z",
    "mentions": 1,
-   "name": "Better text encoding than Unicode",
+   "name": "Need improved text encoding beyond Unicode",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -244,17 +294,17 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.747,
+   "score": 1.662,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a more efficient, compact encoding that reduces storage and bandwidth, but Unicode’s 16/32‑bit scheme is too large and lacks true compression."
+   "summary": "Users want a more compact, efficient, or expressive encoding that can represent all characters without Unicode’s complexity, but existing alternatives lack universal coverage or widespread adoption."
   },
   {
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay‑per‑page AI crawler cost model",
+   "name": "Pay-per-page AI crawler cost model",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -269,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.553,
+   "score": 1.478,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a transparent, scalable pay‑per‑page AI crawling service, but existing solutions charge high fixed fees or lack granular billing, making it hard to control costs."
+   "summary": "Users need a transparent, scalable pay‑per‑page AI crawling service, but existing solutions are expensive, opaque, and lack fine‑grained billing."
   },
   {
    "id": "e184e966",
@@ -294,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.534,
+   "score": 1.46,
    "sources": [
     "hn"
    ],
@@ -304,7 +354,7 @@
    "id": "a0b99824",
    "last_seen": "2026-10-27T04:17:16Z",
    "mentions": 1,
-   "name": "No global state API for graphics teaching",
+   "name": "API lacking global state for graphics teaching",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -319,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.475,
+   "score": 1.403,
    "sources": [
     "hn"
    ],
-   "summary": "Educators need a stateless graphics API to simplify learning, but existing APIs rely on global state, causing confusion and limiting flexibility."
+   "summary": "Educators need a graphics API that avoids global state to simplify learning, but existing APIs rely on global variables, hindering clear instruction and modular design."
   },
   {
    "id": "8f9baefe",
@@ -344,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.179,
+   "score": 1.122,
    "sources": [
     "hn"
    ],
@@ -354,7 +404,7 @@
    "id": "8d9a039f",
    "last_seen": "2026-10-13T19:14:08Z",
    "mentions": 1,
-   "name": "GitHub alternative with Anthropic AI",
+   "name": "Code hosting platform with Anthropic AI",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -369,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.141,
+   "score": 1.086,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
+   "summary": "Developers want a GitHub‑style repository and collaboration tool that natively integrates Anthropic’s AI for code review, generation, and assistance, but current services either lack AI features or rely on other providers, leaving a gap for a unified solution."
   },
   {
    "id": "975fd37b",
@@ -394,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.072,
+   "score": 1.02,
    "sources": [
     "hn"
    ],
@@ -419,94 +469,44 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 1.044,
+   "score": 0.993,
    "sources": [
     "hn"
    ],
    "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
   },
   {
-   "id": "3344ff54",
-   "last_seen": "2026-10-18T18:33:44Z",
+   "id": "ba8474bc",
+   "last_seen": "2026-11-02T20:02:26Z",
    "mentions": 1,
-   "name": "Missing diff viewer and Vim mode in Helix editor",
-   "pain": 2.0,
+   "name": "Lack of contextual history in science articles",
+   "pain": 1.0,
    "pay_signal": false,
    "people": 1,
    "quotes": [
     {
-     "author": "jswelker",
-     "author_url": "https://news.ycombinator.com/user?id=jswelker",
-     "date": "2026-10-18T18:33:44Z",
+     "author": "paimapi",
+     "author_url": "https://news.ycombinator.com/user?id=paimapi",
+     "date": "2026-11-02T20:02:26Z",
      "site": "Hacker News",
      "source": "hn",
-     "text": "…And even though abstractly I like helix's keyboard model better than vim, I wish there was a way to just switch to vim mode because it is too ingrained. Maybe this fork can address some of this either directly or by allowing plugins.",
-     "url": "https://news.ycombinator.com/item?id=50143942"
+     "text": "…) study specifically related to anti-aging. I wish there was some nuanced line for science journalists to not hyperbolize about nothingburger studies in dire need of replication while also making the science exciting, slow of a process as…",
+     "url": "https://news.ycombinator.com/item?id=50342831"
     }
    ],
-   "score": 0.973,
+   "score": 0.976,
    "sources": [
     "hn"
    ],
-   "summary": "Users want an integrated diff viewer and Vim keybindings in Helix-based editors, but Helix lacks built‑in diff support and full Vim emulation, forcing them to use external tools or workarounds."
-  },
-  {
-   "id": "10beabb0",
-   "last_seen": "2026-10-09T15:44:37Z",
-   "mentions": 1,
-   "name": "Run extension code in current tab",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "cobbzilla",
-     "author_url": "https://news.ycombinator.com/user?id=cobbzilla",
-     "date": "2026-10-09T15:44:37Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…want to write a Firefox extension that runs in your open browser tab? I would pay for this.",
-     "url": "https://news.ycombinator.com/item?id=50022196"
-    }
-   ],
-   "score": 0.929,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want to execute extension scripts directly in an open browser tab, but existing solutions require separate extensions or cannot inject code into the active page."
-  },
-  {
-   "id": "a747978a",
-   "last_seen": "2026-10-16T13:04:56Z",
-   "mentions": 1,
-   "name": "OLED or LCD version of Boox Go 7",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "stasomatic",
-     "author_url": "https://news.ycombinator.com/user?id=stasomatic",
-     "date": "2026-10-16T13:04:56Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…got the Boox for Android under the hood so that I could scan my email and RSS. I wish there was an OLED or an LCD version of the same device.",
-     "url": "https://news.ycombinator.com/item?id=50117904"
-    }
-   ],
-   "score": 0.871,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a Boox Go 7 with OLED or LCD display, but current models only offer e‑ink, limiting color and brightness options."
+   "summary": "Readers want historical background to better grasp scientific concepts, but current articles often omit context, leaving gaps in understanding."
   }
  ],
  "stats": {
-  "needs_found": 65,
+  "needs_found": 68,
   "needs_in_window": 48,
-  "posts_classified": 128,
+  "posts_classified": 133,
   "problems_in_window": 48
  },
- "updated_at": "2026-11-02T08:00:00Z",
+ "updated_at": "2026-11-03T08:00:00Z",
  "window_days": 30
 }

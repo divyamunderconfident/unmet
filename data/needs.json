@@ -843,5 +843,44 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50327891"
+ },
+ {
+  "author": "paimapi",
+  "author_url": "https://news.ycombinator.com/user?id=paimapi",
+  "created_at": 1793649746,
+  "id": "hn:50342831",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Need for contextual history in science articles",
+  "quote": "…) study specifically related to anti-aging. I wish there was some nuanced line for science journalists to not hyperbolize about nothingburger studies in dire need of replication while also making the science exciting, slow of a process as…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50342831"
+ },
+ {
+  "author": "beavisringdin",
+  "author_url": "https://news.ycombinator.com/user?id=beavisringdin",
+  "created_at": 1793651986,
+  "id": "hn:50343384",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Need for mobile device support in bug detection service",
+  "quote": "…this on your roadmap and if so what's your plan to support it? In that case I would pay for this if you handled the real device on your end.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50343384"
+ },
+ {
+  "author": "netshade",
+  "author_url": "https://news.ycombinator.com/user?id=netshade",
+  "created_at": 1793674203,
+  "id": "hn:50347401",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Need for diffing and exploring archived web data",
+  "quote": "…down learning more about archival while I was adding it to my own thing [1]. I wish there was more of an existing toolset for diffing archivals as well - what changed is just as interesting as what is there. Equally, something I kind of…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50347401"
  }
 ]
