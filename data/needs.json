@@ -882,5 +882,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50347401"
+ },
+ {
+  "author": "account42",
+  "author_url": "https://news.ycombinator.com/user?id=account42",
+  "created_at": 1793719431,
+  "id": "hn:50353164",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Audio/video opt‑in setting per site",
+  "quote": "I wish there was a setting to make audio and video opt in per site. Most random sites have no business using anything but text and the occasional image plus whatever fancy stylesheets keep their designers busy.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50353164"
  }
 ]

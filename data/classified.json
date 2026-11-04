@@ -767,6 +767,30 @@
   "pay_signal": false,
   "problem": "Need for diffing and exploring archived web data"
  },
+ "hn:50350535": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50353164": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Audio/video opt‑in setting per site"
+ },
+ "hn:50354384": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50355278": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

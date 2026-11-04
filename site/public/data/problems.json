@@ -19,11 +19,36 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.931,
+   "score": 2.789,
    "sources": [
     "hn"
    ],
    "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
+  },
+  {
+   "id": "13d93922",
+   "last_seen": "2026-11-03T15:23:51Z",
+   "mentions": 1,
+   "name": "Per‑site audio/video permission control",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "account42",
+     "author_url": "https://news.ycombinator.com/user?id=account42",
+     "date": "2026-11-03T15:23:51Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a setting to make audio and video opt in per site. Most random sites have no business using anything but text and the occasional image plus whatever fancy stylesheets keep their designers busy.",
+     "url": "https://news.ycombinator.com/item?id=50353164"
+    }
+   ],
+   "score": 1.933,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to enable or block audio and video access on a per‑website basis, but browsers only offer global permission settings or no granular control, leaving them unable to manage media permissions site‑by‑site."
   },
   {
    "id": "725200e6",
@@ -44,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.979,
+   "score": 1.883,
    "sources": [
     "hn"
    ],
@@ -54,7 +79,7 @@
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
-   "name": "GCC flag for minimum branch target size",
+   "name": "GCC flag for minimum branch target size in switch lowering",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -69,17 +94,17 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.849,
+   "score": 1.759,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum size of branch targets during switch lowering, but GCC currently offers no such flag, limiting their ability to tune performance and code size."
+   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering to fine‑tune performance or code size, but GCC currently provides no such flag, leaving them unable to control this behavior."
   },
   {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch without heart rate tracking",
+   "name": "Casio watch lacking heart rate only feature",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.784,
+   "score": 1.698,
    "sources": [
     "hn"
    ],
@@ -119,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.776,
+   "score": 1.69,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and current solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   },
   {
    "id": "d2237cc3",
@@ -144,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.769,
+   "score": 1.684,
    "sources": [
     "hn"
    ],
@@ -169,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.758,
+   "score": 1.673,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal lacks a dedicated work mode."
+   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal offers no built‑in work mode, forcing them to use separate devices or accounts."
   },
   {
    "id": "3ec82b84",
@@ -194,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.681,
+   "score": 1.6,
    "sources": [
     "hn"
    ],
@@ -219,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.679,
+   "score": 1.598,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
+   "summary": "Users want a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -244,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.674,
+   "score": 1.593,
    "sources": [
     "hn"
    ],
@@ -269,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.673,
+   "score": 1.592,
    "sources": [
     "hn"
    ],
@@ -279,7 +304,7 @@
    "id": "16c40056",
    "last_seen": "2026-10-30T14:19:28Z",
    "mentions": 1,
-   "name": "Need improved text encoding beyond Unicode",
+   "name": "Better text encoding than Unicode",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -294,17 +319,17 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.662,
+   "score": 1.582,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a more compact, efficient, or expressive encoding that can represent all characters without Unicode’s complexity, but existing alternatives lack universal coverage or widespread adoption."
+   "summary": "Users want a more efficient, compact encoding that reduces storage and bandwidth, but Unicode’s 16/32‑bit scheme is too large and lacks true compression."
   },
   {
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay-per-page AI crawler cost model",
+   "name": "Pay-per-page AI crawler pricing problem",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -319,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.478,
+   "score": 1.406,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, scalable pay‑per‑page AI crawling service, but existing solutions are expensive, opaque, and lack fine‑grained billing."
+   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
   },
   {
    "id": "e184e966",
@@ -344,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.46,
+   "score": 1.39,
    "sources": [
     "hn"
    ],
@@ -354,7 +379,7 @@
    "id": "a0b99824",
    "last_seen": "2026-10-27T04:17:16Z",
    "mentions": 1,
-   "name": "API lacking global state for graphics teaching",
+   "name": "No global state API for graphics teaching",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -369,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.403,
+   "score": 1.336,
    "sources": [
     "hn"
    ],
-   "summary": "Educators need a graphics API that avoids global state to simplify learning, but existing APIs rely on global variables, hindering clear instruction and modular design."
+   "summary": "Educators need a stateless graphics API to simplify learning, but existing APIs rely on global state, causing confusion and limiting flexibility."
   },
   {
    "id": "8f9baefe",
@@ -394,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.122,
+   "score": 1.068,
    "sources": [
     "hn"
    ],
@@ -419,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.086,
+   "score": 1.033,
    "sources": [
     "hn"
    ],
@@ -444,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 1.02,
+   "score": 0.971,
    "sources": [
     "hn"
    ],
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 0.993,
+   "score": 0.945,
    "sources": [
     "hn"
    ],
    "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
-  },
-  {
-   "id": "ba8474bc",
-   "last_seen": "2026-11-02T20:02:26Z",
-   "mentions": 1,
-   "name": "Lack of contextual history in science articles",
-   "pain": 1.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "paimapi",
-     "author_url": "https://news.ycombinator.com/user?id=paimapi",
-     "date": "2026-11-02T20:02:26Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…) study specifically related to anti-aging. I wish there was some nuanced line for science journalists to not hyperbolize about nothingburger studies in dire need of replication while also making the science exciting, slow of a process as…",
-     "url": "https://news.ycombinator.com/item?id=50342831"
-    }
-   ],
-   "score": 0.976,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Readers want historical background to better grasp scientific concepts, but current articles often omit context, leaving gaps in understanding."
   }
  ],
  "stats": {
-  "needs_found": 68,
-  "needs_in_window": 48,
-  "posts_classified": 133,
-  "problems_in_window": 48
+  "needs_found": 69,
+  "needs_in_window": 47,
+  "posts_classified": 137,
+  "problems_in_window": 47
  },
- "updated_at": "2026-11-03T08:00:00Z",
+ "updated_at": "2026-11-04T08:00:00Z",
  "window_days": 30
 }
