@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.789,
+   "score": 2.654,
    "sources": [
     "hn"
    ],
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.933,
+   "score": 1.839,
    "sources": [
     "hn"
    ],
@@ -69,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.883,
+   "score": 1.792,
    "sources": [
     "hn"
    ],
@@ -79,7 +79,7 @@
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
-   "name": "GCC flag for minimum branch target size in switch lowering",
+   "name": "GCC flag for minimum branch target size",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -94,17 +94,17 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.759,
+   "score": 1.674,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering to fine‑tune performance or code size, but GCC currently provides no such flag, leaving them unable to control this behavior."
+   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering, but GCC currently lacks such a flag, limiting fine‑tuned performance optimization."
   },
   {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch lacking heart rate only feature",
+   "name": "Casio watch without heart rate tracking",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -119,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.698,
+   "score": 1.616,
    "sources": [
     "hn"
    ],
@@ -144,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.69,
+   "score": 1.609,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and current solutions rely on web browsers or third‑party apps that lack full functionality and official support."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   },
   {
    "id": "d2237cc3",
@@ -169,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.684,
+   "score": 1.603,
    "sources": [
     "hn"
    ],
@@ -194,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.673,
+   "score": 1.593,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal offers no built‑in work mode, forcing them to use separate devices or accounts."
+   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal lacks a dedicated work mode."
   },
   {
    "id": "3ec82b84",
@@ -219,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.6,
+   "score": 1.522,
    "sources": [
     "hn"
    ],
-   "summary": "Users want FaceID on the iPhone Duo for quick, secure unlocking, but the device lacks the necessary hardware and software support, leaving them with only password or Touch ID alternatives."
+   "summary": "Users want FaceID for quick, secure unlocking and payments on the dual‑screen iPhone Duo, but the device lacks the hardware, forcing reliance on Touch ID or passcode."
   },
   {
    "id": "70c2ab66",
@@ -244,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.598,
+   "score": 1.521,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
+   "summary": "Users need a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -269,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.593,
+   "score": 1.516,
    "sources": [
     "hn"
    ],
@@ -294,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.592,
+   "score": 1.515,
    "sources": [
     "hn"
    ],
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.582,
+   "score": 1.506,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a more efficient, compact encoding that reduces storage and bandwidth, but Unicode’s 16/32‑bit scheme is too large and lacks true compression."
+   "summary": "Users want a more efficient, compact encoding that reduces storage and bandwidth, but Unicode's 16/32‑bit scheme is too large and lacks true compression."
   },
   {
    "id": "e6835b95",
@@ -344,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.406,
+   "score": 1.338,
    "sources": [
     "hn"
    ],
@@ -369,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.39,
+   "score": 1.323,
    "sources": [
     "hn"
    ],
@@ -394,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.336,
+   "score": 1.271,
    "sources": [
     "hn"
    ],
@@ -404,7 +404,7 @@
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Virtual guitar VST plugin",
+   "name": "Realistic guitar VST plugin",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -419,17 +419,17 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.068,
+   "score": 1.016,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a realistic, expressive virtual guitar plugin that captures nuance and articulation, but current options either sound artificial, lack dynamic control, or are prohibitively expensive."
+   "summary": "Users want a realistic, expressive guitar sound in a VST plugin, but existing options are either too expensive, lack nuanced articulations, or produce artificial tones."
   },
   {
    "id": "8d9a039f",
    "last_seen": "2026-10-13T19:14:08Z",
    "mentions": 1,
-   "name": "Code hosting platform with Anthropic AI",
+   "name": "GitHub alternative with Anthropic AI",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -444,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50077048"
     }
    ],
-   "score": 1.033,
+   "score": 0.983,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GitHub‑style repository and collaboration tool that natively integrates Anthropic’s AI for code review, generation, and assistance, but current services either lack AI features or rely on other providers, leaving a gap for a unified solution."
+   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
   },
   {
    "id": "975fd37b",
@@ -469,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50169860"
     }
    ],
-   "score": 0.971,
+   "score": 0.924,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites without coding, but existing solutions are either web‑based, overly complex, or lack robust design features."
+   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web‑based, overly complex, or lack intuitive drag‑and‑drop features."
   },
   {
    "id": "822f619f",
@@ -494,7 +494,7 @@
      "url": "https://news.ycombinator.com/item?id=50161465"
     }
    ],
-   "score": 0.945,
+   "score": 0.9,
    "sources": [
     "hn"
    ],
@@ -503,10 +503,10 @@
  ],
  "stats": {
   "needs_found": 69,
-  "needs_in_window": 47,
-  "posts_classified": 137,
-  "problems_in_window": 47
+  "needs_in_window": 46,
+  "posts_classified": 143,
+  "problems_in_window": 46
  },
- "updated_at": "2026-11-04T08:00:00Z",
+ "updated_at": "2026-11-05T08:00:00Z",
  "window_days": 30
 }

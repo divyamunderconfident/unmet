@@ -791,6 +791,36 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50364243": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50366244": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50373320": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50373614": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50374029": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
@@ -810,6 +840,12 @@
   "problem": ""
  },
  "se:stackoverflow:80013017": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "se:stackoverflow:80014671": {
   "is_need": false,
   "pain": 0,
   "pay_signal": false,
