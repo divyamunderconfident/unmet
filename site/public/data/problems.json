@@ -1,6 +1,56 @@
 {
  "problems": [
   {
+   "id": "db22e443",
+   "last_seen": "2026-11-05T22:24:25Z",
+   "mentions": 1,
+   "name": "Limited search results in Kagi",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "superkuh",
+     "author_url": "https://news.ycombinator.com/user?id=superkuh",
+     "date": "2026-11-05T22:24:25Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…find serendipitous things related to the intended search. I really miss and would pay for the ability to read and select search results myself instead of having them curated for me by some algorithm. Or at least give me a couple thousand…",
+     "url": "https://news.ycombinator.com/item?id=50385353"
+    }
+   ],
+   "score": 2.941,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
+  },
+  {
+   "id": "c99e56dd",
+   "last_seen": "2026-11-05T17:17:51Z",
+   "mentions": 1,
+   "name": "Non-wireless Android device for exams",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "mapierce2",
+     "author_url": "https://news.ycombinator.com/user?id=mapierce2",
+     "date": "2026-11-05T17:17:51Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a device that had the same form-factor as an android phone, touch screen and pocket-sized, but without any of the wireless networking capabilities, and ideally without the camera and mic too. Still would need a usb-c port…",
+     "url": "https://news.ycombinator.com/item?id=50381690"
+    }
+   ],
+   "score": 2.91,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+  },
+  {
    "id": "59b974be",
    "last_seen": "2026-11-02T20:39:46Z",
    "mentions": 1,
@@ -19,11 +69,36 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.654,
+   "score": 2.526,
    "sources": [
     "hn"
    ],
    "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
+  },
+  {
+   "id": "35fbe7ba",
+   "last_seen": "2026-11-05T14:15:56Z",
+   "mentions": 1,
+   "name": "Missing CVE for musl vulnerability",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "gquere",
+     "author_url": "https://news.ycombinator.com/user?id=gquere",
+     "date": "2026-11-05T14:15:56Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "Why is this not yet published on the official website and why is there no CVE? https://www.openssh.org/security.html Edit: My bad as pointed below this is not in OpenSSH but in musl and it appears in the relase notes…",
+     "url": "https://news.ycombinator.com/item?id=50379327"
+    }
+   ],
+   "score": 1.928,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering tracking, reporting, and patch management."
   },
   {
    "id": "13d93922",
@@ -44,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.839,
+   "score": 1.75,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or block audio and video access on a per‑website basis, but browsers only offer global permission settings or no granular control, leaving them unable to manage media permissions site‑by‑site."
+   "summary": "Users want to enable or block audio/video on a per‑website basis, but browsers only offer global or limited controls, leaving them unable to manage permissions for individual sites."
   },
   {
    "id": "725200e6",
@@ -69,17 +144,17 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.792,
+   "score": 1.706,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
+   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and navigation features."
   },
   {
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
-   "name": "GCC flag for minimum branch target size",
+   "name": "GCC flag for minimum branch target size in switch lowering",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -94,17 +169,17 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.674,
+   "score": 1.594,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering, but GCC currently lacks such a flag, limiting fine‑tuned performance optimization."
+   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering to fine‑tune performance or code size, but GCC currently provides no such flag, leaving them unable to control this behavior."
   },
   {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch without heart rate tracking",
+   "name": "Casio watch lacking heart rate tracking",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -119,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.616,
+   "score": 1.538,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack HR monitoring or include too many extra features."
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current Casio models either lack HR monitoring or include many unnecessary features."
   },
   {
    "id": "eb7e8f0c",
@@ -144,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.609,
+   "score": 1.531,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and current solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   },
   {
    "id": "d2237cc3",
@@ -169,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.603,
+   "score": 1.525,
    "sources": [
     "hn"
    ],
@@ -194,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.593,
+   "score": 1.516,
    "sources": [
     "hn"
    ],
@@ -204,7 +279,7 @@
    "id": "3ec82b84",
    "last_seen": "2026-10-30T19:42:54Z",
    "mentions": 1,
-   "name": "FaceID missing on iPhone Duo",
+   "name": "FaceID on iPhone Duo",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -219,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.522,
+   "score": 1.449,
    "sources": [
     "hn"
    ],
-   "summary": "Users want FaceID for quick, secure unlocking and payments on the dual‑screen iPhone Duo, but the device lacks the hardware, forcing reliance on Touch ID or passcode."
+   "summary": "Users want FaceID on the dual‑screen iPhone Duo for quick, secure unlocking and payments, but the device lacks the necessary hardware, forcing reliance on Touch ID or passcode."
   },
   {
    "id": "70c2ab66",
@@ -244,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.521,
+   "score": 1.447,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
+   "summary": "People want a free email service that offers privacy, ample storage, and a clean interface, but existing free providers rely on ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -269,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.516,
+   "score": 1.443,
    "sources": [
     "hn"
    ],
@@ -294,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.515,
+   "score": 1.442,
    "sources": [
     "hn"
    ],
@@ -304,7 +379,7 @@
    "id": "16c40056",
    "last_seen": "2026-10-30T14:19:28Z",
    "mentions": 1,
-   "name": "Better text encoding than Unicode",
+   "name": "Need improved text encoding beyond Unicode",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -319,17 +394,17 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.506,
+   "score": 1.433,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a more efficient, compact encoding that reduces storage and bandwidth, but Unicode's 16/32‑bit scheme is too large and lacks true compression."
+   "summary": "Users want a more compact, efficient, or expressive encoding that can represent all characters without Unicode’s complexity, but existing alternatives lack universal coverage or widespread adoption."
   },
   {
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay-per-page AI crawler pricing problem",
+   "name": "Pay‑per‑page AI crawler cost",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -344,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.338,
+   "score": 1.274,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, scalable pay‑per‑page AI crawler, but current services are overpriced, lack granular billing, and don’t scale to large volumes."
+   "summary": "Users need to crawl large volumes of web pages with AI but current services charge per page, making large‑scale projects prohibitively expensive."
   },
   {
    "id": "e184e966",
@@ -369,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50267357"
     }
    ],
-   "score": 1.323,
+   "score": 1.259,
    "sources": [
     "hn"
    ],
@@ -394,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50254656"
     }
    ],
-   "score": 1.271,
+   "score": 1.21,
    "sources": [
     "hn"
    ],
@@ -404,7 +479,7 @@
    "id": "8f9baefe",
    "last_seen": "2026-10-14T11:16:35Z",
    "mentions": 1,
-   "name": "Realistic guitar VST plugin",
+   "name": "Realistic virtual guitar VST",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -419,94 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50085840"
     }
    ],
-   "score": 1.016,
+   "score": 0.967,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a realistic, expressive guitar sound in a VST plugin, but existing options are either too expensive, lack nuanced articulations, or produce artificial tones."
-  },
-  {
-   "id": "8d9a039f",
-   "last_seen": "2026-10-13T19:14:08Z",
-   "mentions": 1,
-   "name": "GitHub alternative with Anthropic AI",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "herpdyderp",
-     "author_url": "https://news.ycombinator.com/user?id=herpdyderp",
-     "date": "2026-10-13T19:14:08Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…using it on day one. If they launched a GitHub competitor built around it I would pay for it on day one.",
-     "url": "https://news.ycombinator.com/item?id=50077048"
-    }
-   ],
-   "score": 0.983,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Developers want a code‑hosting platform that natively integrates Anthropic’s AI for code review, generation, and assistance, but current GitHub competitors either lack AI features or rely on other providers, leaving a gap for a unified solution."
-  },
-  {
-   "id": "975fd37b",
-   "last_seen": "2026-10-20T17:36:17Z",
-   "mentions": 1,
-   "name": "Desktop app for easy website creation",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "privacyishuman",
-     "author_url": "https://news.ycombinator.com/user?id=privacyishuman",
-     "date": "2026-10-20T17:36:17Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Why is there no GUI desktop app that lets you easily make a website?",
-     "url": "https://news.ycombinator.com/item?id=50169860"
-    }
-   ],
-   "score": 0.924,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a simple, offline-capable desktop tool to build websites quickly, but existing solutions are either web‑based, overly complex, or lack intuitive drag‑and‑drop features."
-  },
-  {
-   "id": "822f619f",
-   "last_seen": "2026-10-20T04:44:56Z",
-   "mentions": 1,
-   "name": "Cheap Android TV box with free OS",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "drnick1",
-     "author_url": "https://news.ycombinator.com/user?id=drnick1",
-     "date": "2026-10-20T04:44:56Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a reasonably cheap, sufficiently powerful TV box compatible with a free distribution Android TV. Something like Graphene/Lineage for TVs. Lineage does in fact have some TV builds, but there is basically no suitable new…",
-     "url": "https://news.ycombinator.com/item?id=50161465"
-    }
-   ],
-   "score": 0.9,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want an inexpensive Android TV box that runs a free distribution, but existing devices are pricey or require paid software, leaving a gap in affordable, open‑source solutions."
+   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
   }
  ],
  "stats": {
-  "needs_found": 69,
-  "needs_in_window": 46,
-  "posts_classified": 143,
-  "problems_in_window": 46
+  "needs_found": 72,
+  "needs_in_window": 49,
+  "posts_classified": 148,
+  "problems_in_window": 49
  },
- "updated_at": "2026-11-05T08:00:00Z",
+ "updated_at": "2026-11-06T08:00:00Z",
  "window_days": 30
 }

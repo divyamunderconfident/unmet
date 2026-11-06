@@ -821,6 +821,36 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50379327": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Missing CVE for musl vulnerability"
+ },
+ "hn:50381690": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Non-wireless Android device for exams"
+ },
+ "hn:50382867": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50385353": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Limited search results in Kagi"
+ },
+ "hn:50386136": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

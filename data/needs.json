@@ -895,5 +895,44 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50353164"
+ },
+ {
+  "author": "gquere",
+  "author_url": "https://news.ycombinator.com/user?id=gquere",
+  "created_at": 1793888156,
+  "id": "hn:50379327",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Missing CVE for musl vulnerability",
+  "quote": "Why is this not yet published on the official website and why is there no CVE? https://www.openssh.org/security.html Edit: My bad as pointed below this is not in OpenSSH but in musl and it appears in the relase notes…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50379327"
+ },
+ {
+  "author": "mapierce2",
+  "author_url": "https://news.ycombinator.com/user?id=mapierce2",
+  "created_at": 1793899071,
+  "id": "hn:50381690",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Non-wireless Android device for exams",
+  "quote": "I wish there was a device that had the same form-factor as an android phone, touch screen and pocket-sized, but without any of the wireless networking capabilities, and ideally without the camera and mic too. Still would need a usb-c port…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50381690"
+ },
+ {
+  "author": "superkuh",
+  "author_url": "https://news.ycombinator.com/user?id=superkuh",
+  "created_at": 1793917465,
+  "id": "hn:50385353",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Limited search results in Kagi",
+  "quote": "…find serendipitous things related to the intended search. I really miss and would pay for the ability to read and select search results myself instead of having them curated for me by some algorithm. Or at least give me a couple thousand…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50385353"
  }
 ]
