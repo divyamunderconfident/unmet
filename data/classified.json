@@ -851,6 +851,42 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50391275": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Filter non-AI apps in App Store"
+ },
+ "hn:50391815": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50392919": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Provider/server for Max model in US"
+ },
+ "hn:50395774": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50396560": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Direct connection to HV system for battery charging"
+ },
+ "hn:50397381": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
@@ -876,6 +912,12 @@
   "problem": ""
  },
  "se:stackoverflow:80014671": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "se:stackoverflow:80015199": {
   "is_need": false,
   "pain": 0,
   "pay_signal": false,

@@ -934,5 +934,44 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50385353"
+ },
+ {
+  "author": "bemtevi",
+  "author_url": "https://news.ycombinator.com/user?id=bemtevi",
+  "created_at": 1793966036,
+  "id": "hn:50391275",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Filter non-AI apps in App Store",
+  "quote": "I wish there was a filter in the app store to filter and only show apps that having nothing to do with AI. It's become increasingly hard to find a decent, non-AI app these days.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50391275"
+ },
+ {
+  "author": "syntaxing",
+  "author_url": "https://news.ycombinator.com/user?id=syntaxing",
+  "created_at": 1793976223,
+  "id": "hn:50392919",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Provider/server for Max model in US",
+  "quote": "…focus on their open weight models. I use Qwen 3.8 and it's been amazing. I would pay for Max but there's no provider or server here in the states. If they had an amazing Gemma 5, I would seriously consider trying their closed source…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50392919"
+ },
+ {
+  "author": "xur17",
+  "author_url": "https://news.ycombinator.com/user?id=xur17",
+  "created_at": 1793990811,
+  "id": "hn:50396560",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Direct connection to HV system for battery charging",
+  "quote": "…tapping into the HV system manually to keep my Ecoflow battery topped up, but I wish there was a way to directly connect it.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50396560"
  }
 ]

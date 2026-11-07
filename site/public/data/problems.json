@@ -1,6 +1,31 @@
 {
  "problems": [
   {
+   "id": "b3ae4ed7",
+   "last_seen": "2026-11-06T14:43:43Z",
+   "mentions": 1,
+   "name": "US-based Max model hosting",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "syntaxing",
+     "author_url": "https://news.ycombinator.com/user?id=syntaxing",
+     "date": "2026-11-06T14:43:43Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…focus on their open weight models. I use Qwen 3.8 and it's been amazing. I would pay for Max but there's no provider or server here in the states. If they had an amazing Gemma 5, I would seriously consider trying their closed source…",
+     "url": "https://news.ycombinator.com/item?id=50392919"
+    }
+   ],
+   "score": 2.895,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a US-hosted server for the Max model but existing providers are overseas or lack support, leading to high latency and compliance concerns."
+  },
+  {
    "id": "db22e443",
    "last_seen": "2026-11-05T22:24:25Z",
    "mentions": 1,
@@ -19,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.941,
+   "score": 2.799,
    "sources": [
     "hn"
    ],
@@ -44,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.91,
+   "score": 2.77,
    "sources": [
     "hn"
    ],
@@ -69,11 +94,61 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.526,
+   "score": 2.404,
    "sources": [
     "hn"
    ],
    "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
+  },
+  {
+   "id": "e2b66651",
+   "last_seen": "2026-11-06T18:46:51Z",
+   "mentions": 1,
+   "name": "Direct HV connection for battery charging",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "xur17",
+     "author_url": "https://news.ycombinator.com/user?id=xur17",
+     "date": "2026-11-06T18:46:51Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…tapping into the HV system manually to keep my Ecoflow battery topped up, but I wish there was a way to directly connect it.",
+     "url": "https://news.ycombinator.com/item?id=50396560"
+    }
+   ],
+   "score": 1.946,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a simple, safe way to connect directly to a high‑voltage system for battery charging, but existing solutions are either too complex, lack proper safety features, or are not compatible with common vehicle architectures."
+  },
+  {
+   "id": "ffe48861",
+   "last_seen": "2026-11-06T11:53:56Z",
+   "mentions": 1,
+   "name": "Filter non-AI apps in App Store",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "bemtevi",
+     "author_url": "https://news.ycombinator.com/user?id=bemtevi",
+     "date": "2026-11-06T11:53:56Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a filter in the app store to filter and only show apps that having nothing to do with AI. It's become increasingly hard to find a decent, non-AI app these days.",
+     "url": "https://news.ycombinator.com/item?id=50391275"
+    }
+   ],
+   "score": 1.919,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI category or filter, making it hard to distinguish AI from non-AI apps."
   },
   {
    "id": "35fbe7ba",
@@ -94,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.928,
+   "score": 1.835,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering tracking, reporting, and patch management."
+   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering vulnerability tracking, reporting, and patch management."
   },
   {
    "id": "13d93922",
@@ -119,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.75,
+   "score": 1.666,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or block audio/video on a per‑website basis, but browsers only offer global or limited controls, leaving them unable to manage permissions for individual sites."
+   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but current browser settings are either global or too coarse, lacking a convenient UI for fine‑grained control."
   },
   {
    "id": "725200e6",
@@ -144,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.706,
+   "score": 1.623,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and navigation features."
+   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
   },
   {
    "id": "7fc943ec",
@@ -169,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.594,
+   "score": 1.517,
    "sources": [
     "hn"
    ],
@@ -179,7 +254,7 @@
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch lacking heart rate tracking",
+   "name": "Casio watch lacking heart rate only feature",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -194,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.538,
+   "score": 1.464,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple Casio watch that tracks heart rate, but current Casio models either lack HR monitoring or include many unnecessary features."
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack HR monitoring or include too many extra features."
   },
   {
    "id": "eb7e8f0c",
@@ -219,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.531,
+   "score": 1.457,
    "sources": [
     "hn"
    ],
@@ -244,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.525,
+   "score": 1.452,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to view the newest HackerTube videos first, but the platform only offers default or alphabetical sorting, leaving them unable to see recent uploads."
+   "summary": "Users want to view the newest HackerTube videos first, but the platform only offers default or popularity sorting, leaving them unable to see recent uploads."
   },
   {
    "id": "08388f0c",
@@ -269,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.516,
+   "score": 1.442,
    "sources": [
     "hn"
    ],
@@ -279,7 +354,7 @@
    "id": "3ec82b84",
    "last_seen": "2026-10-30T19:42:54Z",
    "mentions": 1,
-   "name": "FaceID on iPhone Duo",
+   "name": "FaceID missing on iPhone Duo",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -294,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.449,
+   "score": 1.379,
    "sources": [
     "hn"
    ],
-   "summary": "Users want FaceID on the dual‑screen iPhone Duo for quick, secure unlocking and payments, but the device lacks the necessary hardware, forcing reliance on Touch ID or passcode."
+   "summary": "Users want FaceID functionality on the iPhone Duo, but the device lacks the necessary hardware and software support, leaving them without a convenient biometric unlock option."
   },
   {
    "id": "70c2ab66",
@@ -319,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.447,
+   "score": 1.377,
    "sources": [
     "hn"
    ],
-   "summary": "People want a free email service that offers privacy, ample storage, and a clean interface, but existing free providers rely on ads, limit storage, or compromise privacy."
+   "summary": "Users want a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -344,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.443,
+   "score": 1.373,
    "sources": [
     "hn"
    ],
@@ -369,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.442,
+   "score": 1.372,
    "sources": [
     "hn"
    ],
-   "summary": "Users cannot create support cases on LinkedIn due to error messages, and existing help resources do not provide a clear workaround."
+   "summary": "Users cannot create support cases on LinkedIn due to error messages or interface failures, and existing help resources do not provide clear troubleshooting steps."
   },
   {
    "id": "16c40056",
@@ -394,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.433,
+   "score": 1.364,
    "sources": [
     "hn"
    ],
@@ -404,7 +479,7 @@
    "id": "e6835b95",
    "last_seen": "2026-10-20T00:45:10Z",
    "mentions": 1,
-   "name": "Pay‑per‑page AI crawler cost",
+   "name": "Pay‑per‑page AI crawler cost issue",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -419,94 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50159933"
     }
    ],
-   "score": 1.274,
+   "score": 1.212,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to crawl large volumes of web pages with AI but current services charge per page, making large‑scale projects prohibitively expensive."
-  },
-  {
-   "id": "e184e966",
-   "last_seen": "2026-10-27T23:30:31Z",
-   "mentions": 1,
-   "name": "Lean framework for drug discovery",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "daemonk",
-     "author_url": "https://news.ycombinator.com/user?id=daemonk",
-     "date": "2026-10-27T23:30:31Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was something like LEAN for biology. But there just isn't nearly enough data to build anything close to a good drug discovery simulator. To have a LEAN for drug discovery, we would need to simulate human physiology down to the…",
-     "url": "https://news.ycombinator.com/item?id=50267357"
-    }
-   ],
-   "score": 1.259,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Researchers want a rapid, cost‑effective, iterative process to accelerate drug discovery, but existing pipelines are slow, expensive, and lack continuous feedback loops."
-  },
-  {
-   "id": "a0b99824",
-   "last_seen": "2026-10-27T04:17:16Z",
-   "mentions": 1,
-   "name": "No global state API for graphics teaching",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "avaer",
-     "author_url": "https://news.ycombinator.com/user?id=avaer",
-     "date": "2026-10-27T04:17:16Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "GLES isn't a bad way to teach graphics but I wish there was a middle ground between it and VK. The worst part of GL is the mysterious global state you will never understand without studying the spec. The world could use an API that's…",
-     "url": "https://news.ycombinator.com/item?id=50254656"
-    }
-   ],
-   "score": 1.21,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Educators need a stateless graphics API to simplify learning, but existing APIs rely on global state, causing confusion and limiting flexibility."
-  },
-  {
-   "id": "8f9baefe",
-   "last_seen": "2026-10-14T11:16:35Z",
-   "mentions": 1,
-   "name": "Realistic virtual guitar VST",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "tuzemec",
-     "author_url": "https://news.ycombinator.com/user?id=tuzemec",
-     "date": "2026-10-14T11:16:35Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I would pay for this in a VST form",
-     "url": "https://news.ycombinator.com/item?id=50085840"
-    }
-   ],
-   "score": 0.967,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a VST plugin that accurately simulates guitar playing with expressive control, but current options are either too synthetic, lack real‑time playability, or are prohibitively expensive."
+   "summary": "Users need to crawl large volumes of web pages with AI but pay‑per‑page pricing is prohibitively expensive and inflexible, forcing them to abandon or limit their projects."
   }
  ],
  "stats": {
-  "needs_found": 72,
-  "needs_in_window": 49,
-  "posts_classified": 148,
-  "problems_in_window": 49
+  "needs_found": 75,
+  "needs_in_window": 51,
+  "posts_classified": 155,
+  "problems_in_window": 51
  },
- "updated_at": "2026-11-06T08:00:00Z",
+ "updated_at": "2026-11-07T08:00:00Z",
  "window_days": 30
 }
