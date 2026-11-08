@@ -973,5 +973,31 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50396560"
+ },
+ {
+  "author": "source99",
+  "author_url": "https://news.ycombinator.com/user?id=source99",
+  "created_at": 1794082354,
+  "id": "hn:50407616",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Compilation of processor die images and details",
+  "quote": "I would pay for this as a high quality book. Ideally some info and detail about each processor. Anyone else?",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50407616"
+ },
+ {
+  "author": "Fire-Dragon-DoL",
+  "author_url": "https://news.ycombinator.com/user?id=Fire-Dragon-DoL",
+  "created_at": 1794115320,
+  "id": "hn:50410625",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Linux version of blink rhythm companion",
+  "quote": "I wish there was a Linux version!",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50410625"
  }
 ]

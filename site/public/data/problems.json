@@ -1,6 +1,31 @@
 {
  "problems": [
   {
+   "id": "5fdb0192",
+   "last_seen": "2026-11-07T20:12:34Z",
+   "mentions": 1,
+   "name": "Centralized processor die image repository",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "source99",
+     "author_url": "https://news.ycombinator.com/user?id=source99",
+     "date": "2026-11-07T20:12:34Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I would pay for this as a high quality book. Ideally some info and detail about each processor. Anyone else?",
+     "url": "https://news.ycombinator.com/item?id=50407616"
+    }
+   ],
+   "score": 2.928,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a single, comprehensive source of processor die images and specifications, but existing resources are fragmented, incomplete, and hard to navigate."
+  },
+  {
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
@@ -19,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 2.895,
+   "score": 2.755,
    "sources": [
     "hn"
    ],
@@ -44,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.799,
+   "score": 2.664,
    "sources": [
     "hn"
    ],
@@ -69,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.77,
+   "score": 2.636,
    "sources": [
     "hn"
    ],
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.404,
+   "score": 2.288,
    "sources": [
     "hn"
    ],
@@ -119,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.946,
+   "score": 1.852,
    "sources": [
     "hn"
    ],
@@ -144,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.919,
+   "score": 1.826,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI category or filter, making it hard to distinguish AI from non-AI apps."
+   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI filter, making it hard to exclude non-AI apps."
   },
   {
    "id": "35fbe7ba",
@@ -169,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.835,
+   "score": 1.746,
    "sources": [
     "hn"
    ],
@@ -194,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.666,
+   "score": 1.585,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but current browser settings are either global or too coarse, lacking a convenient UI for fine‑grained control."
+   "summary": "Users want to enable or block audio and video capture on a per‑website basis, but browsers only offer global settings or lack fine‑grained controls, leaving them unable to manage permissions for individual sites."
   },
   {
    "id": "725200e6",
@@ -219,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.623,
+   "score": 1.545,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
+   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
   },
   {
    "id": "7fc943ec",
@@ -244,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.517,
+   "score": 1.443,
    "sources": [
     "hn"
    ],
@@ -254,7 +279,7 @@
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch lacking heart rate only feature",
+   "name": "Casio watch lacking heart rate tracking",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -269,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.464,
+   "score": 1.393,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack HR monitoring or include too many extra features."
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current Casio models either lack HR monitoring or include many unnecessary features."
   },
   {
    "id": "eb7e8f0c",
@@ -294,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.457,
+   "score": 1.387,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and current solutions rely on web browsers or third‑party apps that lack full functionality and official support."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   },
   {
    "id": "d2237cc3",
@@ -319,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.452,
+   "score": 1.381,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to view the newest HackerTube videos first, but the platform only offers default or popularity sorting, leaving them unable to see recent uploads."
+   "summary": "Users want to view the newest HackerTube videos first, but the platform only offers default or alphabetical sorting, leaving them unable to see recent uploads."
   },
   {
    "id": "08388f0c",
@@ -344,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.442,
+   "score": 1.373,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal lacks a dedicated work mode."
+   "summary": "Users want to keep work and personal Signal accounts separate on iOS, but iOS doesn’t support work profiles and Signal offers no built‑in work mode, forcing them to use separate devices or accounts."
   },
   {
    "id": "3ec82b84",
@@ -369,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.379,
+   "score": 1.312,
    "sources": [
     "hn"
    ],
-   "summary": "Users want FaceID functionality on the iPhone Duo, but the device lacks the necessary hardware and software support, leaving them without a convenient biometric unlock option."
+   "summary": "Users want FaceID on the iPhone Duo for quick, secure unlocking, but the device lacks the necessary hardware and software support, leaving them with only password or Touch ID alternatives."
   },
   {
    "id": "70c2ab66",
@@ -394,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.377,
+   "score": 1.311,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
+   "summary": "People want a free email service that offers privacy, ample storage, and a clean interface, but existing free providers rely on ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -419,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.373,
+   "score": 1.307,
    "sources": [
     "hn"
    ],
@@ -444,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50307092"
     }
    ],
-   "score": 1.372,
+   "score": 1.306,
    "sources": [
     "hn"
    ],
-   "summary": "Users cannot create support cases on LinkedIn due to error messages or interface failures, and existing help resources do not provide clear troubleshooting steps."
+   "summary": "Users cannot create support cases on LinkedIn; the platform shows an error or blocks the form, and existing help resources do not provide a clear workaround."
   },
   {
    "id": "16c40056",
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50304295"
     }
    ],
-   "score": 1.364,
+   "score": 1.298,
    "sources": [
     "hn"
    ],
    "summary": "Users want a more compact, efficient, or expressive encoding that can represent all characters without Unicode’s complexity, but existing alternatives lack universal coverage or widespread adoption."
-  },
-  {
-   "id": "e6835b95",
-   "last_seen": "2026-10-20T00:45:10Z",
-   "mentions": 1,
-   "name": "Pay‑per‑page AI crawler cost issue",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "adrianwaj",
-     "author_url": "https://news.ycombinator.com/user?id=adrianwaj",
-     "date": "2026-10-20T00:45:10Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…that hasn't yet been released. They could also propose content that they would pay for. Once that threshold has been reached, the content get delivered either after creation or instantly. It also goes public at that point. There will be…",
-     "url": "https://news.ycombinator.com/item?id=50159933"
-    }
-   ],
-   "score": 1.212,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need to crawl large volumes of web pages with AI but pay‑per‑page pricing is prohibitively expensive and inflexible, forcing them to abandon or limit their projects."
   }
  ],
  "stats": {
-  "needs_found": 75,
+  "needs_found": 77,
   "needs_in_window": 51,
-  "posts_classified": 155,
+  "posts_classified": 157,
   "problems_in_window": 51
  },
- "updated_at": "2026-11-07T08:00:00Z",
+ "updated_at": "2026-11-08T08:00:00Z",
  "window_days": 30
 }
