@@ -899,6 +899,18 @@
   "pay_signal": false,
   "problem": "Linux version of blink rhythm companion"
  },
+ "hn:50418071": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50419354": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
