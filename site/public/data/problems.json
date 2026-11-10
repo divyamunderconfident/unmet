@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 2.786,
+   "score": 2.646,
    "sources": [
     "hn"
    ],
@@ -29,7 +29,7 @@
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US-based Max model hosting",
+   "name": "US Max model hosting provider",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -44,11 +44,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 2.622,
+   "score": 2.49,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency and compliance concerns."
+   "summary": "Users need a US-based server to host the Max model for compliance and low latency, but current options are overseas or lack support."
   },
   {
    "id": "db22e443",
@@ -69,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.535,
+   "score": 2.408,
    "sources": [
     "hn"
    ],
@@ -94,11 +94,11 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.509,
+   "score": 2.383,
    "sources": [
     "hn"
    ],
-   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Users need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
   },
   {
    "id": "59b974be",
@@ -119,11 +119,61 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.177,
+   "score": 2.068,
    "sources": [
     "hn"
    ],
    "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
+  },
+  {
+   "id": "775be560",
+   "last_seen": "2026-11-10T04:31:02Z",
+   "mentions": 1,
+   "name": "Kid usage monitoring app",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "kirkenshrir",
+     "author_url": "https://news.ycombinator.com/user?id=kirkenshrir",
+     "date": "2026-11-10T04:31:02Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I'm a PC/Android guy but I'd love an app like this! I have kids but i don't want to always have to input a pin whenever i step away from the computer in my own home. They can use it when i say it's okay but I don't like them hopping on…",
+     "url": "https://news.ycombinator.com/item?id=50436082"
+    }
+   ],
+   "score": 1.982,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Parents need reliable, non‑intrusive monitoring of children’s device usage, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
+  },
+  {
+   "id": "5d4987ce",
+   "last_seen": "2026-11-09T16:26:30Z",
+   "mentions": 1,
+   "name": "GPU arbitrage marketplace",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "qoez",
+     "author_url": "https://news.ycombinator.com/user?id=qoez",
+     "date": "2026-11-09T16:26:30Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was some kind of GPU marketplace so one could just arb this opportunity.",
+     "url": "https://news.ycombinator.com/item?id=50427769"
+    }
+   ],
+   "score": 1.933,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
   },
   {
    "id": "e2b66651",
@@ -144,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.763,
+   "score": 1.674,
    "sources": [
     "hn"
    ],
@@ -169,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.738,
+   "score": 1.651,
    "sources": [
     "hn"
    ],
@@ -194,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.662,
+   "score": 1.578,
    "sources": [
     "hn"
    ],
@@ -219,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.509,
+   "score": 1.433,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or block audio and video access on a per‑website basis, but current browsers only offer global or no granular permission settings."
+   "summary": "Users want to enable or disable audio/video capture on a per‑site basis, but browsers only offer global defaults or lack a convenient UI, making it hard to manage permissions for individual sites."
   },
   {
    "id": "725200e6",
@@ -244,17 +294,17 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.47,
+   "score": 1.396,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
+   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and navigation features."
   },
   {
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
-   "name": "GCC flag for minimum branch target size in switch lowering",
+   "name": "Missing flag for minimum branch target size in GCC switch lowering",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -269,17 +319,17 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.374,
+   "score": 1.305,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering to optimize performance, but GCC currently lacks such a flag, limiting fine‑tuned control."
+   "summary": "Developers want a GCC compiler flag to set the minimum size of branch targets during switch statement lowering, but GCC currently provides no such option, resulting in suboptimal code generation."
   },
   {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch without heart rate tracking",
+   "name": "Casio watch lacking heart rate only feature",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -294,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.326,
+   "score": 1.259,
    "sources": [
     "hn"
    ],
@@ -319,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.32,
+   "score": 1.253,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but existing solutions rely on web browsers or unofficial apps that lack proper navigation, search, and offline support."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and current solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   },
   {
    "id": "d2237cc3",
@@ -344,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50319936"
     }
    ],
-   "score": 1.315,
+   "score": 1.249,
    "sources": [
     "hn"
    ],
@@ -369,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50318165"
     }
    ],
-   "score": 1.306,
+   "score": 1.241,
    "sources": [
     "hn"
    ],
@@ -394,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50309177"
     }
    ],
-   "score": 1.249,
+   "score": 1.186,
    "sources": [
     "hn"
    ],
@@ -419,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50308806"
     }
    ],
-   "score": 1.248,
+   "score": 1.185,
    "sources": [
     "hn"
    ],
-   "summary": "People want a free email service that offers privacy, ample storage, and a clean interface, but existing free providers rely on ads, limit storage, or compromise privacy."
+   "summary": "Users want a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
   },
   {
    "id": "d074cfaf",
@@ -444,69 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50307576"
     }
    ],
-   "score": 1.244,
+   "score": 1.181,
    "sources": [
     "hn"
    ],
    "summary": "Developers need a reliable way to capture a process’s full context for debugging, but current utilities either lack depth, are platform‑specific, or require complex setup."
-  },
-  {
-   "id": "39d808f4",
-   "last_seen": "2026-10-30T17:19:39Z",
-   "mentions": 1,
-   "name": "LinkedIn support case creation error",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "rbmm",
-     "author_url": "https://news.ycombinator.com/user?id=rbmm",
-     "date": "2026-10-30T17:19:39Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…many times ( as example https://youtu.be/RRIm1ReQ_6A?t=221 (t=180) ) ? And why is there no reaction to it? It's as if it's been tacitly accepted.",
-     "url": "https://news.ycombinator.com/item?id=50307092"
-    }
-   ],
-   "score": 1.243,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users cannot create support cases on LinkedIn due to error messages, and existing help resources do not provide a clear workaround."
-  },
-  {
-   "id": "16c40056",
-   "last_seen": "2026-10-30T14:19:28Z",
-   "mentions": 1,
-   "name": "Unicode insufficient for all scripts",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "harpersealtako",
-     "author_url": "https://news.ycombinator.com/user?id=harpersealtako",
-     "date": "2026-10-30T14:19:28Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…perfect text encoding scheme. Why don't we have something better than unicode? Why is there no interest in making a unicode-but-better format which solves all the problems with unicode? The reason is, unicode is sufficiently good that the…",
-     "url": "https://news.ycombinator.com/item?id=50304295"
-    }
-   ],
-   "score": 1.235,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want an encoding that supports all scripts efficiently, but Unicode's size and complexity make it unwieldy for some applications."
   }
  ],
  "stats": {
-  "needs_found": 77,
-  "needs_in_window": 49,
-  "posts_classified": 159,
-  "problems_in_window": 49
+  "needs_found": 80,
+  "needs_in_window": 51,
+  "posts_classified": 162,
+  "problems_in_window": 51
  },
- "updated_at": "2026-11-09T08:00:00Z",
+ "updated_at": "2026-11-10T09:00:00Z",
  "window_days": 30
 }

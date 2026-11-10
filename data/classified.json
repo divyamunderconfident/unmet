@@ -911,6 +911,24 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50427769": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "GPU marketplace for arbitrage"
+ },
+ "hn:50431420": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Better agrivoltaic solar panels"
+ },
+ "hn:50436082": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Kid usage monitoring app"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

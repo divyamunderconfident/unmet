@@ -999,5 +999,44 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50410625"
+ },
+ {
+  "author": "qoez",
+  "author_url": "https://news.ycombinator.com/user?id=qoez",
+  "created_at": 1794241590,
+  "id": "hn:50427769",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "GPU marketplace for arbitrage",
+  "quote": "I wish there was some kind of GPU marketplace so one could just arb this opportunity.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50427769"
+ },
+ {
+  "author": "andrewflnr",
+  "author_url": "https://news.ycombinator.com/user?id=andrewflnr",
+  "created_at": 1794255690,
+  "id": "hn:50431420",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Better agrivoltaic solar panels",
+  "quote": "It's pretty bad. I hate it. I wish there was a better one but I'm pretty sure that ship has sailed. Let's try to do something smarter with space mining.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50431420"
+ },
+ {
+  "author": "kirkenshrir",
+  "author_url": "https://news.ycombinator.com/user?id=kirkenshrir",
+  "created_at": 1794285062,
+  "id": "hn:50436082",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Kid usage monitoring app",
+  "quote": "I'm a PC/Android guy but I'd love an app like this! I have kids but i don't want to always have to input a pin whenever i step away from the computer in my own home. They can use it when i say it's okay but I don't like them hopping on…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50436082"
  }
 ]
