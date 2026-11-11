@@ -1038,5 +1038,70 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50436082"
+ },
+ {
+  "author": "ProblemExplorer",
+  "author_url": "https://news.ycombinator.com/user?id=ProblemExplorer",
+  "created_at": 1794324324,
+  "id": "hn:50441710",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Unified smart home app for all devices",
+  "quote": "…really annoyed at installing a dozen apps for every smart bulb or fan I get. I wish there was just one app (and unfortunately, now I have to decide to stick to one brand) I have no horse in this race, nor am I saying these various apps…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50441710"
+ },
+ {
+  "author": "hugmynutus",
+  "author_url": "https://news.ycombinator.com/user?id=hugmynutus",
+  "created_at": 1794340659,
+  "id": "hn:50445475",
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Starlink plan lacks features for small customers",
+  "quote": "…The segmentation is strange as offering this as 'up-sell' is 100% businesses would pay for. You don't have to take my word on it, as there is a validated market of 'resellers' [2] where you functionally join the reseller's enterprise plan.…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50445475"
+ },
+ {
+  "author": "BeetleB",
+  "author_url": "https://news.ycombinator.com/user?id=BeetleB",
+  "created_at": 1794342946,
+  "id": "hn:50445943",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Auto-generate PowerPoint from data tool",
+  "quote": "…big companies operate. They also wanted us to autogenerate PowerPoint files. We gave up on that. The spec is a mess.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50445943"
+ },
+ {
+  "author": "jph",
+  "author_url": "https://news.ycombinator.com/user?id=jph",
+  "created_at": 1794381024,
+  "id": "hn:50450531",
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Efficient local AI model runtime for large codebases",
+  "quote": "If you ask who would pay for Apple local models, I would. A Mac Studio high end 512GB costs ~$1000/month for 3 years versus my current run rate of ~$1000/month for five devs for Claude Ultra (or ~$10k/week for Claude Sonnet if I paid API…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50450531"
+ },
+ {
+  "author": "computerfriend",
+  "author_url": "https://news.ycombinator.com/user?id=computerfriend",
+  "created_at": 1794383469,
+  "id": "hn:50450786",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Cache Touch for SSH key signing",
+  "quote": "I wish there was a way to cache the touch. As it stands, this is mostly unusable for commit signing in a rebase-heavy workflow.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50450786"
  }
 ]

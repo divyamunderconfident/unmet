@@ -929,6 +929,42 @@
   "pay_signal": false,
   "problem": "Kid usage monitoring app"
  },
+ "hn:50441710": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Unified smart home app for all devices"
+ },
+ "hn:50444709": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50445475": {
+  "is_need": true,
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Starlink plan lacks features for small customers"
+ },
+ "hn:50445943": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Auto-generate PowerPoint from data tool"
+ },
+ "hn:50450531": {
+  "is_need": true,
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Efficient local AI model runtime for large codebases"
+ },
+ "hn:50450786": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Cache Touch for SSH key signing"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

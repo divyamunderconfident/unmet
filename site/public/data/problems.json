@@ -1,6 +1,56 @@
 {
  "problems": [
   {
+   "id": "a5ae092a",
+   "last_seen": "2026-11-11T07:10:24Z",
+   "mentions": 1,
+   "name": "Local AI runtime for large codebases",
+   "pain": 3.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "jph",
+     "author_url": "https://news.ycombinator.com/user?id=jph",
+     "date": "2026-11-11T07:10:24Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "If you ask who would pay for Apple local models, I would. A Mac Studio high end 512GB costs ~$1000/month for 3 years versus my current run rate of ~$1000/month for five devs for Claude Ultra (or ~$10k/week for Claude Sonnet if I paid API…",
+     "url": "https://news.ycombinator.com/item?id=50450531"
+    }
+   ],
+   "score": 4.492,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers need to run large AI models locally on extensive codebases efficiently, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
+  },
+  {
+   "id": "db07bc53",
+   "last_seen": "2026-11-10T19:57:39Z",
+   "mentions": 1,
+   "name": "Starlink plan missing small business features",
+   "pain": 3.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "hugmynutus",
+     "author_url": "https://news.ycombinator.com/user?id=hugmynutus",
+     "date": "2026-11-10T19:57:39Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…The segmentation is strange as offering this as 'up-sell' is 100% businesses would pay for. You don't have to take my word on it, as there is a validated market of 'resellers' [2] where you functionally join the reseller's enterprise plan.…",
+     "url": "https://news.ycombinator.com/item?id=50445475"
+    }
+   ],
+   "score": 4.39,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+  },
+  {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
@@ -19,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 2.646,
+   "score": 2.524,
    "sources": [
     "hn"
    ],
@@ -29,7 +79,7 @@
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US Max model hosting provider",
+   "name": "US-based Max model hosting",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -44,11 +94,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 2.49,
+   "score": 2.375,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-based server to host the Max model for compliance and low latency, but current options are overseas or lack support."
+   "summary": "Users need a US-hosted server for the Max model but existing providers are overseas or lack support, leading to high latency and compliance concerns."
   },
   {
    "id": "db22e443",
@@ -69,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.408,
+   "score": 2.296,
    "sources": [
     "hn"
    ],
@@ -94,11 +144,36 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.383,
+   "score": 2.272,
    "sources": [
     "hn"
    ],
-   "summary": "Users need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+  },
+  {
+   "id": "f684a67b",
+   "last_seen": "2026-11-11T07:51:09Z",
+   "mentions": 1,
+   "name": "Cache SSH key signing",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "computerfriend",
+     "author_url": "https://news.ycombinator.com/user?id=computerfriend",
+     "date": "2026-11-11T07:51:09Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a way to cache the touch. As it stands, this is mostly unusable for commit signing in a rebase-heavy workflow.",
+     "url": "https://news.ycombinator.com/item?id=50450786"
+    }
+   ],
+   "score": 1.999,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to cache SSH key signing to reduce latency and avoid repeated signing, but existing solutions lack efficient caching or touch support."
   },
   {
    "id": "59b974be",
@@ -119,11 +194,61 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 2.068,
+   "score": 1.972,
    "sources": [
     "hn"
    ],
    "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
+  },
+  {
+   "id": "9077d631",
+   "last_seen": "2026-11-10T20:35:46Z",
+   "mentions": 1,
+   "name": "Auto-generate PowerPoint from data tool",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "BeetleB",
+     "author_url": "https://news.ycombinator.com/user?id=BeetleB",
+     "date": "2026-11-10T20:35:46Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…big companies operate. They also wanted us to autogenerate PowerPoint files. We gave up on that. The spec is a mess.",
+     "url": "https://news.ycombinator.com/item?id=50445943"
+    }
+   ],
+   "score": 1.953,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+  },
+  {
+   "id": "0925d9bb",
+   "last_seen": "2026-11-10T15:25:24Z",
+   "mentions": 1,
+   "name": "Unified smart home app for all devices",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "ProblemExplorer",
+     "author_url": "https://news.ycombinator.com/user?id=ProblemExplorer",
+     "date": "2026-11-10T15:25:24Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…really annoyed at installing a dozen apps for every smart bulb or fan I get. I wish there was just one app (and unfortunately, now I have to decide to stick to one brand) I have no horse in this race, nor am I saying these various apps…",
+     "url": "https://news.ycombinator.com/item?id=50441710"
+    }
+   ],
+   "score": 1.933,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a single app to control all smart home devices, but existing solutions are fragmented and device‑specific, lacking interoperability."
   },
   {
    "id": "775be560",
@@ -144,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.982,
+   "score": 1.89,
    "sources": [
     "hn"
    ],
@@ -169,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.933,
+   "score": 1.843,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
+   "summary": "Users need a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
   },
   {
    "id": "e2b66651",
@@ -194,7 +319,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.674,
+   "score": 1.597,
    "sources": [
     "hn"
    ],
@@ -219,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.651,
+   "score": 1.574,
    "sources": [
     "hn"
    ],
@@ -244,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.578,
+   "score": 1.505,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering vulnerability tracking, reporting, and patch management."
+   "summary": "Users need a CVE ID to track and remediate a musl library flaw, but the CVE database lacks one, hindering vulnerability management and compliance."
   },
   {
    "id": "13d93922",
@@ -269,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.433,
+   "score": 1.367,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or disable audio/video capture on a per‑site basis, but browsers only offer global defaults or lack a convenient UI, making it hard to manage permissions for individual sites."
+   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but browsers only offer global defaults or lack fine‑grained controls, leaving them unable to manage permissions for individual sites."
   },
   {
    "id": "725200e6",
@@ -294,17 +419,17 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.396,
+   "score": 1.332,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and navigation features."
+   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
   },
   {
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
-   "name": "Missing flag for minimum branch target size in GCC switch lowering",
+   "name": "GCC flag for minimum branch target size in switch lowering",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -319,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.305,
+   "score": 1.244,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC compiler flag to set the minimum size of branch targets during switch statement lowering, but GCC currently provides no such option, resulting in suboptimal code generation."
+   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering to fine‑tune performance or code size, but GCC currently provides no such flag, leaving them unable to control this behavior."
   },
   {
    "id": "9aaf0ef9",
@@ -344,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.259,
+   "score": 1.201,
    "sources": [
     "hn"
    ],
@@ -369,144 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50320852"
     }
    ],
-   "score": 1.253,
+   "score": 1.195,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and current solutions rely on web browsers or third‑party apps that lack full functionality and official support."
-  },
-  {
-   "id": "d2237cc3",
-   "last_seen": "2026-10-31T20:36:59Z",
-   "mentions": 1,
-   "name": "Sort HackerTube videos by recency",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "mixtureoftakes",
-     "author_url": "https://news.ycombinator.com/user?id=mixtureoftakes",
-     "date": "2026-10-31T20:36:59Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a way to sort by recency, if i'm mainly interested in finding obscure gems from like last 6 to 12 months of ai and tech updates",
-     "url": "https://news.ycombinator.com/item?id=50319936"
-    }
-   ],
-   "score": 1.249,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want to view the newest HackerTube videos first, but the platform only offers default or alphabetical sorting, leaving them unable to see recent uploads."
-  },
-  {
-   "id": "08388f0c",
-   "last_seen": "2026-10-31T17:34:14Z",
-   "mentions": 1,
-   "name": "iOS lack of work profile for Signal",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "rendx",
-     "author_url": "https://news.ycombinator.com/user?id=rendx",
-     "date": "2026-10-31T17:34:14Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…in parallel - with separate address book and all. Works very well for Signal. I wish there was something similar for iOS. There are some tools available to make management even more straightforward, like Insular, a fork of Island:…",
-     "url": "https://news.ycombinator.com/item?id=50318165"
-    }
-   ],
-   "score": 1.241,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want to keep work and personal Signal conversations separate on iOS, but iOS doesn’t support work profiles and Signal offers no built‑in work mode, leaving them with a single account."
-  },
-  {
-   "id": "3ec82b84",
-   "last_seen": "2026-10-30T19:42:54Z",
-   "mentions": 1,
-   "name": "FaceID missing on iPhone Duo",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "kristianp",
-     "author_url": "https://news.ycombinator.com/user?id=kristianp",
-     "date": "2026-10-30T19:42:54Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Why is there no FaceId? Is the camera too low-res?",
-     "url": "https://news.ycombinator.com/item?id=50309177"
-    }
-   ],
-   "score": 1.186,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want FaceID on the iPhone Duo for quick, secure unlocking, but the device lacks the necessary hardware and software support, leaving them with only password or Touch ID alternatives."
-  },
-  {
-   "id": "70c2ab66",
-   "last_seen": "2026-10-30T19:12:57Z",
-   "mentions": 1,
-   "name": "Free decent email service",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "encrypted_bird",
-     "author_url": "https://news.ycombinator.com/user?id=encrypted_bird",
-     "date": "2026-10-30T19:12:57Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…thanks I'll check it out! --- EDIT: Ohhhhhh apparently it's paid-only. Yeah, I would pay for a decent email service, but I'm poor, so I can't afford that... Thanks, anyway!",
-     "url": "https://news.ycombinator.com/item?id=50308806"
-    }
-   ],
-   "score": 1.185,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a reliable, privacy‑friendly free email provider with ample storage and modern features, but existing options either show ads, limit storage, or compromise privacy."
-  },
-  {
-   "id": "d074cfaf",
-   "last_seen": "2026-10-30T17:49:39Z",
-   "mentions": 1,
-   "name": "Process context dump tool",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "ajasmin",
-     "author_url": "https://news.ycombinator.com/user?id=ajasmin",
-     "date": "2026-10-30T17:49:39Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Is there a tool in Windows that will dump all of a process context to debug these kind of things: CWD, env vars, current user, elevation, etc.",
-     "url": "https://news.ycombinator.com/item?id=50307576"
-    }
-   ],
-   "score": 1.181,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Developers need a reliable way to capture a process’s full context for debugging, but current utilities either lack depth, are platform‑specific, or require complex setup."
+   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   }
  ],
  "stats": {
-  "needs_found": 80,
-  "needs_in_window": 51,
-  "posts_classified": 162,
-  "problems_in_window": 51
+  "needs_found": 85,
+  "needs_in_window": 53,
+  "posts_classified": 168,
+  "problems_in_window": 53
  },
- "updated_at": "2026-11-10T09:00:00Z",
+ "updated_at": "2026-11-11T08:00:00Z",
  "window_days": 30
 }
