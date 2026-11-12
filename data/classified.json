@@ -965,6 +965,36 @@
   "pay_signal": false,
   "problem": "Cache Touch for SSH key signing"
  },
+ "hn:50454376": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50454804": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50454935": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50459926": {
+  "is_need": true,
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Need fuel pump and line to avoid manual fuel drum transport"
+ },
+ "hn:50461943": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

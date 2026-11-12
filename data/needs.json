@@ -1103,5 +1103,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50450786"
+ },
+ {
+  "author": "AngryData",
+  "author_url": "https://news.ycombinator.com/user?id=AngryData",
+  "created_at": 1794437165,
+  "id": "hn:50459926",
+  "pain": 3,
+  "pay_signal": true,
+  "problem": "Need fuel pump and line to avoid manual fuel drum transport",
+  "quote": "A just a single day of labor would pay for a fuel pump and line so nobody has to carry fuel drums up a staircase. Im all for doing some dirty work when needed, but if they expect 100% uptime they should be ready for something as common as…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50459926"
  }
 ]

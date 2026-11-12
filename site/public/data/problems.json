@@ -1,6 +1,31 @@
 {
  "problems": [
   {
+   "id": "f7843cc2",
+   "last_seen": "2026-11-11T22:46:05Z",
+   "mentions": 1,
+   "name": "Fuel pump and line for drum transport",
+   "pain": 3.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "AngryData",
+     "author_url": "https://news.ycombinator.com/user?id=AngryData",
+     "date": "2026-11-11T22:46:05Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "A just a single day of labor would pay for a fuel pump and line so nobody has to carry fuel drums up a staircase. Im all for doing some dirty work when needed, but if they expect 100% uptime they should be ready for something as common as…",
+     "url": "https://news.ycombinator.com/item?id=50459926"
+    }
+   ],
+   "score": 4.406,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need a pump and line to eliminate manual fuel drum transport, but existing solutions are either too bulky or cost-prohibitive."
+  },
+  {
    "id": "a5ae092a",
    "last_seen": "2026-11-11T07:10:24Z",
    "mentions": 1,
@@ -19,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 4.492,
+   "score": 4.267,
    "sources": [
     "hn"
    ],
@@ -44,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 4.39,
+   "score": 4.169,
    "sources": [
     "hn"
    ],
@@ -69,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 2.524,
+   "score": 2.397,
    "sources": [
     "hn"
    ],
@@ -94,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 2.375,
+   "score": 2.255,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model but existing providers are overseas or lack support, leading to high latency and compliance concerns."
+   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency and compliance concerns."
   },
   {
    "id": "db22e443",
@@ -119,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.296,
+   "score": 2.181,
    "sources": [
     "hn"
    ],
-   "summary": "Users want more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
+   "summary": "Users want broader, more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
   },
   {
    "id": "c99e56dd",
@@ -144,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.272,
+   "score": 2.158,
    "sources": [
     "hn"
    ],
@@ -169,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.999,
+   "score": 1.899,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to cache SSH key signing to reduce latency and avoid repeated signing, but existing solutions lack efficient caching or touch support."
+   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
   },
   {
    "id": "59b974be",
@@ -194,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.972,
+   "score": 1.873,
    "sources": [
     "hn"
    ],
@@ -219,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.953,
+   "score": 1.855,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -244,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.933,
+   "score": 1.836,
    "sources": [
     "hn"
    ],
@@ -269,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.89,
+   "score": 1.795,
    "sources": [
     "hn"
    ],
-   "summary": "Parents need reliable, non‑intrusive monitoring of children’s device usage, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
+   "summary": "Parents want a simple, reliable way to track and limit their children's device usage, but existing apps are either too complex, lack real‑time alerts, or provide insufficient data."
   },
   {
    "id": "5d4987ce",
@@ -294,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.843,
+   "score": 1.751,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
+   "summary": "Users want a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
   },
   {
    "id": "e2b66651",
@@ -319,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.597,
+   "score": 1.516,
    "sources": [
     "hn"
    ],
@@ -344,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.574,
+   "score": 1.495,
    "sources": [
     "hn"
    ],
@@ -369,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.505,
+   "score": 1.43,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a CVE ID to track and remediate a musl library flaw, but the CVE database lacks one, hindering vulnerability management and compliance."
+   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering vulnerability tracking, reporting, and patch management."
   },
   {
    "id": "13d93922",
@@ -394,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.367,
+   "score": 1.298,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but browsers only offer global defaults or lack fine‑grained controls, leaving them unable to manage permissions for individual sites."
+   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but current browser settings are either global or too coarse, lacking a convenient UI for fine‑grained control."
   },
   {
    "id": "725200e6",
@@ -419,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.332,
+   "score": 1.265,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
+   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
   },
   {
    "id": "7fc943ec",
@@ -444,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.244,
+   "score": 1.182,
    "sources": [
     "hn"
    ],
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.201,
+   "score": 1.14,
    "sources": [
     "hn"
    ],
    "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack HR monitoring or include too many extra features."
-  },
-  {
-   "id": "eb7e8f0c",
-   "last_seen": "2026-10-31T22:24:26Z",
-   "mentions": 1,
-   "name": "Apple TV app for HackerTube",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "krmmalik",
-     "author_url": "https://news.ycombinator.com/user?id=krmmalik",
-     "date": "2026-10-31T22:24:26Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Oh how I wish there was an Apple TV app for this. I do all my YouTube browsing on an Apple TV.",
-     "url": "https://news.ycombinator.com/item?id=50320852"
-    }
-   ],
-   "score": 1.195,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a dedicated Apple TV app to stream HackerTube content, but no official app exists and existing solutions rely on web browsers or third‑party apps that lack full functionality and official support."
   }
  ],
  "stats": {
-  "needs_found": 85,
-  "needs_in_window": 53,
-  "posts_classified": 168,
-  "problems_in_window": 53
+  "needs_found": 86,
+  "needs_in_window": 52,
+  "posts_classified": 173,
+  "problems_in_window": 52
  },
- "updated_at": "2026-11-11T08:00:00Z",
+ "updated_at": "2026-11-12T09:00:00Z",
  "window_days": 30
 }
