@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 4.406,
+   "score": 4.202,
    "sources": [
     "hn"
    ],
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 4.267,
+   "score": 4.069,
    "sources": [
     "hn"
    ],
@@ -69,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 4.169,
+   "score": 3.976,
    "sources": [
     "hn"
    ],
@@ -79,7 +79,7 @@
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Centralized processor die image repository",
+   "name": "Unified processor die image repository",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -94,11 +94,11 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 2.397,
+   "score": 2.286,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, comprehensive source of processor die images and specifications, but existing resources are fragmented, incomplete, and hard to navigate."
+   "summary": "People want a single, comprehensive source of processor die images and details, but existing resources are fragmented, incomplete, or outdated."
   },
   {
    "id": "b3ae4ed7",
@@ -119,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 2.255,
+   "score": 2.151,
    "sources": [
     "hn"
    ],
@@ -144,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.181,
+   "score": 2.08,
    "sources": [
     "hn"
    ],
-   "summary": "Users want broader, more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
+   "summary": "Users want more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
   },
   {
    "id": "c99e56dd",
@@ -169,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.158,
+   "score": 2.058,
    "sources": [
     "hn"
    ],
-   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include these wireless features and cannot be fully disabled."
   },
   {
    "id": "f684a67b",
@@ -194,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.899,
+   "score": 1.811,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
+   "summary": "Users want to cache SSH key signing to reduce latency and avoid repeated signing, but existing solutions lack efficient caching or touch support."
   },
   {
    "id": "59b974be",
@@ -219,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.873,
+   "score": 1.786,
    "sources": [
     "hn"
    ],
@@ -244,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.855,
+   "score": 1.769,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -269,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.836,
+   "score": 1.751,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control all smart home devices, but existing solutions are fragmented and device‑specific, lacking interoperability."
+   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack true interoperability."
   },
   {
    "id": "775be560",
@@ -294,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.795,
+   "score": 1.712,
    "sources": [
     "hn"
    ],
-   "summary": "Parents want a simple, reliable way to track and limit their children's device usage, but existing apps are either too complex, lack real‑time alerts, or provide insufficient data."
+   "summary": "Parents want a simple, privacy‑respecting way to monitor their children's device usage, but existing apps are either too intrusive, lack real‑time alerts, or require complex setup."
   },
   {
    "id": "5d4987ce",
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.751,
+   "score": 1.669,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
+   "summary": "Users need a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
   },
   {
    "id": "e2b66651",
@@ -344,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.516,
+   "score": 1.446,
    "sources": [
     "hn"
    ],
@@ -369,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.495,
+   "score": 1.426,
    "sources": [
     "hn"
    ],
@@ -394,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.43,
+   "score": 1.363,
    "sources": [
     "hn"
    ],
@@ -419,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.298,
+   "score": 1.238,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but current browser settings are either global or too coarse, lacking a convenient UI for fine‑grained control."
+   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but current browser settings are either global or too coarse, lacking a convenient per‑site UI."
   },
   {
    "id": "725200e6",
@@ -444,17 +444,17 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.265,
+   "score": 1.206,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
+   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
   },
   {
    "id": "7fc943ec",
    "last_seen": "2026-11-01T17:52:31Z",
    "mentions": 1,
-   "name": "GCC flag for minimum branch target size in switch lowering",
+   "name": "GCC flag for minimum branch target size",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -469,17 +469,17 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.182,
+   "score": 1.127,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering to fine‑tune performance or code size, but GCC currently provides no such flag, leaving them unable to control this behavior."
+   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering, but GCC currently lacks such a flag, limiting fine‑tuned performance optimization."
   },
   {
    "id": "9aaf0ef9",
    "last_seen": "2026-11-01T00:38:01Z",
    "mentions": 1,
-   "name": "Casio watch lacking heart rate only feature",
+   "name": "Casio watch lacking heart rate tracking",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -494,19 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.14,
+   "score": 1.087,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack HR monitoring or include too many extra features."
+   "summary": "Users want a simple Casio watch that tracks heart rate, but current models either lack this feature or include unnecessary extras."
   }
  ],
  "stats": {
   "needs_found": 86,
-  "needs_in_window": 52,
-  "posts_classified": 173,
-  "problems_in_window": 52
+  "needs_in_window": 51,
+  "posts_classified": 174,
+  "problems_in_window": 51
  },
- "updated_at": "2026-11-12T09:00:00Z",
+ "updated_at": "2026-11-13T08:00:00Z",
  "window_days": 30
 }
