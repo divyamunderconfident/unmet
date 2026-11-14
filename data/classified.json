@@ -1001,6 +1001,24 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50482903": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50489395": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50493584": {
+  "is_need": true,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Flag users who use monospace text"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
@@ -1042,5 +1060,11 @@
   "pain": 2,
   "pay_signal": false,
   "problem": "Tool to merge Windows event logs into flat file"
+ },
+ "se:superuser:1941548": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
  }
 }

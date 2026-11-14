@@ -1116,5 +1116,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50459926"
+ },
+ {
+  "author": "dfc",
+  "author_url": "https://news.ycombinator.com/user?id=dfc",
+  "created_at": 1794627614,
+  "id": "hn:50493584",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Flag users who use monospace text",
+  "quote": "They use monospace a lot. I wish there was a way to flag someone for it.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50493584"
  }
 ]

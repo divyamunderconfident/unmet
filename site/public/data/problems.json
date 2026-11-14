@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 4.202,
+   "score": 3.999,
    "sources": [
     "hn"
    ],
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 4.069,
+   "score": 3.872,
    "sources": [
     "hn"
    ],
@@ -54,7 +54,7 @@
    "id": "db07bc53",
    "last_seen": "2026-11-10T19:57:39Z",
    "mentions": 1,
-   "name": "Starlink plan missing small business features",
+   "name": "Starlink plan missing small customer features",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -69,17 +69,17 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 3.976,
+   "score": 3.784,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high-cost, unlimited plans that don’t meet their needs."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Unified processor die image repository",
+   "name": "Centralized processor die image database",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -94,17 +94,17 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 2.286,
+   "score": 2.175,
    "sources": [
     "hn"
    ],
-   "summary": "People want a single, comprehensive source of processor die images and details, but existing resources are fragmented, incomplete, or outdated."
+   "summary": "Users need a single, comprehensive source of processor die images and details, but existing resources are fragmented, incomplete, and hard to navigate."
   },
   {
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US-based Max model hosting",
+   "name": "Max model hosting in US",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -119,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 2.151,
+   "score": 2.047,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency and compliance concerns."
+   "summary": "Users want a US-based server for the Max model, but current providers are either unavailable, costly, or don't meet compliance."
   },
   {
    "id": "db22e443",
@@ -144,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 2.08,
+   "score": 1.979,
    "sources": [
     "hn"
    ],
-   "summary": "Users want more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
+   "summary": "Users want broader, more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing all relevant information."
   },
   {
    "id": "c99e56dd",
@@ -169,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 2.058,
+   "score": 1.959,
    "sources": [
     "hn"
    ],
-   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include these wireless features and cannot be fully disabled."
+   "summary": "Users need an Android device without Wi‑Fi or Bluetooth to prevent cheating and ensure offline use, but standard Android phones always include wireless connectivity that cannot be fully disabled."
   },
   {
    "id": "f684a67b",
@@ -194,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.811,
+   "score": 1.723,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to cache SSH key signing to reduce latency and avoid repeated signing, but existing solutions lack efficient caching or touch support."
+   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
   },
   {
    "id": "59b974be",
@@ -219,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.786,
+   "score": 1.7,
    "sources": [
     "hn"
    ],
@@ -244,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.769,
+   "score": 1.684,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -269,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.751,
+   "score": 1.666,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack true interoperability."
+   "summary": "Users want one app to control all smart home devices, but existing apps are device‑specific and lack interoperability."
   },
   {
    "id": "775be560",
@@ -294,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.712,
+   "score": 1.629,
    "sources": [
     "hn"
    ],
-   "summary": "Parents want a simple, privacy‑respecting way to monitor their children's device usage, but existing apps are either too intrusive, lack real‑time alerts, or require complex setup."
+   "summary": "Parents want reliable, non‑intrusive monitoring of children’s device usage, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
   },
   {
    "id": "5d4987ce",
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.669,
+   "score": 1.589,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
+   "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell for profit, but existing marketplaces lack price comparison, real‑time inventory data, and reliable escrow services."
   },
   {
    "id": "e2b66651",
@@ -344,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.446,
+   "score": 1.376,
    "sources": [
     "hn"
    ],
@@ -369,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.426,
+   "score": 1.357,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI category or filter, making it hard to distinguish AI from non-AI apps."
+   "summary": "Users want to quickly find AI apps, but the App Store lacks a dedicated AI category or filter, making it hard to exclude non-AI apps."
   },
   {
    "id": "35fbe7ba",
@@ -394,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.363,
+   "score": 1.298,
    "sources": [
     "hn"
    ],
@@ -419,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.238,
+   "score": 1.178,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or disable audio and video capture on a per‑site basis, but current browser settings are either global or too coarse, lacking a convenient per‑site UI."
+   "summary": "Users want to enable or block audio and video access on a per‑website basis, but current browsers only offer global or no granular permission settings."
   },
   {
    "id": "725200e6",
@@ -444,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.206,
+   "score": 1.148,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
+   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
   },
   {
    "id": "7fc943ec",
@@ -469,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.127,
+   "score": 1.072,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering, but GCC currently lacks such a flag, limiting fine‑tuned performance optimization."
+   "summary": "Developers want a GCC option to set the minimum size of branch targets during switch lowering, but GCC currently lacks such a flag, limiting fine‑tuned performance optimization."
   },
   {
    "id": "9aaf0ef9",
@@ -494,7 +494,7 @@
      "url": "https://news.ycombinator.com/item?id=50321671"
     }
    ],
-   "score": 1.087,
+   "score": 1.035,
    "sources": [
     "hn"
    ],
@@ -502,11 +502,11 @@
   }
  ],
  "stats": {
-  "needs_found": 86,
-  "needs_in_window": 51,
-  "posts_classified": 174,
-  "problems_in_window": 51
+  "needs_found": 87,
+  "needs_in_window": 49,
+  "posts_classified": 178,
+  "problems_in_window": 49
  },
- "updated_at": "2026-11-13T08:00:00Z",
+ "updated_at": "2026-11-14T08:00:00Z",
  "window_days": 30
 }
