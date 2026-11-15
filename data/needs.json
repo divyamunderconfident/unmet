@@ -1129,5 +1129,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50493584"
+ },
+ {
+  "author": "tdgunes",
+  "author_url": "https://news.ycombinator.com/user?id=tdgunes",
+  "created_at": 1794651205,
+  "id": "hn:50495725",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Terminal borders that don't consume a cell",
+  "quote": "Whenever I use dumb terminals, I have the same feeling. I am also actively looking for a way to get a good developer experience while keeping more ownership of what gets generated with the new tools. My specific bottleneck is working in…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50495725"
  }
 ]

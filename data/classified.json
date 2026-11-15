@@ -1019,6 +1019,24 @@
   "pay_signal": false,
   "problem": "Flag users who use monospace text"
  },
+ "hn:50495725": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Terminal borders that don't consume a cell"
+ },
+ "hn:50499510": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50503968": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
