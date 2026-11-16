@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 3.806,
+   "score": 3.622,
    "sources": [
     "hn"
    ],
@@ -29,7 +29,7 @@
    "id": "a5ae092a",
    "last_seen": "2026-11-11T07:10:24Z",
    "mentions": 1,
-   "name": "Local AI runtime for large codebases",
+   "name": "Local AI runtime inefficiency on large codebases",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -44,17 +44,17 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 3.685,
+   "score": 3.507,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need to run large AI models locally on extensive codebases efficiently, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
+   "summary": "Developers need to run AI models locally on extensive codebases quickly and with low memory usage, but existing solutions are too slow or consume excessive resources."
   },
   {
    "id": "db07bc53",
    "last_seen": "2026-11-10T19:57:39Z",
    "mentions": 1,
-   "name": "Starlink plan missing small business features",
+   "name": "Starlink plan missing small customer features",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -69,11 +69,11 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 3.601,
+   "score": 3.427,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high-cost, unlimited plans that don’t meet their budget or usage needs."
   },
   {
    "id": "5fdb0192",
@@ -94,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 2.07,
+   "score": 1.97,
    "sources": [
     "hn"
    ],
@@ -104,7 +104,7 @@
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US Max model hosting provider",
+   "name": "Max model hosting in US",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -119,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.948,
+   "score": 1.854,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-based server to run the Max model, but current services either don't support it, are too expensive, or lack local compliance."
+   "summary": "Users need a US-based provider to host the Max model for compliance and low latency, but current options lack local infrastructure, regulatory support, or sufficient performance."
   },
   {
    "id": "aed53d42",
@@ -144,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.912,
+   "score": 1.82,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always take up a full cell, disrupting layout and alignment."
+   "summary": "Users want to draw borders in terminal UIs without each border character taking up a full cell, but existing box‑drawing characters occupy cells and disrupt layout."
   },
   {
    "id": "db22e443",
@@ -169,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.884,
+   "score": 1.793,
    "sources": [
     "hn"
    ],
@@ -194,17 +194,17 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.864,
+   "score": 1.774,
    "sources": [
     "hn"
    ],
-   "summary": "Users need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
   },
   {
    "id": "f684a67b",
    "last_seen": "2026-11-11T07:51:09Z",
    "mentions": 1,
-   "name": "Cache SSH key signing",
+   "name": "SSH key signing cache invalidation",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -219,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.64,
+   "score": 1.561,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
+   "summary": "Users need a reliable way to cache SSH key signatures for faster authentication, but current tools either never cache or clear the cache too often, forcing repeated prompts or compromising security."
   },
   {
    "id": "59b974be",
@@ -244,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.618,
+   "score": 1.54,
    "sources": [
     "hn"
    ],
@@ -269,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.603,
+   "score": 1.525,
    "sources": [
     "hn"
    ],
@@ -294,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.586,
+   "score": 1.509,
    "sources": [
     "hn"
    ],
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.55,
+   "score": 1.475,
    "sources": [
     "hn"
    ],
-   "summary": "Parents want reliable, non‑intrusive monitoring of children’s device usage, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
+   "summary": "Parents want an easy way to track and limit their children's device usage, but existing apps are either too complex, lack real-time alerts, or require costly subscriptions."
   },
   {
    "id": "5d4987ce",
@@ -344,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.512,
+   "score": 1.439,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined escrow services."
+   "summary": "Users want a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
   },
   {
    "id": "e2b66651",
@@ -369,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.31,
+   "score": 1.246,
    "sources": [
     "hn"
    ],
@@ -394,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.291,
+   "score": 1.229,
    "sources": [
     "hn"
    ],
@@ -419,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.235,
+   "score": 1.175,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering tracking, reporting, and patch management."
+   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering vulnerability tracking, reporting, and patch management."
   },
   {
    "id": "13d93922",
@@ -444,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.121,
+   "score": 1.067,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or block audio and video access on a per‑website basis, but current browsers only offer global permissions or no granular control, leaving them unable to manage privacy on a site‑by‑site level."
+   "summary": "Users want to enable or disable audio/video capture on a per‑site basis, but current browser settings only allow global or site‑wide permissions, lacking fine‑grained control."
   },
   {
    "id": "725200e6",
@@ -469,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.092,
+   "score": 1.04,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and exploration features."
+   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
   },
   {
    "id": "7fc943ec",
@@ -494,19 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50327891"
     }
    ],
-   "score": 1.021,
+   "score": 0.971,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a GCC option to set the minimum size of branch targets during switch lowering, but GCC currently offers no such flag, limiting their ability to tune performance and code size."
+   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering, but GCC currently lacks such a flag, limiting performance tuning."
   }
  ],
  "stats": {
   "needs_found": 88,
-  "needs_in_window": 47,
+  "needs_in_window": 46,
   "posts_classified": 181,
-  "problems_in_window": 47
+  "problems_in_window": 46
  },
- "updated_at": "2026-11-15T08:00:00Z",
+ "updated_at": "2026-11-16T08:00:00Z",
  "window_days": 30
 }
