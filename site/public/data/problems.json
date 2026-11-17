@@ -4,7 +4,7 @@
    "id": "f7843cc2",
    "last_seen": "2026-11-11T22:46:05Z",
    "mentions": 1,
-   "name": "Fuel pump and line for drum transport",
+   "name": "Automated fuel drum transfer system",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -19,17 +19,17 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 3.622,
+   "score": 3.433,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a pump and line to eliminate manual fuel drum transport, but existing solutions are either too bulky or cost-prohibitive."
+   "summary": "People need a reliable, cost‑effective pump and line to move fuel from drums to tanks without manual transport, but current options are either expensive or unreliable."
   },
   {
    "id": "a5ae092a",
    "last_seen": "2026-11-11T07:10:24Z",
    "mentions": 1,
-   "name": "Local AI runtime inefficiency on large codebases",
+   "name": "Local AI runtime for large codebases",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -44,11 +44,11 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 3.507,
+   "score": 3.324,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need to run AI models locally on extensive codebases quickly and with low memory usage, but existing solutions are too slow or consume excessive resources."
+   "summary": "Developers need to run large AI models locally on extensive codebases efficiently, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
   },
   {
    "id": "db07bc53",
@@ -69,11 +69,36 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 3.427,
+   "score": 3.248,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high-cost, unlimited plans that don’t meet their budget or usage needs."
+   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high‑price, unlimited plans that don’t meet their needs."
+  },
+  {
+   "id": "70ba0502",
+   "last_seen": "2026-11-16T15:31:32Z",
+   "mentions": 1,
+   "name": "Provider-agnostic mini app library",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "anonyonoor",
+     "author_url": "https://news.ycombinator.com/user?id=anonyonoor",
+     "date": "2026-11-16T15:31:32Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…things are confined to the specific platform I used and usually the chats too. I wish there was a provider agnostic way to build and view mini apps anywhere (desktop and mobile).",
+     "url": "https://news.ycombinator.com/item?id=50518655"
+    }
+   ],
+   "score": 1.925,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Developers want a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly with different platforms."
   },
   {
    "id": "5fdb0192",
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.97,
+   "score": 1.867,
    "sources": [
     "hn"
    ],
@@ -104,7 +129,7 @@
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "Max model hosting in US",
+   "name": "US-based Max model hosting",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -119,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.854,
+   "score": 1.757,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-based provider to host the Max model for compliance and low latency, but current options lack local infrastructure, regulatory support, or sufficient performance."
+   "summary": "Users need a US-hosted server for the Max model but existing providers are overseas or lack support, leading to high latency and compliance concerns."
   },
   {
    "id": "aed53d42",
@@ -144,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.82,
+   "score": 1.725,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without each border character taking up a full cell, but existing box‑drawing characters occupy cells and disrupt layout."
+   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always take up a full cell, disrupting layout and alignment."
   },
   {
    "id": "db22e443",
@@ -169,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.793,
+   "score": 1.699,
    "sources": [
     "hn"
    ],
@@ -194,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.774,
+   "score": 1.681,
    "sources": [
     "hn"
    ],
@@ -204,7 +229,7 @@
    "id": "f684a67b",
    "last_seen": "2026-11-11T07:51:09Z",
    "mentions": 1,
-   "name": "SSH key signing cache invalidation",
+   "name": "Cache SSH key signing",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -219,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.561,
+   "score": 1.479,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a reliable way to cache SSH key signatures for faster authentication, but current tools either never cache or clear the cache too often, forcing repeated prompts or compromising security."
+   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
   },
   {
    "id": "59b974be",
@@ -244,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.54,
+   "score": 1.459,
    "sources": [
     "hn"
    ],
@@ -269,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.525,
+   "score": 1.445,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -294,7 +319,7 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.509,
+   "score": 1.43,
    "sources": [
     "hn"
    ],
@@ -319,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.475,
+   "score": 1.398,
    "sources": [
     "hn"
    ],
-   "summary": "Parents want an easy way to track and limit their children's device usage, but existing apps are either too complex, lack real-time alerts, or require costly subscriptions."
+   "summary": "Parents need reliable, privacy‑respecting monitoring of children’s device use, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
   },
   {
    "id": "5d4987ce",
@@ -344,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.439,
+   "score": 1.364,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a transparent platform to buy GPUs at low prices and resell them for profit, but existing marketplaces lack real-time price comparison, reliable seller verification, and streamlined transaction processes."
+   "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell for profit, but existing marketplaces lack price comparison, real‑time inventory data, and reliable escrow services."
   },
   {
    "id": "e2b66651",
@@ -369,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.246,
+   "score": 1.181,
    "sources": [
     "hn"
    ],
@@ -394,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.229,
+   "score": 1.165,
    "sources": [
     "hn"
    ],
@@ -419,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.175,
+   "score": 1.114,
    "sources": [
     "hn"
    ],
@@ -444,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.067,
+   "score": 1.011,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or disable audio/video capture on a per‑site basis, but current browser settings only allow global or site‑wide permissions, lacking fine‑grained control."
+   "summary": "Users want to enable or block audio and video on a per‑website basis, but browsers only provide global media permissions or lack fine‑grained controls."
   },
   {
    "id": "725200e6",
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 1.04,
+   "score": 0.985,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
-  },
-  {
-   "id": "7fc943ec",
-   "last_seen": "2026-11-01T17:52:31Z",
-   "mentions": 1,
-   "name": "GCC flag for minimum branch target size",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "bobmcnamara",
-     "author_url": "https://news.ycombinator.com/user?id=bobmcnamara",
-     "date": "2026-11-01T17:52:31Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "That usually works well enough for risc code. As a massage, I wish there was a flag to set a minimum branch target size. If all the branch targets for a switch are the same size then you can often turn the jump table into a…",
-     "url": "https://news.ycombinator.com/item?id=50327891"
-    }
-   ],
-   "score": 0.971,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Developers want a GCC option to set the minimum branch target size during switch lowering, but GCC currently lacks such a flag, limiting performance tuning."
+   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and navigation features."
   }
  ],
  "stats": {
-  "needs_found": 88,
-  "needs_in_window": 46,
-  "posts_classified": 181,
-  "problems_in_window": 46
+  "needs_found": 89,
+  "needs_in_window": 47,
+  "posts_classified": 183,
+  "problems_in_window": 47
  },
- "updated_at": "2026-11-16T08:00:00Z",
+ "updated_at": "2026-11-17T10:00:00Z",
  "window_days": 30
 }

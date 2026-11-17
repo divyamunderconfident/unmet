@@ -1142,5 +1142,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50495725"
+ },
+ {
+  "author": "anonyonoor",
+  "author_url": "https://news.ycombinator.com/user?id=anonyonoor",
+  "created_at": 1794843092,
+  "id": "hn:50518655",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Provider-agnostic mini app library for agent-built apps",
+  "quote": "…things are confined to the specific platform I used and usually the chats too. I wish there was a provider agnostic way to build and view mini apps anywhere (desktop and mobile).",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50518655"
  }
 ]

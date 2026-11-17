@@ -1037,6 +1037,18 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50517894": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50518655": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Provider-agnostic mini app library for agent-built apps"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
