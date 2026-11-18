@@ -19,11 +19,11 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 3.433,
+   "score": 3.274,
    "sources": [
     "hn"
    ],
-   "summary": "People need a reliable, cost‑effective pump and line to move fuel from drums to tanks without manual transport, but current options are either expensive or unreliable."
+   "summary": "People need a pump and line to move fuel from drums to tanks without manual transport, but current options require manual handling or are expensive."
   },
   {
    "id": "a5ae092a",
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 3.324,
+   "score": 3.17,
    "sources": [
     "hn"
    ],
@@ -54,7 +54,7 @@
    "id": "db07bc53",
    "last_seen": "2026-11-10T19:57:39Z",
    "mentions": 1,
-   "name": "Starlink plan missing small customer features",
+   "name": "Starlink plan missing small business features",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -69,11 +69,11 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 3.248,
+   "score": 3.098,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high‑price, unlimited plans that don’t meet their needs."
+   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
   },
   {
    "id": "70ba0502",
@@ -94,17 +94,17 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.925,
+   "score": 1.836,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly with different platforms."
+   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Centralized processor die image repository",
+   "name": "Centralized processor die image database",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -119,17 +119,17 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.867,
+   "score": 1.781,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, comprehensive source of processor die images and specifications, but existing resources are fragmented, incomplete, and hard to navigate."
+   "summary": "Users need a single, searchable repository of processor die images and specifications, but existing resources are fragmented, incomplete, and hard to navigate."
   },
   {
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US-based Max model hosting",
+   "name": "Max model hosting in US",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -144,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.757,
+   "score": 1.676,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model but existing providers are overseas or lack support, leading to high latency and compliance concerns."
+   "summary": "Users need a US-based provider to host the Max model for compliance and low latency, but current cloud options either lack the required data residency, are too expensive, or do not support the specific model architecture."
   },
   {
    "id": "aed53d42",
@@ -169,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.725,
+   "score": 1.645,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always take up a full cell, disrupting layout and alignment."
+   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always consume a cell, disrupting layout and alignment."
   },
   {
    "id": "db22e443",
@@ -194,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.699,
+   "score": 1.62,
    "sources": [
     "hn"
    ],
@@ -204,7 +204,7 @@
    "id": "c99e56dd",
    "last_seen": "2026-11-05T17:17:51Z",
    "mentions": 1,
-   "name": "Non-wireless Android device for exams",
+   "name": "Offline Android device for exams",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -219,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.681,
+   "score": 1.603,
    "sources": [
     "hn"
    ],
-   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Users need a fully offline Android phone for exams, but standard devices still have Wi‑Fi or cellular that can be hard to disable or may still allow unauthorized access."
   },
   {
    "id": "f684a67b",
@@ -244,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.479,
+   "score": 1.411,
    "sources": [
     "hn"
    ],
@@ -269,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.459,
+   "score": 1.392,
    "sources": [
     "hn"
    ],
@@ -294,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.445,
+   "score": 1.378,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -319,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.43,
+   "score": 1.364,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control all smart home devices, but existing solutions are fragmented and device‑specific, lacking interoperability."
+   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack true interoperability."
   },
   {
    "id": "775be560",
@@ -344,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.398,
+   "score": 1.334,
    "sources": [
     "hn"
    ],
-   "summary": "Parents need reliable, privacy‑respecting monitoring of children’s device use, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
+   "summary": "Parents want an easy way to track and limit their children's device usage, but existing apps are either too complex, lack real-time alerts, or require costly subscriptions."
   },
   {
    "id": "5d4987ce",
@@ -369,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.364,
+   "score": 1.301,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell for profit, but existing marketplaces lack price comparison, real‑time inventory data, and reliable escrow services."
+   "summary": "Users need a platform to quickly buy GPUs at low prices and resell them for profit, but existing marketplaces lack real‑time price comparison, transparent listings, and efficient transaction tools."
   },
   {
    "id": "e2b66651",
@@ -394,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.181,
+   "score": 1.127,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a simple, safe way to connect directly to a high‑voltage system for battery charging, but existing solutions are either too complex, lack proper safety features, or are not compatible with common vehicle architectures."
+   "summary": "Users need a straightforward way to connect directly to a high‑voltage system for battery charging, but existing solutions are either unsafe, overly complex, or lack reliable, standardized connectors."
   },
   {
    "id": "ffe48861",
@@ -419,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.165,
+   "score": 1.111,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI category or filter, making it hard to distinguish AI from non-AI apps."
+   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI filter, making it hard to exclude non-AI apps."
   },
   {
    "id": "35fbe7ba",
@@ -444,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.114,
+   "score": 1.062,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering vulnerability tracking, reporting, and patch management."
+   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering tracking, reporting, and patch management."
   },
   {
    "id": "13d93922",
@@ -469,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50353164"
     }
    ],
-   "score": 1.011,
+   "score": 0.964,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to enable or block audio and video on a per‑website basis, but browsers only provide global media permissions or lack fine‑grained controls."
+   "summary": "Users want to enable or block audio/video on a per‑website basis, but browsers only offer global or limited controls, leaving them unable to manage permissions for individual sites."
   },
   {
    "id": "725200e6",
@@ -494,19 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50347401"
     }
    ],
-   "score": 0.985,
+   "score": 0.94,
    "sources": [
     "hn"
    ],
-   "summary": "Users need to compare and explore archived web pages side‑by‑side, but existing archive tools lack intuitive diffing and navigation features."
+   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
   }
  ],
  "stats": {
   "needs_found": 89,
-  "needs_in_window": 47,
+  "needs_in_window": 45,
   "posts_classified": 183,
-  "problems_in_window": 47
+  "problems_in_window": 45
  },
- "updated_at": "2026-11-17T10:00:00Z",
+ "updated_at": "2026-11-18T09:00:00Z",
  "window_days": 30
 }
