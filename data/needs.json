@@ -1155,5 +1155,31 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50518655"
+ },
+ {
+  "author": "jkingsman",
+  "author_url": "https://news.ycombinator.com/user?id=jkingsman",
+  "created_at": 1795022998,
+  "id": "hn:50549240",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Need better guidance for SSH host key change warnings",
+  "quote": "…your instance is thoroughly pwned by someone doing something extremely bad\". I wish there was more informative data to guide users on the appropriate behavior, but I suspect folks will continue mindlessly clearing the key and going about…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50549240"
+ },
+ {
+  "author": "frogperson",
+  "author_url": "https://news.ycombinator.com/user?id=frogperson",
+  "created_at": 1795064970,
+  "id": "hn:50556288",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Curated model recommendation platform with voting",
+  "quote": "…this stuff. Why cant i type in a use case and get a model recommendation? Why is there no up/down voting for models? surely someone could slop that together with a catchy name.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50556288"
  }
 ]

@@ -1049,6 +1049,30 @@
   "pay_signal": false,
   "problem": "Provider-agnostic mini app library for agent-built apps"
  },
+ "hn:50549240": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Need better guidance for SSH host key change warnings"
+ },
+ "hn:50554377": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50556288": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Curated model recommendation platform with voting"
+ },
+ "hn:50556475": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

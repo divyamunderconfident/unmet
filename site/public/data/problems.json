@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 3.274,
+   "score": 3.116,
    "sources": [
     "hn"
    ],
@@ -44,11 +44,11 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 3.17,
+   "score": 3.017,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need to run large AI models locally on extensive codebases efficiently, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
+   "summary": "Developers need to run large AI models locally on extensive codebases quickly, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
   },
   {
    "id": "db07bc53",
@@ -69,11 +69,61 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 3.098,
+   "score": 2.948,
    "sources": [
     "hn"
    ],
    "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+  },
+  {
+   "id": "6dcdcab3",
+   "last_seen": "2026-11-19T05:09:30Z",
+   "mentions": 1,
+   "name": "Curated model recommendation platform with voting",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "frogperson",
+     "author_url": "https://news.ycombinator.com/user?id=frogperson",
+     "date": "2026-11-19T05:09:30Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…this stuff. Why cant i type in a use case and get a model recommendation? Why is there no up/down voting for models? surely someone could slop that together with a catchy name.",
+     "url": "https://news.ycombinator.com/item?id=50556288"
+    }
+   ],
+   "score": 1.984,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing tools lack structured curation and voting mechanisms to surface the best options."
+  },
+  {
+   "id": "63f38282",
+   "last_seen": "2026-11-18T17:29:58Z",
+   "mentions": 1,
+   "name": "SSH host key change warning guidance",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "jkingsman",
+     "author_url": "https://news.ycombinator.com/user?id=jkingsman",
+     "date": "2026-11-18T17:29:58Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…your instance is thoroughly pwned by someone doing something extremely bad\". I wish there was more informative data to guide users on the appropriate behavior, but I suspect folks will continue mindlessly clearing the key and going about…",
+     "url": "https://news.ycombinator.com/item?id=50549240"
+    }
+   ],
+   "score": 1.937,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current prompts are ambiguous and fail to explain how to verify and update the key."
   },
   {
    "id": "70ba0502",
@@ -94,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.836,
+   "score": 1.747,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
+   "summary": "Developers need a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly."
   },
   {
    "id": "5fdb0192",
@@ -119,17 +169,17 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.781,
+   "score": 1.695,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, searchable repository of processor die images and specifications, but existing resources are fragmented, incomplete, and hard to navigate."
+   "summary": "Users need a single, comprehensive source of processor die images and technical details, but existing resources are fragmented, outdated, or lack depth."
   },
   {
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "Max model hosting in US",
+   "name": "US-hosted Max model provider",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -144,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.676,
+   "score": 1.595,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-based provider to host the Max model for compliance and low latency, but current cloud options either lack the required data residency, are too expensive, or do not support the specific model architecture."
+   "summary": "Users need a local US-based server for the Max model to meet data‑privacy regulations and reduce latency, but existing options are either overseas, limited in availability, or too costly, leaving them without a compliant, reliable solution."
   },
   {
    "id": "aed53d42",
@@ -169,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.645,
+   "score": 1.565,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always consume a cell, disrupting layout and alignment."
+   "summary": "Users want to draw borders in terminal UIs without each border character taking up a full cell, but existing box‑drawing characters occupy cells and disrupt layout."
   },
   {
    "id": "db22e443",
@@ -194,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.62,
+   "score": 1.542,
    "sources": [
     "hn"
    ],
@@ -204,7 +254,7 @@
    "id": "c99e56dd",
    "last_seen": "2026-11-05T17:17:51Z",
    "mentions": 1,
-   "name": "Offline Android device for exams",
+   "name": "Non-wireless Android device for exams",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -219,17 +269,17 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.603,
+   "score": 1.526,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a fully offline Android phone for exams, but standard devices still have Wi‑Fi or cellular that can be hard to disable or may still allow unauthorized access."
+   "summary": "Users need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
   },
   {
    "id": "f684a67b",
    "last_seen": "2026-11-11T07:51:09Z",
    "mentions": 1,
-   "name": "Cache SSH key signing",
+   "name": "SSH key signing cache issue",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -244,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.411,
+   "score": 1.343,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
+   "summary": "Users want to cache SSH key signing to avoid repeated prompts and improve performance, but existing tools either lack caching support or require complex manual configuration."
   },
   {
    "id": "59b974be",
@@ -269,7 +319,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.392,
+   "score": 1.324,
    "sources": [
     "hn"
    ],
@@ -294,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.378,
+   "score": 1.312,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -319,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.364,
+   "score": 1.298,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack true interoperability."
+   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack seamless integration."
   },
   {
    "id": "775be560",
@@ -344,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.334,
+   "score": 1.269,
    "sources": [
     "hn"
    ],
-   "summary": "Parents want an easy way to track and limit their children's device usage, but existing apps are either too complex, lack real-time alerts, or require costly subscriptions."
+   "summary": "Parents need reliable, non‑intrusive monitoring of children’s device usage, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
   },
   {
    "id": "5d4987ce",
@@ -369,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.301,
+   "score": 1.238,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a platform to quickly buy GPUs at low prices and resell them for profit, but existing marketplaces lack real‑time price comparison, transparent listings, and efficient transaction tools."
+   "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell for profit, but existing marketplaces lack price comparison, real‑time inventory data, and reliable escrow services."
   },
   {
    "id": "e2b66651",
@@ -394,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50396560"
     }
    ],
-   "score": 1.127,
+   "score": 1.072,
    "sources": [
     "hn"
    ],
@@ -419,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50391275"
     }
    ],
-   "score": 1.111,
+   "score": 1.057,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI filter, making it hard to exclude non-AI apps."
+   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI category or filter, making it hard to distinguish AI from non-AI apps."
   },
   {
    "id": "35fbe7ba",
@@ -444,69 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50379327"
     }
    ],
-   "score": 1.062,
+   "score": 1.011,
    "sources": [
     "hn"
    ],
    "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering tracking, reporting, and patch management."
-  },
-  {
-   "id": "13d93922",
-   "last_seen": "2026-11-03T15:23:51Z",
-   "mentions": 1,
-   "name": "Per‑site audio/video permission control",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "account42",
-     "author_url": "https://news.ycombinator.com/user?id=account42",
-     "date": "2026-11-03T15:23:51Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a setting to make audio and video opt in per site. Most random sites have no business using anything but text and the occasional image plus whatever fancy stylesheets keep their designers busy.",
-     "url": "https://news.ycombinator.com/item?id=50353164"
-    }
-   ],
-   "score": 0.964,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want to enable or block audio/video on a per‑website basis, but browsers only offer global or limited controls, leaving them unable to manage permissions for individual sites."
-  },
-  {
-   "id": "725200e6",
-   "last_seen": "2026-11-03T02:50:03Z",
-   "mentions": 1,
-   "name": "Diffing archived web data",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "netshade",
-     "author_url": "https://news.ycombinator.com/user?id=netshade",
-     "date": "2026-11-03T02:50:03Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…down learning more about archival while I was adding it to my own thing [1]. I wish there was more of an existing toolset for diffing archivals as well - what changed is just as interesting as what is there. Equally, something I kind of…",
-     "url": "https://news.ycombinator.com/item?id=50347401"
-    }
-   ],
-   "score": 0.94,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need to compare and explore archived web pages, but existing tools lack intuitive diffing and exploration capabilities."
   }
  ],
  "stats": {
-  "needs_found": 89,
-  "needs_in_window": 45,
-  "posts_classified": 183,
-  "problems_in_window": 45
+  "needs_found": 91,
+  "needs_in_window": 43,
+  "posts_classified": 187,
+  "problems_in_window": 43
  },
- "updated_at": "2026-11-18T09:00:00Z",
+ "updated_at": "2026-11-19T09:00:00Z",
  "window_days": 30
 }
