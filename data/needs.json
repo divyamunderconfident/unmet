@@ -1181,5 +1181,44 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50556288"
+ },
+ {
+  "author": "jillesvangurp",
+  "author_url": "https://news.ycombinator.com/user?id=jillesvangurp",
+  "created_at": 1795091558,
+  "id": "hn:50559266",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Default link previews disabled in Matrix",
+  "quote": "…are working flawlessly. We had some openclaw thing running for a while but we gave up on that (too much issues with that). But we have a lot of chatgpt scheduled automations and some scripts and skills that allow it to search through and…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50559266"
+ },
+ {
+  "author": "modeless",
+  "author_url": "https://news.ycombinator.com/user?id=modeless",
+  "created_at": 1795118073,
+  "id": "hn:50565383",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Replace MyQ garage door openers with Homelink-compatible ones",
+  "quote": "…gave up after five minutes and said we needed to buy a new one. The landlord would pay for it, but I knew that a new one would come with this MyQ scam and also not work with Homelink (car integration) which would be a huge downgrade. So I…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50565383"
+ },
+ {
+  "author": "dividedbyzero",
+  "author_url": "https://news.ycombinator.com/user?id=dividedbyzero",
+  "created_at": 1795141373,
+  "id": "hn:50569388",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Private projects on OnShape free plan",
+  "quote": "I wish there was a way to have at least a small number of projects private with OnShape's free plan. With everything public I can't use existing models I have the right to use, but not to re-publish, that's very limiting. Their cheapest…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50569388"
  }
 ]

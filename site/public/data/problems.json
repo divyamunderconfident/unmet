@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 3.116,
+   "score": 2.965,
    "sources": [
     "hn"
    ],
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 3.017,
+   "score": 2.871,
    "sources": [
     "hn"
    ],
@@ -69,11 +69,86 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 2.948,
+   "score": 2.806,
    "sources": [
     "hn"
    ],
    "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+  },
+  {
+   "id": "ef5ab511",
+   "last_seen": "2026-11-20T02:22:53Z",
+   "mentions": 1,
+   "name": "Private projects on OnShape free plan",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "dividedbyzero",
+     "author_url": "https://news.ycombinator.com/user?id=dividedbyzero",
+     "date": "2026-11-20T02:22:53Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a way to have at least a small number of projects private with OnShape's free plan. With everything public I can't use existing models I have the right to use, but not to re-publish, that's very limiting. Their cheapest…",
+     "url": "https://news.ycombinator.com/item?id=50569388"
+    }
+   ],
+   "score": 1.973,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to keep their projects private, but the free plan only allows public projects, preventing confidential work."
+  },
+  {
+   "id": "91162287",
+   "last_seen": "2026-11-19T19:54:33Z",
+   "mentions": 1,
+   "name": "Replace MyQ garage openers with Homelink",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "modeless",
+     "author_url": "https://news.ycombinator.com/user?id=modeless",
+     "date": "2026-11-19T19:54:33Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…gave up after five minutes and said we needed to buy a new one. The landlord would pay for it, but I knew that a new one would come with this MyQ scam and also not work with Homelink (car integration) which would be a huge downgrade. So I…",
+     "url": "https://news.ycombinator.com/item?id=50565383"
+    }
+   ],
+   "score": 1.947,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to switch from MyQ to Homelink-compatible openers for better integration, but current options lack compatibility or are difficult to install."
+  },
+  {
+   "id": "cb9dfcc2",
+   "last_seen": "2026-11-19T12:32:38Z",
+   "mentions": 1,
+   "name": "Link previews disabled by default in Matrix",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "jillesvangurp",
+     "author_url": "https://news.ycombinator.com/user?id=jillesvangurp",
+     "date": "2026-11-19T12:32:38Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…are working flawlessly. We had some openclaw thing running for a while but we gave up on that (too much issues with that). But we have a lot of chatgpt scheduled automations and some scripts and skills that allow it to search through and…",
+     "url": "https://news.ycombinator.com/item?id=50559266"
+    }
+   ],
+   "score": 1.917,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want URLs to automatically generate previews when posted, but Matrix disables this feature by default, forcing them to manually enable or use workarounds."
   },
   {
    "id": "6dcdcab3",
@@ -94,11 +169,11 @@
      "url": "https://news.ycombinator.com/item?id=50556288"
     }
    ],
-   "score": 1.984,
+   "score": 1.888,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing tools lack structured curation and voting mechanisms to surface the best options."
+   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing marketplaces lack transparent voting and expert curation."
   },
   {
    "id": "63f38282",
@@ -119,11 +194,11 @@
      "url": "https://news.ycombinator.com/item?id=50549240"
     }
    ],
-   "score": 1.937,
+   "score": 1.843,
    "sources": [
     "hn"
    ],
-   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current prompts are ambiguous and fail to explain how to verify and update the key."
+   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current messages are ambiguous and fail to explain how to verify or resolve the issue."
   },
   {
    "id": "70ba0502",
@@ -144,17 +219,17 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.747,
+   "score": 1.663,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly."
+   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Centralized processor die image database",
+   "name": "Centralized processor die image repository",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -169,17 +244,17 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.695,
+   "score": 1.613,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, comprehensive source of processor die images and technical details, but existing resources are fragmented, outdated, or lack depth."
+   "summary": "Users need a single, comprehensive source of processor die images and technical details, but existing resources are fragmented, incomplete, and hard to navigate."
   },
   {
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US-hosted Max model provider",
+   "name": "US-based Max model hosting",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -194,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.595,
+   "score": 1.518,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a local US-based server for the Max model to meet data‑privacy regulations and reduce latency, but existing options are either overseas, limited in availability, or too costly, leaving them without a compliant, reliable solution."
+   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency and compliance concerns."
   },
   {
    "id": "aed53d42",
@@ -219,7 +294,7 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.565,
+   "score": 1.49,
    "sources": [
     "hn"
    ],
@@ -244,7 +319,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.542,
+   "score": 1.468,
    "sources": [
     "hn"
    ],
@@ -269,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.526,
+   "score": 1.452,
    "sources": [
     "hn"
    ],
@@ -279,7 +354,7 @@
    "id": "f684a67b",
    "last_seen": "2026-11-11T07:51:09Z",
    "mentions": 1,
-   "name": "SSH key signing cache issue",
+   "name": "Cache SSH key signing",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -294,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.343,
+   "score": 1.278,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to cache SSH key signing to avoid repeated prompts and improve performance, but existing tools either lack caching support or require complex manual configuration."
+   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
   },
   {
    "id": "59b974be",
@@ -319,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.324,
+   "score": 1.26,
    "sources": [
     "hn"
    ],
@@ -344,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.312,
+   "score": 1.249,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -369,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.298,
+   "score": 1.235,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack seamless integration."
+   "summary": "Users want a single app to control all smart home devices, but existing solutions are fragmented and device‑specific, lacking interoperability."
   },
   {
    "id": "775be560",
@@ -394,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.269,
+   "score": 1.208,
    "sources": [
     "hn"
    ],
@@ -419,94 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50427769"
     }
    ],
-   "score": 1.238,
+   "score": 1.178,
    "sources": [
     "hn"
    ],
    "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell for profit, but existing marketplaces lack price comparison, real‑time inventory data, and reliable escrow services."
-  },
-  {
-   "id": "e2b66651",
-   "last_seen": "2026-11-06T18:46:51Z",
-   "mentions": 1,
-   "name": "Direct HV connection for battery charging",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "xur17",
-     "author_url": "https://news.ycombinator.com/user?id=xur17",
-     "date": "2026-11-06T18:46:51Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…tapping into the HV system manually to keep my Ecoflow battery topped up, but I wish there was a way to directly connect it.",
-     "url": "https://news.ycombinator.com/item?id=50396560"
-    }
-   ],
-   "score": 1.072,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a straightforward way to connect directly to a high‑voltage system for battery charging, but existing solutions are either unsafe, overly complex, or lack reliable, standardized connectors."
-  },
-  {
-   "id": "ffe48861",
-   "last_seen": "2026-11-06T11:53:56Z",
-   "mentions": 1,
-   "name": "Filter non-AI apps in App Store",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "bemtevi",
-     "author_url": "https://news.ycombinator.com/user?id=bemtevi",
-     "date": "2026-11-06T11:53:56Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a filter in the app store to filter and only show apps that having nothing to do with AI. It's become increasingly hard to find a decent, non-AI app these days.",
-     "url": "https://news.ycombinator.com/item?id=50391275"
-    }
-   ],
-   "score": 1.057,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want to quickly find AI-powered apps, but the App Store lacks a dedicated AI category or filter, making it hard to distinguish AI from non-AI apps."
-  },
-  {
-   "id": "35fbe7ba",
-   "last_seen": "2026-11-05T14:15:56Z",
-   "mentions": 1,
-   "name": "Missing CVE for musl vulnerability",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "gquere",
-     "author_url": "https://news.ycombinator.com/user?id=gquere",
-     "date": "2026-11-05T14:15:56Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "Why is this not yet published on the official website and why is there no CVE? https://www.openssh.org/security.html Edit: My bad as pointed below this is not in OpenSSH but in musl and it appears in the relase notes…",
-     "url": "https://news.ycombinator.com/item?id=50379327"
-    }
-   ],
-   "score": 1.011,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a CVE identifier for a musl security flaw, but no CVE has been assigned, hindering tracking, reporting, and patch management."
   }
  ],
  "stats": {
-  "needs_found": 91,
-  "needs_in_window": 43,
-  "posts_classified": 187,
-  "problems_in_window": 43
+  "needs_found": 94,
+  "needs_in_window": 44,
+  "posts_classified": 190,
+  "problems_in_window": 44
  },
- "updated_at": "2026-11-19T09:00:00Z",
+ "updated_at": "2026-11-20T09:00:00Z",
  "window_days": 30
 }

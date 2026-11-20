@@ -1073,6 +1073,24 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50559266": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Default link previews disabled in Matrix"
+ },
+ "hn:50565383": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Replace MyQ garage door openers with Homelink-compatible ones"
+ },
+ "hn:50569388": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Private projects on OnShape free plan"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
