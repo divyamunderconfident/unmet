@@ -1220,5 +1220,31 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50569388"
+ },
+ {
+  "author": "brianrhea",
+  "author_url": "https://news.ycombinator.com/user?id=brianrhea",
+  "created_at": 1795189111,
+  "id": "hn:50576313",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "DM feature on Hacker News",
+  "quote": "Thanks for your service! I wish there was a way to DM on HN ... but if you want to share a burner email I'll send you a promo code for 100% off to unlock the app. Hope the VA continues to improve its service to our vets, and hope you get…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50576313"
+ },
+ {
+  "author": "indubioproIO",
+  "author_url": "https://news.ycombinator.com/user?id=indubioproIO",
+  "created_at": 1795196060,
+  "id": "hn:50578616",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "AI-box to brick fridge Wi‑Fi",
+  "quote": "I wish there was a \"brick its wifi\" AI-box. You setup the box, you select the target, it worms itself in, finds the wifi driver and bricks it. Or if it can find or make alternativ firmware. Just device reconqista without desoldering stuff.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50578616"
  }
 ]

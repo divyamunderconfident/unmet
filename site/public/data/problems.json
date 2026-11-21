@@ -4,7 +4,7 @@
    "id": "f7843cc2",
    "last_seen": "2026-11-11T22:46:05Z",
    "mentions": 1,
-   "name": "Automated fuel drum transfer system",
+   "name": "Fuel pump and line for drum transport",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -19,11 +19,11 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 2.965,
+   "score": 2.822,
    "sources": [
     "hn"
    ],
-   "summary": "People need a pump and line to move fuel from drums to tanks without manual transport, but current options require manual handling or are expensive."
+   "summary": "Users need a pump and line to eliminate manual fuel drum transport, but existing solutions are either too bulky or cost-prohibitive."
   },
   {
    "id": "a5ae092a",
@@ -44,17 +44,17 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 2.871,
+   "score": 2.732,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need to run large AI models locally on extensive codebases quickly, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
+   "summary": "Developers need to run large AI models locally on extensive codebases efficiently, but existing solutions are either too slow, memory‑intensive, or require cloud services, limiting real‑time analysis and privacy."
   },
   {
    "id": "db07bc53",
    "last_seen": "2026-11-10T19:57:39Z",
    "mentions": 1,
-   "name": "Starlink plan missing small business features",
+   "name": "Starlink plan missing small customer features",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -69,11 +69,36 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 2.806,
+   "score": 2.67,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high‑cost, unlimited plans that don’t meet their budget or usage needs."
+  },
+  {
+   "id": "1338b293",
+   "last_seen": "2026-11-20T17:34:20Z",
+   "mentions": 1,
+   "name": "Block AI devices from fridge Wi‑Fi",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "indubioproIO",
+     "author_url": "https://news.ycombinator.com/user?id=indubioproIO",
+     "date": "2026-11-20T17:34:20Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a \"brick its wifi\" AI-box. You setup the box, you select the target, it worms itself in, finds the wifi driver and bricks it. Or if it can find or make alternativ firmware. Just device reconqista without desoldering stuff.",
+     "url": "https://news.ycombinator.com/item?id=50578616"
+    }
+   ],
+   "score": 1.937,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to prevent AI boxes from accessing their fridge’s Wi‑Fi to avoid interference, but current routers lack fine‑grained device isolation or blocking features."
   },
   {
    "id": "ef5ab511",
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50569388"
     }
    ],
-   "score": 1.973,
+   "score": 1.878,
    "sources": [
     "hn"
    ],
@@ -119,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50565383"
     }
    ],
-   "score": 1.947,
+   "score": 1.853,
    "sources": [
     "hn"
    ],
@@ -144,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50559266"
     }
    ],
-   "score": 1.917,
+   "score": 1.825,
    "sources": [
     "hn"
    ],
@@ -169,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50556288"
     }
    ],
-   "score": 1.888,
+   "score": 1.797,
    "sources": [
     "hn"
    ],
@@ -194,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50549240"
     }
    ],
-   "score": 1.843,
+   "score": 1.754,
    "sources": [
     "hn"
    ],
-   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current messages are ambiguous and fail to explain how to verify or resolve the issue."
+   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current warnings are ambiguous and fail to explain how to verify and update the key safely."
   },
   {
    "id": "70ba0502",
@@ -219,17 +244,17 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.663,
+   "score": 1.583,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
+   "summary": "Developers want a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly with different platforms."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Centralized processor die image repository",
+   "name": "Unified processor die image repository",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -244,11 +269,11 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.613,
+   "score": 1.535,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, comprehensive source of processor die images and technical details, but existing resources are fragmented, incomplete, and hard to navigate."
+   "summary": "People want a single, comprehensive source of processor die images and details, but existing resources are fragmented, incomplete, or outdated."
   },
   {
    "id": "b3ae4ed7",
@@ -269,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.518,
+   "score": 1.445,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency and compliance concerns."
+   "summary": "Users need a US-hosted server for the Max model to reduce latency and meet compliance, but current options are either overseas, costly, or lack proper support."
   },
   {
    "id": "aed53d42",
@@ -294,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.49,
+   "score": 1.418,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without each border character taking up a full cell, but existing box‑drawing characters occupy cells and disrupt layout."
+   "summary": "Users want to draw borders in terminal UIs without taking up a character cell, but existing box‑drawing characters occupy a full cell and shift layout."
   },
   {
    "id": "db22e443",
@@ -319,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.468,
+   "score": 1.397,
    "sources": [
     "hn"
    ],
@@ -344,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.452,
+   "score": 1.382,
    "sources": [
     "hn"
    ],
-   "summary": "Users need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
   },
   {
    "id": "f684a67b",
@@ -369,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.278,
+   "score": 1.216,
    "sources": [
     "hn"
    ],
@@ -394,7 +419,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.26,
+   "score": 1.2,
    "sources": [
     "hn"
    ],
@@ -419,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.249,
+   "score": 1.188,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -444,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.235,
+   "score": 1.176,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control all smart home devices, but existing solutions are fragmented and device‑specific, lacking interoperability."
+   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack true interoperability."
   },
   {
    "id": "775be560",
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50436082"
     }
    ],
-   "score": 1.208,
+   "score": 1.149,
    "sources": [
     "hn"
    ],
-   "summary": "Parents need reliable, non‑intrusive monitoring of children’s device usage, but existing apps are either too invasive, lack real‑time alerts, or provide incomplete data."
-  },
-  {
-   "id": "5d4987ce",
-   "last_seen": "2026-11-09T16:26:30Z",
-   "mentions": 1,
-   "name": "GPU arbitrage marketplace",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "qoez",
-     "author_url": "https://news.ycombinator.com/user?id=qoez",
-     "date": "2026-11-09T16:26:30Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was some kind of GPU marketplace so one could just arb this opportunity.",
-     "url": "https://news.ycombinator.com/item?id=50427769"
-    }
-   ],
-   "score": 1.178,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need a transparent, secure platform to buy GPUs at low prices and resell for profit, but existing marketplaces lack price comparison, real‑time inventory data, and reliable escrow services."
+   "summary": "Parents want reliable, privacy‑respecting monitoring of children’s device use, but existing apps are often too invasive, inaccurate, or difficult to configure."
   }
  ],
  "stats": {
-  "needs_found": 94,
-  "needs_in_window": 44,
-  "posts_classified": 190,
-  "problems_in_window": 44
+  "needs_found": 96,
+  "needs_in_window": 46,
+  "posts_classified": 195,
+  "problems_in_window": 46
  },
- "updated_at": "2026-11-20T09:00:00Z",
+ "updated_at": "2026-11-21T09:00:00Z",
  "window_days": 30
 }
