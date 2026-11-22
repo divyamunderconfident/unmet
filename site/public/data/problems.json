@@ -19,7 +19,7 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 2.822,
+   "score": 2.685,
    "sources": [
     "hn"
    ],
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 2.732,
+   "score": 2.6,
    "sources": [
     "hn"
    ],
@@ -54,7 +54,7 @@
    "id": "db07bc53",
    "last_seen": "2026-11-10T19:57:39Z",
    "mentions": 1,
-   "name": "Starlink plan missing small customer features",
+   "name": "Starlink plan missing small business features",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -69,11 +69,36 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 2.67,
+   "score": 2.541,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high‑cost, unlimited plans that don’t meet their budget or usage needs."
+   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+  },
+  {
+   "id": "0ba58f66",
+   "last_seen": "2026-11-21T17:45:57Z",
+   "mentions": 1,
+   "name": "Gradient clipping with autograd.grad in PyTorch",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "MEEP",
+     "author_url": "https://stackoverflow.com/users/16580077/meep",
+     "date": "2026-11-21T17:45:57Z",
+     "site": "stackoverflow",
+     "source": "se",
+     "text": "Looking for a way to implement gradient clipping for gradients computed using autograd.grad instead of .backward. Also to better understand how clipping is done in Pytorch. It seems from reading that the various clipping functions require…",
+     "url": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
+    }
+   ],
+   "score": 1.938,
+   "sources": [
+    "se"
+   ],
+   "summary": "Users need to clip gradients returned by autograd.grad, but existing clipping utilities only work on model parameters, leaving them unable to control gradient magnitude and risking exploding gradients."
   },
   {
    "id": "1338b293",
@@ -94,7 +119,7 @@
      "url": "https://news.ycombinator.com/item?id=50578616"
     }
    ],
-   "score": 1.937,
+   "score": 1.844,
    "sources": [
     "hn"
    ],
@@ -119,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50569388"
     }
    ],
-   "score": 1.878,
+   "score": 1.787,
    "sources": [
     "hn"
    ],
@@ -144,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50565383"
     }
    ],
-   "score": 1.853,
+   "score": 1.763,
    "sources": [
     "hn"
    ],
@@ -169,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50559266"
     }
    ],
-   "score": 1.825,
+   "score": 1.737,
    "sources": [
     "hn"
    ],
@@ -194,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50556288"
     }
    ],
-   "score": 1.797,
+   "score": 1.71,
    "sources": [
     "hn"
    ],
@@ -219,7 +244,7 @@
      "url": "https://news.ycombinator.com/item?id=50549240"
     }
    ],
-   "score": 1.754,
+   "score": 1.67,
    "sources": [
     "hn"
    ],
@@ -244,17 +269,17 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.583,
+   "score": 1.506,
    "sources": [
     "hn"
    ],
-   "summary": "Developers want a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly with different platforms."
+   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Unified processor die image repository",
+   "name": "Centralized processor die database",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -269,17 +294,17 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.535,
+   "score": 1.461,
    "sources": [
     "hn"
    ],
-   "summary": "People want a single, comprehensive source of processor die images and details, but existing resources are fragmented, incomplete, or outdated."
+   "summary": "Users need a single, comprehensive source of processor die images and technical details, but current resources are fragmented, incomplete, or outdated."
   },
   {
    "id": "b3ae4ed7",
    "last_seen": "2026-11-06T14:43:43Z",
    "mentions": 1,
-   "name": "US-based Max model hosting",
+   "name": "Max model hosting in US",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -294,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.445,
+   "score": 1.375,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model to reduce latency and meet compliance, but current options are either overseas, costly, or lack proper support."
+   "summary": "Users need a US-based provider to host the Max model for compliance and low latency, but current cloud options either lack the required data residency, are too expensive, or do not support the specific model architecture."
   },
   {
    "id": "aed53d42",
@@ -319,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.418,
+   "score": 1.349,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without taking up a character cell, but existing box‑drawing characters occupy a full cell and shift layout."
+   "summary": "Users want to draw borders in terminal UIs without each border character taking up a full cell, but existing box‑drawing characters occupy cells and disrupt layout."
   },
   {
    "id": "db22e443",
@@ -344,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.397,
+   "score": 1.329,
    "sources": [
     "hn"
    ],
@@ -369,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.382,
+   "score": 1.315,
    "sources": [
     "hn"
    ],
@@ -379,7 +404,7 @@
    "id": "f684a67b",
    "last_seen": "2026-11-11T07:51:09Z",
    "mentions": 1,
-   "name": "Cache SSH key signing",
+   "name": "SSH key signing cache invalidation",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -394,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.216,
+   "score": 1.157,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to avoid re-entering passphrase or re-signing SSH keys on each connection, but existing tools either don't cache signatures or require manual re-authentication, leading to friction and security gaps."
+   "summary": "Users need a reliable way to cache SSH key signatures for faster authentication, but current tools either never cache or clear the cache too often, forcing repeated prompts or compromising security."
   },
   {
    "id": "59b974be",
@@ -419,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.2,
+   "score": 1.142,
    "sources": [
     "hn"
    ],
@@ -444,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.188,
+   "score": 1.131,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
+   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
   },
   {
    "id": "0925d9bb",
@@ -469,44 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.176,
+   "score": 1.119,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack true interoperability."
-  },
-  {
-   "id": "775be560",
-   "last_seen": "2026-11-10T04:31:02Z",
-   "mentions": 1,
-   "name": "Kid usage monitoring app",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "kirkenshrir",
-     "author_url": "https://news.ycombinator.com/user?id=kirkenshrir",
-     "date": "2026-11-10T04:31:02Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I'm a PC/Android guy but I'd love an app like this! I have kids but i don't want to always have to input a pin whenever i step away from the computer in my own home. They can use it when i say it's okay but I don't like them hopping on…",
-     "url": "https://news.ycombinator.com/item?id=50436082"
-    }
-   ],
-   "score": 1.149,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Parents want reliable, privacy‑respecting monitoring of children’s device use, but existing apps are often too invasive, inaccurate, or difficult to configure."
+   "summary": "Users want one app to control all smart home devices, but existing apps are device‑specific and lack cross‑platform integration."
   }
  ],
  "stats": {
-  "needs_found": 96,
-  "needs_in_window": 46,
-  "posts_classified": 195,
-  "problems_in_window": 46
+  "needs_found": 97,
+  "needs_in_window": 47,
+  "posts_classified": 196,
+  "problems_in_window": 47
  },
- "updated_at": "2026-11-21T09:00:00Z",
+ "updated_at": "2026-11-22T09:00:00Z",
  "window_days": 30
 }

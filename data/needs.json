@@ -1246,5 +1246,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50578616"
+ },
+ {
+  "author": "MEEP",
+  "author_url": "https://stackoverflow.com/users/16580077/meep",
+  "created_at": 1795283157,
+  "id": "se:stackoverflow:80018002",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Implement gradient clipping with autograd.grad in PyTorch",
+  "quote": "Looking for a way to implement gradient clipping for gradients computed using autograd.grad instead of .backward. Also to better understand how clipping is done in Pytorch. It seems from reading that the various clipping functions require…",
+  "site": "stackoverflow",
+  "source": "se",
+  "url": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
  }
 ]

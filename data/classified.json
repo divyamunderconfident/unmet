@@ -1157,6 +1157,12 @@
   "pay_signal": false,
   "problem": ""
  },
+ "se:stackoverflow:80018002": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Implement gradient clipping with autograd.grad in PyTorch"
+ },
  "se:superuser:1940686": {
   "is_need": true,
   "pain": 2,
