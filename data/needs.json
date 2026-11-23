@@ -1259,5 +1259,18 @@
   "site": "stackoverflow",
   "source": "se",
   "url": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
+ },
+ {
+  "author": "willcodeforfoo",
+  "author_url": "https://news.ycombinator.com/user?id=willcodeforfoo",
+  "created_at": 1795393160,
+  "id": "hn:50605673",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Need for a tame mode in GTA 6",
+  "quote": "Although it'd never happen, I wish there was a more tame mode for this game. My 9 year old would love to drive around and explore the world.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50605673"
  }
 ]

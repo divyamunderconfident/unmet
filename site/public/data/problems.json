@@ -4,7 +4,7 @@
    "id": "f7843cc2",
    "last_seen": "2026-11-11T22:46:05Z",
    "mentions": 1,
-   "name": "Fuel pump and line for drum transport",
+   "name": "Automated fuel drum transfer system",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -19,11 +19,11 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 2.685,
+   "score": 2.551,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a pump and line to eliminate manual fuel drum transport, but existing solutions are either too bulky or cost-prohibitive."
+   "summary": "Users need a reliable, cost‑effective pump and line to move fuel from drums to tanks without manual transport, but current options are expensive or unreliable."
   },
   {
    "id": "a5ae092a",
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 2.6,
+   "score": 2.47,
    "sources": [
     "hn"
    ],
@@ -69,7 +69,7 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 2.541,
+   "score": 2.413,
    "sources": [
     "hn"
    ],
@@ -94,7 +94,7 @@
      "url": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
     }
    ],
-   "score": 1.938,
+   "score": 1.841,
    "sources": [
     "se"
    ],
@@ -119,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50578616"
     }
    ],
-   "score": 1.844,
+   "score": 1.751,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to prevent AI boxes from accessing their fridge’s Wi‑Fi to avoid interference, but current routers lack fine‑grained device isolation or blocking features."
+   "summary": "Users want a simple method to prevent AI boxes from connecting to their fridge’s Wi‑Fi, but current routers lack fine‑grained device filtering or isolation to stop these devices from interfering."
   },
   {
    "id": "ef5ab511",
@@ -144,7 +144,7 @@
      "url": "https://news.ycombinator.com/item?id=50569388"
     }
    ],
-   "score": 1.787,
+   "score": 1.697,
    "sources": [
     "hn"
    ],
@@ -169,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50565383"
     }
    ],
-   "score": 1.763,
+   "score": 1.675,
    "sources": [
     "hn"
    ],
@@ -194,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50559266"
     }
    ],
-   "score": 1.737,
+   "score": 1.649,
    "sources": [
     "hn"
    ],
@@ -219,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50556288"
     }
    ],
-   "score": 1.71,
+   "score": 1.624,
    "sources": [
     "hn"
    ],
@@ -244,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50549240"
     }
    ],
-   "score": 1.67,
+   "score": 1.586,
    "sources": [
     "hn"
    ],
-   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current warnings are ambiguous and fail to explain how to verify and update the key safely."
+   "summary": "Users need clearer, actionable instructions when SSH alerts about host key changes, as current messages are ambiguous and can lead to security missteps."
   },
   {
    "id": "70ba0502",
@@ -269,17 +269,17 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.506,
+   "score": 1.43,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
+   "summary": "Developers need a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Centralized processor die database",
+   "name": "Centralized processor die image repository",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -294,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.461,
+   "score": 1.388,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, comprehensive source of processor die images and technical details, but current resources are fragmented, incomplete, or outdated."
+   "summary": "Users need a single, comprehensive source of processor die images and technical details, but existing resources are fragmented, outdated, or lack depth."
   },
   {
    "id": "b3ae4ed7",
@@ -319,7 +319,7 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.375,
+   "score": 1.306,
    "sources": [
     "hn"
    ],
@@ -344,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.349,
+   "score": 1.281,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without each border character taking up a full cell, but existing box‑drawing characters occupy cells and disrupt layout."
+   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always consume a cell, disrupting layout and alignment."
   },
   {
    "id": "db22e443",
@@ -369,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.329,
+   "score": 1.262,
    "sources": [
     "hn"
    ],
@@ -379,7 +379,7 @@
    "id": "c99e56dd",
    "last_seen": "2026-11-05T17:17:51Z",
    "mentions": 1,
-   "name": "Non-wireless Android device for exams",
+   "name": "Offline Android device for exams",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -394,17 +394,17 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.315,
+   "score": 1.249,
    "sources": [
     "hn"
    ],
-   "summary": "Exam takers need an Android device without Wi‑Fi, Bluetooth, or cellular to prevent cheating and ensure offline use, but standard Android phones and tablets always include wireless hardware that cannot be fully disabled."
+   "summary": "Users need a fully offline Android phone for exams, but standard devices still have Wi‑Fi or cellular that can be hard to disable or may still allow unauthorized access."
   },
   {
    "id": "f684a67b",
    "last_seen": "2026-11-11T07:51:09Z",
    "mentions": 1,
-   "name": "SSH key signing cache invalidation",
+   "name": "Cache SSH key signing",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -419,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.157,
+   "score": 1.099,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a reliable way to cache SSH key signatures for faster authentication, but current tools either never cache or clear the cache too often, forcing repeated prompts or compromising security."
+   "summary": "Users want to cache SSH key signing to reduce authentication latency, but current tools lack a touch‑based caching mechanism, forcing repeated signing and slowing connections."
   },
   {
    "id": "59b974be",
@@ -444,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50343384"
     }
    ],
-   "score": 1.142,
+   "score": 1.084,
    "sources": [
     "hn"
    ],
@@ -469,7 +469,7 @@
      "url": "https://news.ycombinator.com/item?id=50445943"
     }
    ],
-   "score": 1.131,
+   "score": 1.074,
    "sources": [
     "hn"
    ],
@@ -494,19 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50441710"
     }
    ],
-   "score": 1.119,
+   "score": 1.063,
    "sources": [
     "hn"
    ],
-   "summary": "Users want one app to control all smart home devices, but existing apps are device‑specific and lack cross‑platform integration."
+   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack seamless integration."
   }
  ],
  "stats": {
-  "needs_found": 97,
-  "needs_in_window": 47,
-  "posts_classified": 196,
-  "problems_in_window": 47
+  "needs_found": 98,
+  "needs_in_window": 48,
+  "posts_classified": 199,
+  "problems_in_window": 48
  },
- "updated_at": "2026-11-22T09:00:00Z",
+ "updated_at": "2026-11-23T10:00:00Z",
  "window_days": 30
 }
