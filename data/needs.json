@@ -1272,5 +1272,44 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50605673"
+ },
+ {
+  "author": "OsrsNeedsf2P",
+  "author_url": "https://news.ycombinator.com/user?id=OsrsNeedsf2P",
+  "created_at": 1795450512,
+  "id": "hn:50614291",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Windows 7 Wine desktop integration",
+  "quote": "I've used winxp-tc before and it's a great project. I wish there was one for Windows 7",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50614291"
+ },
+ {
+  "author": "OptionOfT",
+  "author_url": "https://news.ycombinator.com/user?id=OptionOfT",
+  "created_at": 1795464854,
+  "id": "hn:50618512",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "WSL YubiKey SSH integration",
+  "quote": "I wish there was a fool-proof way to do this with WSL. If I put in a YubiKey in Windows, I should be able to use it in WSL, and when I SSH into another machine.",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50618512"
+ },
+ {
+  "author": "p0lychromatic",
+  "author_url": "https://news.ycombinator.com/user?id=p0lychromatic",
+  "created_at": 1795482723,
+  "id": "hn:50622142",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Simplified patching mode for unpatched Linux",
+  "quote": "…not a simple \"vibe-code your patch\" platform you can deploy in an emergency. I wish there was a reduced security mode that really just focuses on patching vulnerable software, and not defending itself from when the machine is already…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50622142"
  }
 ]

@@ -4,7 +4,7 @@
    "id": "f7843cc2",
    "last_seen": "2026-11-11T22:46:05Z",
    "mentions": 1,
-   "name": "Automated fuel drum transfer system",
+   "name": "Fuel pump and line for drum transport",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -19,11 +19,11 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 2.551,
+   "score": 2.422,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a reliable, cost‑effective pump and line to move fuel from drums to tanks without manual transport, but current options are expensive or unreliable."
+   "summary": "Users need a pump and line to eliminate manual fuel drum transport, but existing solutions are either too bulky or cost-prohibitive."
   },
   {
    "id": "a5ae092a",
@@ -44,7 +44,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 2.47,
+   "score": 2.346,
    "sources": [
     "hn"
    ],
@@ -69,11 +69,86 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 2.413,
+   "score": 2.292,
    "sources": [
     "hn"
    ],
    "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+  },
+  {
+   "id": "d006b35c",
+   "last_seen": "2026-11-24T01:12:03Z",
+   "mentions": 1,
+   "name": "Simplified patching mode for unpatched Linux",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "p0lychromatic",
+     "author_url": "https://news.ycombinator.com/user?id=p0lychromatic",
+     "date": "2026-11-24T01:12:03Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…not a simple \"vibe-code your patch\" platform you can deploy in an emergency. I wish there was a reduced security mode that really just focuses on patching vulnerable software, and not defending itself from when the machine is already…",
+     "url": "https://news.ycombinator.com/item?id=50622142"
+    }
+   ],
+   "score": 1.96,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users need an easy, automated way to patch unpatched Linux systems, but existing tools are complex, require manual configuration, or lack comprehensive coverage."
+  },
+  {
+   "id": "226180e6",
+   "last_seen": "2026-11-23T20:14:14Z",
+   "mentions": 1,
+   "name": "WSL YubiKey SSH integration issue",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "OptionOfT",
+     "author_url": "https://news.ycombinator.com/user?id=OptionOfT",
+     "date": "2026-11-23T20:14:14Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I wish there was a fool-proof way to do this with WSL. If I put in a YubiKey in Windows, I should be able to use it in WSL, and when I SSH into another machine.",
+     "url": "https://news.ycombinator.com/item?id=50618512"
+    }
+   ],
+   "score": 1.94,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to use YubiKey for SSH authentication inside Windows Subsystem for Linux, but current tools and drivers don’t support YubiKey in WSL, leaving them unable to authenticate securely."
+  },
+  {
+   "id": "58359836",
+   "last_seen": "2026-11-23T16:15:12Z",
+   "mentions": 1,
+   "name": "Wine desktop integration on Windows 7",
+   "pain": 2.0,
+   "pay_signal": false,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "OsrsNeedsf2P",
+     "author_url": "https://news.ycombinator.com/user?id=OsrsNeedsf2P",
+     "date": "2026-11-23T16:15:12Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I've used winxp-tc before and it's a great project. I wish there was one for Windows 7",
+     "url": "https://news.ycombinator.com/item?id=50614291"
+    }
+   ],
+   "score": 1.924,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to run Linux applications via Wine on Windows 7 with native desktop integration—icons, file associations, and menu entries—but existing Wine builds for Windows lack proper integration, leading to a clunky, non‑native experience."
   },
   {
    "id": "0ba58f66",
@@ -94,7 +169,7 @@
      "url": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
     }
    ],
-   "score": 1.841,
+   "score": 1.748,
    "sources": [
     "se"
    ],
@@ -119,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50578616"
     }
    ],
-   "score": 1.751,
+   "score": 1.663,
    "sources": [
     "hn"
    ],
@@ -144,7 +219,7 @@
      "url": "https://news.ycombinator.com/item?id=50569388"
     }
    ],
-   "score": 1.697,
+   "score": 1.612,
    "sources": [
     "hn"
    ],
@@ -169,11 +244,11 @@
      "url": "https://news.ycombinator.com/item?id=50565383"
     }
    ],
-   "score": 1.675,
+   "score": 1.59,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to switch from MyQ to Homelink-compatible openers for better integration, but current options lack compatibility or are difficult to install."
+   "summary": "Users want to swap MyQ openers for Homelink-compatible models, but existing options are costly, require complex wiring, or lack seamless integration."
   },
   {
    "id": "cb9dfcc2",
@@ -194,7 +269,7 @@
      "url": "https://news.ycombinator.com/item?id=50559266"
     }
    ],
-   "score": 1.649,
+   "score": 1.566,
    "sources": [
     "hn"
    ],
@@ -219,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50556288"
     }
    ],
-   "score": 1.624,
+   "score": 1.543,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing marketplaces lack transparent voting and expert curation."
+   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing tools lack structured curation and voting mechanisms to surface the best options."
   },
   {
    "id": "63f38282",
@@ -244,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50549240"
     }
    ],
-   "score": 1.586,
+   "score": 1.506,
    "sources": [
     "hn"
    ],
-   "summary": "Users need clearer, actionable instructions when SSH alerts about host key changes, as current messages are ambiguous and can lead to security missteps."
+   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current warnings are ambiguous and fail to explain how to verify and update the key safely."
   },
   {
    "id": "70ba0502",
@@ -269,7 +344,7 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.43,
+   "score": 1.359,
    "sources": [
     "hn"
    ],
@@ -294,7 +369,7 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.388,
+   "score": 1.318,
    "sources": [
     "hn"
    ],
@@ -319,7 +394,7 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.306,
+   "score": 1.24,
    "sources": [
     "hn"
    ],
@@ -344,11 +419,11 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.281,
+   "score": 1.217,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always consume a cell, disrupting layout and alignment."
+   "summary": "Users want to draw borders in terminal UIs without occupying character cells, but existing box‑drawing characters always take up a cell, shifting layout and breaking alignment."
   },
   {
    "id": "db22e443",
@@ -369,7 +444,7 @@
      "url": "https://news.ycombinator.com/item?id=50385353"
     }
    ],
-   "score": 1.262,
+   "score": 1.199,
    "sources": [
     "hn"
    ],
@@ -379,7 +454,7 @@
    "id": "c99e56dd",
    "last_seen": "2026-11-05T17:17:51Z",
    "mentions": 1,
-   "name": "Offline Android device for exams",
+   "name": "Non-wireless Android device for exams",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -394,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50381690"
     }
    ],
-   "score": 1.249,
+   "score": 1.186,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a fully offline Android phone for exams, but standard devices still have Wi‑Fi or cellular that can be hard to disable or may still allow unauthorized access."
+   "summary": "Users need an Android device that guarantees no Wi‑Fi or cellular connectivity for exam settings, but existing Android phones either have built‑in wireless modules that cannot be fully disabled or require complex rooting, leaving exam integrity unprotected."
   },
   {
    "id": "f684a67b",
@@ -419,94 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50450786"
     }
    ],
-   "score": 1.099,
+   "score": 1.044,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to cache SSH key signing to reduce authentication latency, but current tools lack a touch‑based caching mechanism, forcing repeated signing and slowing connections."
-  },
-  {
-   "id": "59b974be",
-   "last_seen": "2026-11-02T20:39:46Z",
-   "mentions": 1,
-   "name": "Missing mobile device support in bug detection",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "beavisringdin",
-     "author_url": "https://news.ycombinator.com/user?id=beavisringdin",
-     "date": "2026-11-02T20:39:46Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…this on your roadmap and if so what's your plan to support it? In that case I would pay for this if you handled the real device on your end.",
-     "url": "https://news.ycombinator.com/item?id=50343384"
-    }
-   ],
-   "score": 1.084,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Developers need bug detection tools that run on mobile devices, but current services only support desktop environments, leaving mobile bugs untested."
-  },
-  {
-   "id": "9077d631",
-   "last_seen": "2026-11-10T20:35:46Z",
-   "mentions": 1,
-   "name": "Auto-generate PowerPoint from data tool",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "BeetleB",
-     "author_url": "https://news.ycombinator.com/user?id=BeetleB",
-     "date": "2026-11-10T20:35:46Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…big companies operate. They also wanted us to autogenerate PowerPoint files. We gave up on that. The spec is a mess.",
-     "url": "https://news.ycombinator.com/item?id=50445943"
-    }
-   ],
-   "score": 1.074,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a tool that automatically converts raw data into polished PowerPoint slides, but existing solutions require manual formatting or lack integration with data sources."
-  },
-  {
-   "id": "0925d9bb",
-   "last_seen": "2026-11-10T15:25:24Z",
-   "mentions": 1,
-   "name": "Unified smart home app for all devices",
-   "pain": 2.0,
-   "pay_signal": false,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "ProblemExplorer",
-     "author_url": "https://news.ycombinator.com/user?id=ProblemExplorer",
-     "date": "2026-11-10T15:25:24Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…really annoyed at installing a dozen apps for every smart bulb or fan I get. I wish there was just one app (and unfortunately, now I have to decide to stick to one brand) I have no horse in this race, nor am I saying these various apps…",
-     "url": "https://news.ycombinator.com/item?id=50441710"
-    }
-   ],
-   "score": 1.063,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want a single app to control every smart home device, but existing solutions are fragmented, device‑specific, and lack seamless integration."
+   "summary": "Users want to cache SSH key signing to reduce latency and avoid repeated signing, but existing solutions lack efficient caching or touch support."
   }
  ],
  "stats": {
-  "needs_found": 98,
-  "needs_in_window": 48,
-  "posts_classified": 199,
-  "problems_in_window": 48
+  "needs_found": 101,
+  "needs_in_window": 51,
+  "posts_classified": 207,
+  "problems_in_window": 51
  },
- "updated_at": "2026-11-23T10:00:00Z",
+ "updated_at": "2026-11-24T11:00:00Z",
  "window_days": 30
 }

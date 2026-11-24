@@ -1133,6 +1133,54 @@
   "pay_signal": false,
   "problem": "Need for a tame mode in GTA 6"
  },
+ "hn:50612403": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50613788": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50614291": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Windows 7 Wine desktop integration"
+ },
+ "hn:50618512": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "WSL YubiKey SSH integration"
+ },
+ "hn:50619792": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50621869": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50622142": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Simplified patching mode for unpatched Linux"
+ },
+ "hn:50624139": {
+  "is_need": false,
+  "pain": 0,
+  "pay_signal": false,
+  "problem": ""
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
