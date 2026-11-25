@@ -1311,5 +1311,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50622142"
+ },
+ {
+  "author": "dccoolgai",
+  "author_url": "https://news.ycombinator.com/user?id=dccoolgai",
+  "created_at": 1795583079,
+  "id": "hn:50638718",
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Private long-range spectrum access",
+  "quote": "…comms and LORA which suffers from the \"tragedy of commons\" noted... I wish there was spectrum that could be used for private long-range that would be accessible with a basic license or something...",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50638718"
  }
 ]

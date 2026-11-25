@@ -1181,6 +1181,24 @@
   "pay_signal": false,
   "problem": ""
  },
+ "hn:50628222": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50635264": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50638718": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": false,
+  "problem": "Private long-range spectrum access"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,
