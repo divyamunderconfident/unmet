@@ -1199,6 +1199,24 @@
   "pay_signal": false,
   "problem": "Private long-range spectrum access"
  },
+ "hn:50658440": {
+  "is_need": false,
+  "pain": 1,
+  "pay_signal": false,
+  "problem": ""
+ },
+ "hn:50658961": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Create YouTube account without phone verification"
+ },
+ "hn:50660997": {
+  "is_need": true,
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Improve YouTube recommendation diversity"
+ },
  "se:stackoverflow:80006700": {
   "is_need": true,
   "pain": 2,

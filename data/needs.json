@@ -1324,5 +1324,31 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50638718"
+ },
+ {
+  "author": "aniviacat",
+  "author_url": "https://news.ycombinator.com/user?id=aniviacat",
+  "created_at": 1795722599,
+  "id": "hn:50658961",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Create YouTube account without phone verification",
+  "quote": "I would pay for YouTube Premium if Google let me create an account without providing (and verifying) a phone number. For me, it is not the money that is the issue. The issue is that Google abuses the account for user-hostile behavior, like…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50658961"
+ },
+ {
+  "author": "lilbigdoot",
+  "author_url": "https://news.ycombinator.com/user?id=lilbigdoot",
+  "created_at": 1795735534,
+  "id": "hn:50660997",
+  "pain": 2,
+  "pay_signal": true,
+  "problem": "Improve YouTube recommendation diversity",
+  "quote": "…thing for me is the recommendation algorithm doesn't provide an experience I would pay for. It consistently pigeon holes every account I have into the same handful of consistently recommended creators and topics and the same videos over…",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50660997"
  }
 ]

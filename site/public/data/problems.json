@@ -1,6 +1,56 @@
 {
  "problems": [
   {
+   "id": "b3ac8b23",
+   "last_seen": "2026-11-26T23:25:34Z",
+   "mentions": 1,
+   "name": "YouTube recommendation diversity",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "lilbigdoot",
+     "author_url": "https://news.ycombinator.com/user?id=lilbigdoot",
+     "date": "2026-11-26T23:25:34Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "…thing for me is the recommendation algorithm doesn't provide an experience I would pay for. It consistently pigeon holes every account I have into the same handful of consistently recommended creators and topics and the same videos over…",
+     "url": "https://news.ycombinator.com/item?id=50660997"
+    }
+   ],
+   "score": 2.935,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want a broader mix of content, but current algorithms over‑personalize, leading to echo chambers and limited discovery."
+  },
+  {
+   "id": "f69ea651",
+   "last_seen": "2026-11-26T19:49:59Z",
+   "mentions": 1,
+   "name": "Create YouTube account without phone verification",
+   "pain": 2.0,
+   "pay_signal": true,
+   "people": 1,
+   "quotes": [
+    {
+     "author": "aniviacat",
+     "author_url": "https://news.ycombinator.com/user?id=aniviacat",
+     "date": "2026-11-26T19:49:59Z",
+     "site": "Hacker News",
+     "source": "hn",
+     "text": "I would pay for YouTube Premium if Google let me create an account without providing (and verifying) a phone number. For me, it is not the money that is the issue. The issue is that Google abuses the account for user-hostile behavior, like…",
+     "url": "https://news.ycombinator.com/item?id=50658961"
+    }
+   ],
+   "score": 2.914,
+   "sources": [
+    "hn"
+   ],
+   "summary": "Users want to sign up for YouTube without providing a phone number, but current sign‑up flows mandate phone verification, preventing account creation."
+  },
+  {
    "id": "f7843cc2",
    "last_seen": "2026-11-11T22:46:05Z",
    "mentions": 1,
@@ -19,11 +69,11 @@
      "url": "https://news.ycombinator.com/item?id=50459926"
     }
    ],
-   "score": 2.198,
+   "score": 2.092,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a pump and line to stop manually moving fuel drums, but existing options are insufficient."
+   "summary": "Users need a pump and line to eliminate manual fuel drum transport, but existing solutions are either too bulky or cost-prohibitive."
   },
   {
    "id": "a5ae092a",
@@ -44,7 +94,7 @@
      "url": "https://news.ycombinator.com/item?id=50450531"
     }
    ],
-   "score": 2.129,
+   "score": 2.026,
    "sources": [
     "hn"
    ],
@@ -54,7 +104,7 @@
    "id": "db07bc53",
    "last_seen": "2026-11-10T19:57:39Z",
    "mentions": 1,
-   "name": "Starlink plan missing small business features",
+   "name": "Starlink plan missing small customer features",
    "pain": 3.0,
    "pay_signal": true,
    "people": 1,
@@ -69,11 +119,11 @@
      "url": "https://news.ycombinator.com/item?id=50445475"
     }
    ],
-   "score": 2.08,
+   "score": 1.98,
    "sources": [
     "hn"
    ],
-   "summary": "Small customers want affordable, flexible plans with data limits and support, but Starlink offers only high‑cost, unlimited plans that don’t fit their budgets."
+   "summary": "Small customers want affordable, flexible plans with data caps and local support, but Starlink offers only high‑cost, unlimited plans that don’t meet their budget or usage needs."
   },
   {
    "id": "9c1283f4",
@@ -94,11 +144,11 @@
      "url": "https://news.ycombinator.com/item?id=50638718"
     }
    ],
-   "score": 1.884,
+   "score": 1.793,
    "sources": [
     "hn"
    ],
-   "summary": "People need affordable, high-capacity long-range wireless for private networks, but existing spectrum licensing and shared models are expensive, restrictive, and congested."
+   "summary": "People need affordable, high‑capacity, long‑range wireless for private networks, but existing spectrum licensing and shared models are expensive, restrictive, and congested."
   },
   {
    "id": "d006b35c",
@@ -119,7 +169,7 @@
      "url": "https://news.ycombinator.com/item?id=50622142"
     }
    ],
-   "score": 1.779,
+   "score": 1.693,
    "sources": [
     "hn"
    ],
@@ -144,7 +194,7 @@
      "url": "https://news.ycombinator.com/item?id=50618512"
     }
    ],
-   "score": 1.761,
+   "score": 1.676,
    "sources": [
     "hn"
    ],
@@ -154,7 +204,7 @@
    "id": "58359836",
    "last_seen": "2026-11-23T16:15:12Z",
    "mentions": 1,
-   "name": "Wine desktop integration on Windows 7",
+   "name": "Wine desktop integration for Windows 7 apps",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -169,11 +219,11 @@
      "url": "https://news.ycombinator.com/item?id=50614291"
     }
    ],
-   "score": 1.746,
+   "score": 1.662,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to run Linux applications on Windows 7 with native desktop integration, but existing solutions lack proper integration, leading to awkward UI and missing features."
+   "summary": "Users want Windows 7 applications to appear and behave like native Linux apps, but Wine’s current integration lacks proper icons, file associations, and seamless desktop integration."
   },
   {
    "id": "0ba58f66",
@@ -194,7 +244,7 @@
      "url": "https://stackoverflow.com/questions/80018002/how-to-use-autograd-grad-to-implement-gradient-clipping-in-pytorch"
     }
    ],
-   "score": 1.587,
+   "score": 1.51,
    "sources": [
     "se"
    ],
@@ -219,17 +269,17 @@
      "url": "https://news.ycombinator.com/item?id=50578616"
     }
    ],
-   "score": 1.509,
+   "score": 1.436,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to prevent AI boxes from accessing their fridge’s Wi‑Fi to avoid interference, but current routers lack fine‑grained device isolation or blocking features."
+   "summary": "Users want a simple method to prevent AI boxes from connecting to their fridge’s Wi‑Fi, but current routers lack fine‑grained device filtering or isolation to stop these devices from interfering."
   },
   {
    "id": "ef5ab511",
    "last_seen": "2026-11-20T02:22:53Z",
    "mentions": 1,
-   "name": "Private projects on OnShape free plan",
+   "name": "Private projects unavailable on free plan",
    "pain": 2.0,
    "pay_signal": false,
    "people": 1,
@@ -244,11 +294,11 @@
      "url": "https://news.ycombinator.com/item?id=50569388"
     }
    ],
-   "score": 1.463,
+   "score": 1.392,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to keep their projects private, but the free plan only allows public projects, preventing confidential work."
+   "summary": "Users want to keep their OnShape projects private, but the free plan only supports public projects, leaving them unable to protect sensitive designs."
   },
   {
    "id": "91162287",
@@ -269,11 +319,11 @@
      "url": "https://news.ycombinator.com/item?id=50565383"
     }
    ],
-   "score": 1.443,
+   "score": 1.374,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to switch from MyQ to Homelink-compatible openers for better integration, but current options lack compatibility or are difficult to install."
+   "summary": "Users want to swap MyQ openers for Homelink-compatible models to enable in-car control, but existing solutions are costly, hard to install, or lack reliable integration."
   },
   {
    "id": "cb9dfcc2",
@@ -294,11 +344,11 @@
      "url": "https://news.ycombinator.com/item?id=50559266"
     }
    ],
-   "score": 1.422,
+   "score": 1.353,
    "sources": [
     "hn"
    ],
-   "summary": "Users want URLs to automatically generate previews when posted, but Matrix disables this feature by default, forcing them to manually enable it or rely on external bots, which is inconvenient and inconsistent."
+   "summary": "Users want URLs to automatically generate previews when posted, but Matrix disables this feature by default, forcing them to manually enable or use workarounds."
   },
   {
    "id": "6dcdcab3",
@@ -319,11 +369,11 @@
      "url": "https://news.ycombinator.com/item?id=50556288"
     }
    ],
-   "score": 1.4,
+   "score": 1.333,
    "sources": [
     "hn"
    ],
-   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing marketplaces lack transparent voting and expert curation."
+   "summary": "Users want a community‑driven platform that curates and ranks AI models, but existing tools lack structured curation and voting mechanisms to surface the best options."
   },
   {
    "id": "63f38282",
@@ -344,11 +394,11 @@
      "url": "https://news.ycombinator.com/item?id=50549240"
     }
    ],
-   "score": 1.367,
+   "score": 1.301,
    "sources": [
     "hn"
    ],
-   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current warnings are ambiguous and fail to explain how to verify and update the key safely."
+   "summary": "Users need clearer, actionable instructions when SSH alerts them to a host key change, as current messages are ambiguous and fail to explain how to verify and update the key safely."
   },
   {
    "id": "70ba0502",
@@ -369,17 +419,17 @@
      "url": "https://news.ycombinator.com/item?id=50518655"
     }
    ],
-   "score": 1.233,
+   "score": 1.173,
    "sources": [
     "hn"
    ],
-   "summary": "Developers need a single mini‑app library that works across multiple AI providers, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly into agent‑built applications."
+   "summary": "Developers need a reusable mini‑app library that works across multiple AI providers for agent‑built applications, but current libraries are provider‑specific or lack the flexibility to integrate seamlessly."
   },
   {
    "id": "5fdb0192",
    "last_seen": "2026-11-07T20:12:34Z",
    "mentions": 1,
-   "name": "Centralized processor die image database",
+   "name": "Centralized processor die database",
    "pain": 2.0,
    "pay_signal": true,
    "people": 1,
@@ -394,11 +444,11 @@
      "url": "https://news.ycombinator.com/item?id=50407616"
     }
    ],
-   "score": 1.196,
+   "score": 1.138,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a single, searchable repository of processor die images and specifications, but existing resources are fragmented, incomplete, and hard to navigate."
+   "summary": "Users need a single, comprehensive source of processor die images and technical details, but existing resources are fragmented, outdated, or lack depth."
   },
   {
    "id": "b3ae4ed7",
@@ -419,11 +469,11 @@
      "url": "https://news.ycombinator.com/item?id=50392919"
     }
    ],
-   "score": 1.125,
+   "score": 1.071,
    "sources": [
     "hn"
    ],
-   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency, compliance concerns, and inadequate service."
+   "summary": "Users need a US-hosted server for the Max model, but current providers are overseas or lack support, leading to high latency and compliance concerns."
   },
   {
    "id": "aed53d42",
@@ -444,69 +494,19 @@
      "url": "https://news.ycombinator.com/item?id=50495725"
     }
    ],
-   "score": 1.105,
+   "score": 1.051,
    "sources": [
     "hn"
    ],
-   "summary": "Users want to draw borders in terminal UIs without occupying a character cell, but existing box‑drawing characters always take up a full cell, shifting layout and breaking alignment."
-  },
-  {
-   "id": "db22e443",
-   "last_seen": "2026-11-05T22:24:25Z",
-   "mentions": 1,
-   "name": "Limited search results in Kagi",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "superkuh",
-     "author_url": "https://news.ycombinator.com/user?id=superkuh",
-     "date": "2026-11-05T22:24:25Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "…find serendipitous things related to the intended search. I really miss and would pay for the ability to read and select search results myself instead of having them curated for me by some algorithm. Or at least give me a couple thousand…",
-     "url": "https://news.ycombinator.com/item?id=50385353"
-    }
-   ],
-   "score": 1.088,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users want broader, more comprehensive search results, but Kagi’s current filtering and result limits prevent them from accessing the full breadth of information they need."
-  },
-  {
-   "id": "c99e56dd",
-   "last_seen": "2026-11-05T17:17:51Z",
-   "mentions": 1,
-   "name": "Offline Android device for exams",
-   "pain": 2.0,
-   "pay_signal": true,
-   "people": 1,
-   "quotes": [
-    {
-     "author": "mapierce2",
-     "author_url": "https://news.ycombinator.com/user?id=mapierce2",
-     "date": "2026-11-05T17:17:51Z",
-     "site": "Hacker News",
-     "source": "hn",
-     "text": "I wish there was a device that had the same form-factor as an android phone, touch screen and pocket-sized, but without any of the wireless networking capabilities, and ideally without the camera and mic too. Still would need a usb-c port…",
-     "url": "https://news.ycombinator.com/item?id=50381690"
-    }
-   ],
-   "score": 1.077,
-   "sources": [
-    "hn"
-   ],
-   "summary": "Users need an Android device that cannot connect to Wi‑Fi or Bluetooth during exams to prevent cheating, but current Android phones and tablets always have wireless capabilities that cannot be fully disabled."
+   "summary": "Users want to draw visual borders in terminal UIs without occupying a character cell, but existing box‑drawing characters always take up a full cell and shift surrounding content."
   }
  ],
  "stats": {
-  "needs_found": 102,
-  "needs_in_window": 50,
-  "posts_classified": 210,
-  "problems_in_window": 50
+  "needs_found": 104,
+  "needs_in_window": 51,
+  "posts_classified": 213,
+  "problems_in_window": 51
  },
- "updated_at": "2026-11-26T10:00:00Z",
+ "updated_at": "2026-11-27T10:00:00Z",
  "window_days": 30
 }
