@@ -1350,5 +1350,18 @@
   "site": "Hacker News",
   "source": "hn",
   "url": "https://news.ycombinator.com/item?id=50660997"
+ },
+ {
+  "author": "nchagnet",
+  "author_url": "https://news.ycombinator.com/user?id=nchagnet",
+  "created_at": 1795850168,
+  "id": "hn:50675467",
+  "pain": 1,
+  "pay_signal": false,
+  "problem": "Android app for Cook Like a Scientist",
+  "quote": "…in the target audience but I immediately saw the added value. I can only say I wish there was an android app, especially with AI it's a bit sad to limit yourself to one platform (though the web version is good as is)",
+  "site": "Hacker News",
+  "source": "hn",
+  "url": "https://news.ycombinator.com/item?id=50675467"
  }
 ]
